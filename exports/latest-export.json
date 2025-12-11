@@ -1,0 +1,309 @@
+{
+  "version": "2.0.10",
+  "timestamp": "2025-12-11T18:20:28.994Z",
+  "flows": [
+    {
+      "_optimized": true,
+      "_optimizedSize": 2348,
+      "_originalSize": 2392,
+      "commands": [
+        {
+          "id": "cmd_1765472995033_zh3w8ytp0",
+          "timestamp": 1765472995033,
+          "type": "navigate",
+          "value": "https://stage2.mptvimages.com/"
+        },
+        {
+          "id": "cmd_1765473728750_nbvw6yy3p",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "href": "https://stage2.mptvimages.com/login",
+              "playwright": "getByRole('link', { name: 'Login' })",
+              "text": "Login",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+            },
+            "metadata": {
+              "generatedAt": 1765473727073,
+              "source": "step-builder:picker"
+            },
+            "primary": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a",
+            "strategy": "xpath"
+          },
+          "timestamp": 1765473728750,
+          "type": "click"
+        },
+        {
+          "id": "cmd_1765475206299_6h7kidp64",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "login-button",
+              "xpath": "//input[contains(@class, 'btn')]"
+            },
+            "metadata": {
+              "generatedAt": 1765475188210,
+              "source": "step-builder:picker"
+            },
+            "primary": "[data-gtm-form-interact-id=\"0\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1765475206299,
+          "type": "wait",
+          "value": "5000"
+        },
+        {
+          "id": "cmd_1765474975489_xn6fbtq0z",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[name=\"email\"]",
+              "id": "email",
+              "xpath": "//html/body/div[1]/main/section/div[2]/div/div/form/fieldset/div/div[1]/input"
+            },
+            "metadata": {
+              "generatedAt": 1765474969787,
+              "source": "step-builder:picker"
+            },
+            "primary": "input[name=\"email\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1765474975489,
+          "type": "type",
+          "value": "david@siterocket.com"
+        },
+        {
+          "id": "cmd_1765475002116_g781nxaz5",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {},
+            "primary": "input[name=\"password\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1765476178005,
+          "type": "type",
+          "value": "Password1!"
+        },
+        {
+          "id": "cmd_1765475189471_9zx94u850",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "login-button",
+              "xpath": "//input[contains(@class, 'btn')]"
+            },
+            "metadata": {
+              "generatedAt": 1765475188210,
+              "source": "step-builder:picker"
+            },
+            "primary": "[data-gtm-form-interact-id=\"0\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1765475189471,
+          "type": "submit"
+        }
+      ],
+      "deviceType": "desktop",
+      "id": "flow_1765472994685_a7bzuqpen",
+      "metadata": {
+        "createdAt": "2025-12-11T17:09:54.686Z",
+        "duration": 13249,
+        "pageCount": 1,
+        "updatedAt": "2025-12-11T18:02:58.305Z",
+        "url": "https://stage2.mptvimages.com/",
+        "viewport": {
+          "height": 1242,
+          "width": 2560
+        }
+      },
+      "name": "MPTV - User Login (MPTV)",
+      "project": "MPTV"
+    },
+    {
+      "_optimized": true,
+      "_optimizedSize": 1853,
+      "_originalSize": 1897,
+      "commands": [
+        {
+          "description": "Navigate to starting page",
+          "id": "cmd_1765475755442_rtnab6d",
+          "target": {
+            "alternatives": [],
+            "primary": "",
+            "xpathSelector": ""
+          },
+          "type": "navigate",
+          "value": "https://stage2.mptvimages.com/"
+        },
+        {
+          "id": "cmd_1765475774147_k4lh15gcw",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "#search-input",
+              "id": "search-input",
+              "xpath": "//html/body/div[1]/nav/div[3]/div/form/fieldset/div/div/input"
+            },
+            "metadata": {
+              "generatedAt": 1765475764891,
+              "source": "step-builder:picker"
+            },
+            "primary": "#search-input",
+            "strategy": "css"
+          },
+          "timestamp": 1765475774147,
+          "type": "type",
+          "value": "sophia loren"
+        },
+        {
+          "id": "cmd_1765475847064_j7oxygkms",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": ".search-box-button i.fa.fa-search.fa.fa-search",
+              "xpath": "//html/body/div[1]/nav/div[3]/div/form/fieldset/div/button/i"
+            },
+            "metadata": {
+              "generatedAt": 1765475844066,
+              "source": "step-builder:picker"
+            },
+            "primary": ".search-box-button i.fa.fa-search.fa.fa-search",
+            "strategy": "css"
+          },
+          "timestamp": 1765475847064,
+          "type": "click"
+        },
+        {
+          "id": "cmd_1765475976112_m4q9s6drq",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-remote=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v/modal\"]",
+              "playwright": "getByText('22727_0976')",
+              "text": "22727_0976",
+              "xpath": "//html/body/div[1]/main/section[2]/article[1]/a/img"
+            },
+            "metadata": {
+              "generatedAt": 1765475972362,
+              "source": "step-builder:picker"
+            },
+            "primary": "[data-remote=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v/modal\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1765475976112,
+          "type": "click"
+        }
+      ],
+      "description": "Created with Step Builder",
+      "deviceType": "desktop",
+      "id": "flow_1765475755442_7vzh6w",
+      "metadata": {
+        "createdAt": "2025-12-11T17:55:55.442Z",
+        "updatedAt": "2025-12-11T17:59:36.125Z"
+      },
+      "name": "MPTV - Search Image and Check Result"
+    },
+    {
+      "_optimized": true,
+      "_optimizedSize": 938,
+      "_originalSize": 982,
+      "commands": [
+        {
+          "description": "Navigate to starting page",
+          "id": "cmd_1765476407339_yw5q84k",
+          "target": {
+            "alternatives": [],
+            "primary": "",
+            "xpathSelector": ""
+          },
+          "type": "navigate",
+          "value": "https://stage2.mptvimages.com/"
+        },
+        {
+          "id": "cmd_1765476408071_rld57yxvu",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "href": "https://stage2.mptvimages.com/logout",
+              "playwright": "getByRole('link', { name: 'Logout' })",
+              "text": "Logout",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[4]/ul/li/a"
+            },
+            "metadata": {
+              "generatedAt": 1765476405206,
+              "source": "step-builder:picker"
+            },
+            "primary": "//html/body/div[1]/nav/div[2]/div[4]/ul/li/a",
+            "strategy": "xpath"
+          },
+          "timestamp": 1765476408071,
+          "type": "click"
+        }
+      ],
+      "description": "Created with Step Builder",
+      "deviceType": "desktop",
+      "id": "flow_1765476407339_46embv",
+      "metadata": {
+        "createdAt": "2025-12-11T18:06:47.339Z",
+        "updatedAt": "2025-12-11T18:06:48.462Z"
+      },
+      "name": "MPTV - Logout Flow"
+    }
+  ],
+  "testSuites": [
+    {
+      "bugboardSuiteId": "b7e4d5a2-f4e8-4f45-9827-eaf0117f6001",
+      "config": {
+        "aiAnalysis": false,
+        "captureScreenshots": true,
+        "generateReport": true,
+        "parallel": false,
+        "retryCount": 0,
+        "setupFlowId": "flow_1765472994685_a7bzuqpen",
+        "stopOnFailure": true,
+        "teardownFlowId": "flow_1765476407339_46embv",
+        "timeout": 30000
+      },
+      "flows": [
+        "flow_1765475755442_7vzh6w"
+      ],
+      "id": "suite_1765476471311",
+      "metadata": {
+        "createdAt": "2025-12-11T18:07:51.311Z",
+        "totalRuns": 0,
+        "updatedAt": "2025-12-11T18:07:51.311Z"
+      },
+      "name": "MPTV Images",
+      "testData": {
+        "compatibilityStatus": "compatible",
+        "flowTestDataMap": {
+          "flow_1765475755442_7vzh6w": "none"
+        },
+        "type": "none",
+        "warnings": []
+      }
+    }
+  ],
+  "savedChains": [],
+  "elementLibrary": []
+}
