@@ -1,0 +1,129 @@
+{
+  "_optimized": true,
+  "_optimizedSize": 2348,
+  "_originalSize": 2392,
+  "commands": [
+    {
+      "id": "cmd_1765472995033_zh3w8ytp0",
+      "timestamp": 1765472995033,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/"
+    },
+    {
+      "id": "cmd_1765473728750_nbvw6yy3p",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/login",
+          "playwright": "getByRole('link', { name: 'Login' })",
+          "text": "Login",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "generatedAt": 1765473727073,
+          "source": "step-builder:picker"
+        },
+        "primary": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a",
+        "strategy": "xpath"
+      },
+      "timestamp": 1765473728750,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1765475206299_6h7kidp64",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "login-button",
+          "xpath": "//input[contains(@class, 'btn')]"
+        },
+        "metadata": {
+          "generatedAt": 1765475188210,
+          "source": "step-builder:picker"
+        },
+        "primary": "[data-gtm-form-interact-id=\"0\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1765475206299,
+      "type": "wait",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1765474975489_xn6fbtq0z",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"email\"]",
+          "id": "email",
+          "xpath": "//html/body/div[1]/main/section/div[2]/div/div/form/fieldset/div/div[1]/input"
+        },
+        "metadata": {
+          "generatedAt": 1765474969787,
+          "source": "step-builder:picker"
+        },
+        "primary": "input[name=\"email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1765474975489,
+      "type": "type",
+      "value": "david@siterocket.com"
+    },
+    {
+      "id": "cmd_1765475002116_g781nxaz5",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "primary": "input[name=\"password\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1765476178005,
+      "type": "type",
+      "value": "Password1!"
+    },
+    {
+      "id": "cmd_1765475189471_9zx94u850",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "login-button",
+          "xpath": "//input[contains(@class, 'btn')]"
+        },
+        "metadata": {
+          "generatedAt": 1765475188210,
+          "source": "step-builder:picker"
+        },
+        "primary": "[data-gtm-form-interact-id=\"0\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1765475189471,
+      "type": "submit"
+    }
+  ],
+  "deviceType": "desktop",
+  "id": "flow_1765472994685_a7bzuqpen",
+  "metadata": {
+    "createdAt": "2025-12-11T17:09:54.686Z",
+    "duration": 13249,
+    "pageCount": 1,
+    "updatedAt": "2025-12-11T18:02:58.305Z",
+    "url": "https://stage2.mptvimages.com/",
+    "viewport": {
+      "height": 1242,
+      "width": 2560
+    }
+  },
+  "name": "MPTV - User Login (MPTV)",
+  "project": "MPTV"
+}

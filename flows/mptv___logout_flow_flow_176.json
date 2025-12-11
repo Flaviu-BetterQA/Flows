@@ -1,0 +1,48 @@
+{
+  "_optimized": true,
+  "_optimizedSize": 938,
+  "_originalSize": 982,
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1765476407339_yw5q84k",
+      "target": {
+        "alternatives": [],
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/"
+    },
+    {
+      "id": "cmd_1765476408071_rld57yxvu",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/logout",
+          "playwright": "getByRole('link', { name: 'Logout' })",
+          "text": "Logout",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[4]/ul/li/a"
+        },
+        "metadata": {
+          "generatedAt": 1765476405206,
+          "source": "step-builder:picker"
+        },
+        "primary": "//html/body/div[1]/nav/div[2]/div[4]/ul/li/a",
+        "strategy": "xpath"
+      },
+      "timestamp": 1765476408071,
+      "type": "click"
+    }
+  ],
+  "description": "Created with Step Builder",
+  "deviceType": "desktop",
+  "id": "flow_1765476407339_46embv",
+  "metadata": {
+    "createdAt": "2025-12-11T18:06:47.339Z",
+    "updatedAt": "2025-12-11T18:06:48.462Z"
+  },
+  "name": "MPTV - Logout Flow"
+}
