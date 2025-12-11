@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "suite": {
+    "bugboardSuiteId": "b7e4d5a2-f4e8-4f45-9827-eaf0117f6001",
+    "config": {
+      "aiAnalysis": false,
+      "captureScreenshots": true,
+      "generateReport": true,
+      "parallel": false,
+      "retryCount": 0,
+      "setupFlowId": "flow_1765472994685_a7bzuqpen",
+      "stopOnFailure": true,
+      "teardownFlowId": "flow_1765476407339_46embv",
+      "timeout": 30000
+    },
+    "flows": [
+      "flow_1765475755442_7vzh6w"
+    ],
+    "id": "suite_1765476471311",
+    "metadata": {
+      "createdAt": "2025-12-11T18:07:51.311Z",
+      "totalRuns": 0,
+      "updatedAt": "2025-12-11T18:07:51.311Z"
+    },
+    "name": "MPTV Images",
+    "testData": {
+      "compatibilityStatus": "compatible",
+      "flowTestDataMap": {
+        "flow_1765475755442_7vzh6w": "none"
+      },
+      "type": "none",
+      "warnings": []
+    }
+  }
+}
