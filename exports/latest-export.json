@@ -1,11 +1,11 @@
 {
   "version": "2.1.0",
-  "timestamp": "2025-12-22T13:48:14.527Z",
+  "timestamp": "2025-12-22T14:16:12.863Z",
   "flows": [
     {
       "_optimized": true,
-      "_optimizedSize": 954,
-      "_originalSize": 954,
+      "_optimizedSize": 938,
+      "_originalSize": 982,
       "commands": [
         {
           "description": "Navigate to starting page",
@@ -46,17 +46,14 @@
       "id": "flow_1765476407339_46embv",
       "metadata": {
         "createdAt": "2025-12-11T18:06:47.339Z",
-        "updatedAt": "2025-12-22T11:39:57.072Z"
+        "updatedAt": "2025-12-11T18:06:48.462Z"
       },
-      "name": "MPTV - Logout Flow",
-      "tags": [
-        "MPTV"
-      ]
+      "name": "MPTV - Logout Flow"
     },
     {
       "_optimized": true,
-      "_optimizedSize": 1869,
-      "_originalSize": 1869,
+      "_optimizedSize": 1853,
+      "_originalSize": 1897,
       "commands": [
         {
           "description": "Navigate to starting page",
@@ -139,17 +136,14 @@
       "id": "flow_1765475755442_7vzh6w",
       "metadata": {
         "createdAt": "2025-12-11T17:55:55.442Z",
-        "updatedAt": "2025-12-22T11:39:51.387Z"
+        "updatedAt": "2025-12-11T17:59:36.125Z"
       },
-      "name": "MPTV - Search Image and Check Result",
-      "tags": [
-        "MPTV"
-      ]
+      "name": "MPTV - Search Image and Check Result"
     },
     {
       "_optimized": true,
-      "_optimizedSize": 2364,
-      "_originalSize": 2364,
+      "_optimizedSize": 2348,
+      "_originalSize": 2392,
       "commands": [
         {
           "id": "cmd_1765472995033_zh3w8ytp0",
@@ -265,7 +259,7 @@
         "createdAt": "2025-12-11T17:09:54.686Z",
         "duration": 13249,
         "pageCount": 1,
-        "updatedAt": "2025-12-22T11:39:54.535Z",
+        "updatedAt": "2025-12-11T18:02:58.305Z",
         "url": "https://stage2.mptvimages.com/",
         "viewport": {
           "height": 1242,
@@ -273,142 +267,16 @@
         }
       },
       "name": "MPTV - User Login (MPTV)",
-      "project": "MPTV",
-      "tags": [
-        "MPTV"
-      ]
-    },
-    {
-      "_optimized": true,
-      "_optimizedSize": 941,
-      "_originalSize": 985,
-      "commands": [
-        {
-          "id": "cmd_1766130783030_e7hrnbdiz",
-          "timestamp": 1766130783030,
-          "type": "navigate",
-          "value": "https://betterqa.co/"
-        },
-        {
-          "description": "Wait for element before click",
-          "id": "cmd_1766130880507_wait_z6z6t1e0r",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {},
-            "primary": "#chrome-recorder-wrapper",
-            "strategy": "css"
-          },
-          "timestamp": 1766130880506,
-          "type": "waitForElement",
-          "value": "500"
-        },
-        {
-          "id": "cmd_1766130880506_q955xc9e7",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {},
-            "primary": "#chrome-recorder-wrapper",
-            "strategy": "css"
-          },
-          "timestamp": 1766130880506,
-          "type": "click"
-        }
-      ],
-      "deviceType": "desktop",
-      "id": "flow_1766130782658_7kt18so6g",
-      "metadata": {
-        "createdAt": "2025-12-19T07:53:02.659Z",
-        "duration": 7933,
-        "pageCount": 1,
-        "updatedAt": "2025-12-19T07:54:40.510Z",
-        "url": "https://betterqa.co/",
-        "viewport": {
-          "height": 1242,
-          "width": 2560
-        }
-      },
-      "name": "BetterQA - Flow (BetterQA)",
-      "project": "BetterQA"
-    },
-    {
-      "_optimized": true,
-      "_optimizedSize": 1333,
-      "_originalSize": 1879,
-      "commands": [
-        {
-          "id": "cmd_1766403784213_vx68n7qaw",
-          "timestamp": 1766403784214,
-          "type": "navigate",
-          "value": "https://stage2.mptvimages.com/"
-        },
-        {
-          "id": "cmd_1766403787527_38eugq2h6",
-          "metadata": {
-            "elementLibraryStatus": {
-              "elementId": "elem_1766403787557_acf86ww4s",
-              "elementName": "License Images",
-              "status": "new",
-              "timestamp": 1766403787563
-            }
-          },
-          "target": {
-            "alternatives": {
-              "href": "https://stage2.mptvimages.com",
-              "playwright": "getByRole('link', { name: 'License Images' })",
-              "text": "License Images",
-              "xpath": "//a[normalize-space(.)='License Images']"
-            },
-            "primary": "//a[normalize-space(.)='License Images']",
-            "strategy": "xpath"
-          },
-          "timestamp": 1766403787543,
-          "type": "waitForElement",
-          "value": 500
-        },
-        {
-          "id": "cmd_1766403787526_2bev8k0gs",
-          "target": {
-            "alternatives": {
-              "href": "https://stage2.mptvimages.com",
-              "playwright": "getByRole('link', { name: 'License Images' })",
-              "text": "License Images",
-              "xpath": "//a[normalize-space(.)='License Images']"
-            },
-            "primary": "//a[normalize-space(.)='License Images']",
-            "strategy": "xpath"
-          },
-          "timestamp": 1766403787557,
-          "type": "click"
-        }
-      ],
-      "deviceType": "desktop",
-      "id": "flow_1766403783858_nfjj8j12w",
-      "metadata": {
-        "createdAt": "2025-12-22T11:43:03.859Z",
-        "duration": 21337,
-        "pageCount": 1,
-        "updatedAt": "2025-12-22T11:43:25.196Z",
-        "url": "https://stage2.mptvimages.com/",
-        "viewport": {
-          "height": 769,
-          "width": 1440
-        }
-      },
-      "name": "MPTV - Header Navigation (MPTV)",
       "project": "MPTV"
     },
     {
       "_optimized": true,
-      "_optimizedSize": 9891,
-      "_originalSize": 9935,
+      "_optimizedSize": 9326,
+      "_originalSize": 9326,
       "commands": [
         {
           "description": "Navigate to starting page",
-          "id": "cmd_1766403952497_ibrhlbb",
+          "id": "cmd_1766411758233_d2vw14k",
           "target": {
             "alternatives": [],
             "primary": "",
@@ -419,92 +287,64 @@
         },
         {
           "description": "Wait for element before click",
-          "id": "cmd_1766405219624_wait_t4lkgfklc",
+          "id": "cmd_1766411760909_wait_gdcxfrxps",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {},
-            "metadata": {
-              "attrs": {
-                "href": "https://stage2.mptvimages.com/register"
-              },
-              "classes": [],
-              "text": "REGISTER"
-            },
-            "primary": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
-            "selector": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+            "primary": "a[href='https://stage2.mptvimages.com/register']",
             "strategy": "css"
           },
-          "timestamp": 1766406737919,
+          "timestamp": 1766411760908,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766405219622_pwq68z2ws",
+          "id": "cmd_1766411760908_vxq2s8lsv",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {},
-            "metadata": {
-              "attrs": {
-                "href": "https://stage2.mptvimages.com/register"
-              },
-              "classes": [],
-              "text": "REGISTER"
-            },
-            "primary": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
-            "selector": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+            "primary": "a[href='https://stage2.mptvimages.com/register']",
             "strategy": "css"
           },
-          "timestamp": 1766406742241,
+          "timestamp": 1766411760908,
           "type": "click"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766406820012_wait_hoegjj0oh",
+          "id": "cmd_1766412277448_wait_lbftxmknx",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {},
-            "primary": "#email",
+            "primary": "input[name=\"email\"]",
             "strategy": "css"
           },
-          "timestamp": 1766406820011,
+          "timestamp": 1766412277447,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766406820001_ifmhi5e3v",
+          "id": "cmd_1766412277446_9uywe2kz2",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {},
-            "metadata": {
-              "attrs": {
-                "id": "password_confirmation",
-                "name": "password_confirmation",
-                "type": "password"
-              },
-              "classes": [
-                "form-control"
-              ],
-              "text": ""
-            },
-            "primary": "#email",
-            "selector": "#email",
+            "primary": "input[name=\"email\"]",
             "strategy": "css"
           },
-          "timestamp": 1766406930912,
+          "timestamp": 1766412277447,
           "type": "type",
           "value": "flaviu+mptv@betterqa.co"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766406872439_wait_lbl4zmtii",
+          "id": "cmd_1766412286804_wait_97rha8six",
           "metadata": {
             "manual": true
           },
@@ -513,12 +353,12 @@
             "primary": "#password",
             "strategy": "css"
           },
-          "timestamp": 1766406872438,
+          "timestamp": 1766412286803,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766406872428_3jmoa5dmz",
+          "id": "cmd_1766412286786_h08igeo6p",
           "metadata": {
             "manual": true
           },
@@ -527,13 +367,13 @@
             "primary": "#password",
             "strategy": "css"
           },
-          "timestamp": 1766406872428,
+          "timestamp": 1766412286786,
           "type": "type",
           "value": "Flaviu@MPTV"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766406894710_wait_zhh16ulrl",
+          "id": "cmd_1766412294468_wait_vsoxtin9b",
           "metadata": {
             "manual": true
           },
@@ -542,12 +382,12 @@
             "primary": "#password_confirmation",
             "strategy": "css"
           },
-          "timestamp": 1766406894709,
+          "timestamp": 1766412294467,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766406894696_6sbla4ufl",
+          "id": "cmd_1766412294467_bcc3yjl6r",
           "metadata": {
             "manual": true
           },
@@ -556,13 +396,13 @@
             "primary": "#password_confirmation",
             "strategy": "css"
           },
-          "timestamp": 1766406894696,
+          "timestamp": 1766412294467,
           "type": "type",
           "value": "Flaviu@MPTV"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766407057244_wait_lvok19d2s",
+          "id": "cmd_1766412307959_wait_ihhd21nsu",
           "metadata": {
             "manual": true
           },
@@ -571,12 +411,12 @@
             "primary": "#first_name",
             "strategy": "css"
           },
-          "timestamp": 1766407057243,
+          "timestamp": 1766412307958,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766407057243_gonacwm6w",
+          "id": "cmd_1766412307958_eiucmcofk",
           "metadata": {
             "manual": true
           },
@@ -585,13 +425,13 @@
             "primary": "#first_name",
             "strategy": "css"
           },
-          "timestamp": 1766407057243,
+          "timestamp": 1766412307958,
           "type": "type",
           "value": "Tester"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766407080119_wait_t8h9zhaks",
+          "id": "cmd_1766412315304_wait_6ngsfzqbc",
           "metadata": {
             "manual": true
           },
@@ -600,12 +440,12 @@
             "primary": "#last_name",
             "strategy": "css"
           },
-          "timestamp": 1766407080118,
+          "timestamp": 1766412315303,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766407080119_0g7l7ib75",
+          "id": "cmd_1766412315304_mj1x6y0kb",
           "metadata": {
             "manual": true
           },
@@ -614,13 +454,13 @@
             "primary": "#last_name",
             "strategy": "css"
           },
-          "timestamp": 1766407080119,
+          "timestamp": 1766412315304,
           "type": "type",
           "value": "Testingson"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766407095013_wait_c9xzn5z3n",
+          "id": "cmd_1766412323869_wait_kam58hjfc",
           "metadata": {
             "manual": true
           },
@@ -629,12 +469,12 @@
             "primary": "#company",
             "strategy": "css"
           },
-          "timestamp": 1766407095012,
+          "timestamp": 1766412323868,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766407095012_o6w42zwnz",
+          "id": "cmd_1766412323868_vm4awpvx5",
           "metadata": {
             "manual": true
           },
@@ -643,50 +483,61 @@
             "primary": "#company",
             "strategy": "css"
           },
-          "timestamp": 1766407095012,
+          "timestamp": 1766412323868,
           "type": "type",
           "value": "BetterQA"
         },
         {
           "description": "Wait for element before click",
-          "id": "cmd_1766407121723_wait_as4kk3pjl",
+          "id": "cmd_1766412344894_wait_kxg6zrh9m",
           "metadata": {
-            "healed": true,
-            "healedAt": 1766410211372,
-            "healedFrom": "#industry",
-            "healedSelector": "#navbar",
-            "manual": true,
-            "originalSelector": "#industry"
+            "manual": true
           },
           "target": {
-            "alternatives": {
-              "healedFrom": "#industry"
-            },
-            "metadata": {
-              "source": "healed-persisted"
-            },
-            "primary": "#navbar",
+            "alternatives": {},
+            "primary": "#industry",
             "strategy": "css"
           },
-          "timestamp": 1766407121722,
+          "timestamp": 1766412344893,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766412344893_vulal6va7",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {},
+            "primary": "#industry",
+            "strategy": "css"
+          },
+          "timestamp": 1766412344893,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766412358943_wait_sgm4o5lqt",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {},
+            "primary": "#industry",
+            "strategy": "css"
+          },
+          "timestamp": 1766412358942,
           "type": "waitForElement",
           "value": "500"
         },
         {
           "description": "Select \"Graphic Design\"",
-          "id": "cmd_1766407121721_12849tk9i",
+          "id": "cmd_1766412358941_k26btgyq1",
           "metadata": {
-            "healed": true,
-            "healedAt": 1766410211372,
-            "healedFrom": "#industry",
-            "healedSelector": "#navbar",
-            "manual": true,
-            "originalSelector": "#industry"
+            "manual": true
           },
           "target": {
-            "alternatives": {
-              "healedFrom": "#industry"
-            },
+            "alternatives": {},
             "metadata": {
               "attrs": {
                 "id": "industry",
@@ -695,44 +546,19 @@
               "classes": [
                 "form-control"
               ],
-              "source": "healed-persisted",
               "text": "[Select Your Industry]\nAdvertising\nPublishing\nGraphic Design\nCorporate\nPR / Marketing\nTV / Film Prod"
             },
-            "primary": "#navbar",
+            "primary": "#industry",
+            "selector": "#industry",
             "strategy": "css"
           },
-          "timestamp": 1766407294361,
-          "type": "click",
-          "value": "Graphic Design"
-        },
-        {
-          "description": "Select \"Graphic Design\"",
-          "id": "cmd_1766409809908_mlsypndh2",
-          "metadata": {
-            "healed": true,
-            "healedAt": 1766410211372,
-            "healedFrom": "#industry",
-            "healedSelector": "#navbar",
-            "manual": true,
-            "originalSelector": "#industry"
-          },
-          "target": {
-            "alternatives": {
-              "healedFrom": "#industry"
-            },
-            "metadata": {
-              "source": "healed-persisted"
-            },
-            "primary": "#navbar",
-            "strategy": "css"
-          },
-          "timestamp": 1766409809908,
+          "timestamp": 1766412374828,
           "type": "select",
           "value": "Graphic Design"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766407379719_wait_14pu0x2vy",
+          "id": "cmd_1766412387951_wait_xbrvxjgga",
           "metadata": {
             "manual": true
           },
@@ -741,12 +567,12 @@
             "primary": "#number",
             "strategy": "css"
           },
-          "timestamp": 1766407379718,
+          "timestamp": 1766412387950,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766407379714_57yxvs7w8",
+          "id": "cmd_1766412387950_d7gfg6w8b",
           "metadata": {
             "manual": true
           },
@@ -755,13 +581,13 @@
             "primary": "#number",
             "strategy": "css"
           },
-          "timestamp": 1766407379714,
+          "timestamp": 1766412387950,
           "type": "type",
-          "value": "+40000000001"
+          "value": "+400000001"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766407500122_wait_xl7ubwead",
+          "id": "cmd_1766412398528_wait_rdb0s6v6z",
           "metadata": {
             "manual": true
           },
@@ -770,12 +596,12 @@
             "primary": "#line_1",
             "strategy": "css"
           },
-          "timestamp": 1766407500121,
+          "timestamp": 1766412398527,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766407500121_re31sp5a8",
+          "id": "cmd_1766412398526_ikemgww8l",
           "metadata": {
             "manual": true
           },
@@ -784,13 +610,13 @@
             "primary": "#line_1",
             "strategy": "css"
           },
-          "timestamp": 1766407500121,
+          "timestamp": 1766412398526,
           "type": "type",
-          "value": "Str. Random Name, No. 08"
+          "value": "Str. Random Name, No. 82"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766407622041_wait_56cwc4yaq",
+          "id": "cmd_1766412415087_wait_ac7llehyd",
           "metadata": {
             "manual": true
           },
@@ -799,12 +625,12 @@
             "primary": "#line_2",
             "strategy": "css"
           },
-          "timestamp": 1766407622041,
+          "timestamp": 1766412415086,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766407622036_520euyd7f",
+          "id": "cmd_1766412415086_ivsjnz6zn",
           "metadata": {
             "manual": true
           },
@@ -813,13 +639,13 @@
             "primary": "#line_2",
             "strategy": "css"
           },
-          "timestamp": 1766407622036,
+          "timestamp": 1766412415086,
           "type": "type",
-          "value": "3rd Floor, Apartment 25"
+          "value": "3rd Floor, Apartment 92"
         },
         {
           "description": "Wait for element before click",
-          "id": "cmd_1766407683330_wait_ct8nz1tba",
+          "id": "cmd_1766412436929_wait_b48dsxm2t",
           "metadata": {
             "manual": true
           },
@@ -828,43 +654,66 @@
             "primary": "select[name=\"country_id\"]",
             "strategy": "css"
           },
-          "timestamp": 1766407683329,
+          "timestamp": 1766412436928,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766412436927_xmt8f2fr5",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {},
+            "primary": "select[name=\"country_id\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766412436927,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766412454411_wait_3ndqlfbxv",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {},
+            "primary": "select[name=\"country_id\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766412454410,
           "type": "waitForElement",
           "value": "500"
         },
         {
           "description": "Select \"Romania\"",
-          "id": "cmd_1766407683321_9q1lphrvk",
+          "id": "cmd_1766412454409_lcra5px6p",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {},
-            "primary": "[data-gtm-form-interact-field-id=\"14\"]",
-            "strategy": "css"
-          },
-          "timestamp": 1766409954298,
-          "type": "click",
-          "value": "176"
-        },
-        {
-          "description": "Select \"Romania\"",
-          "id": "cmd_1766409909929_3diuza7vb",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {},
+            "metadata": {
+              "attrs": {
+                "name": "country_id"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": "Select Country\nAfghanistan\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua"
+            },
             "primary": "select[name=\"country_id\"]",
+            "selector": "select[name=\"country_id\"]",
             "strategy": "css"
           },
-          "timestamp": 1766409909929,
+          "timestamp": 1766412464370,
           "type": "select",
           "value": "176"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766408188817_wait_f7ssrfan2",
+          "id": "cmd_1766412476540_wait_w4fw9i9ln",
           "metadata": {
             "manual": true
           },
@@ -873,12 +722,12 @@
             "primary": "#state",
             "strategy": "css"
           },
-          "timestamp": 1766408188816,
+          "timestamp": 1766412476539,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766408188816_0lpjwnxz0",
+          "id": "cmd_1766412476538_p20fdg9wi",
           "metadata": {
             "manual": true
           },
@@ -887,13 +736,13 @@
             "primary": "#state",
             "strategy": "css"
           },
-          "timestamp": 1766408188816,
+          "timestamp": 1766412476538,
           "type": "type",
           "value": "Cluj"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766408199240_wait_xfiiryfjv",
+          "id": "cmd_1766412483654_wait_e0g7utg3p",
           "metadata": {
             "manual": true
           },
@@ -902,12 +751,12 @@
             "primary": "#city",
             "strategy": "css"
           },
-          "timestamp": 1766408199239,
+          "timestamp": 1766412483653,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766408199239_bj7tkwe88",
+          "id": "cmd_1766412483652_wtp3vbkcs",
           "metadata": {
             "manual": true
           },
@@ -916,13 +765,13 @@
             "primary": "#city",
             "strategy": "css"
           },
-          "timestamp": 1766408199239,
+          "timestamp": 1766412483652,
           "type": "type",
           "value": "Cluj-Napoca"
         },
         {
           "description": "Wait for element before type",
-          "id": "cmd_1766408217545_wait_yxnjdyb5w",
+          "id": "cmd_1766412497409_wait_wgc1es04q",
           "metadata": {
             "manual": true
           },
@@ -931,12 +780,12 @@
             "primary": "#post_code",
             "strategy": "css"
           },
-          "timestamp": 1766408217544,
+          "timestamp": 1766412497408,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766408217539_qn0u7ejgn",
+          "id": "cmd_1766412497408_g0fruaffy",
           "metadata": {
             "manual": true
           },
@@ -945,46 +794,27 @@
             "primary": "#post_code",
             "strategy": "css"
           },
-          "timestamp": 1766408217539,
+          "timestamp": 1766412497408,
           "type": "type",
           "value": "400400"
         },
         {
           "description": "Wait for element before click",
-          "id": "cmd_1766408700669_wait_wn0ysf514",
+          "id": "cmd_1766412567718_wait_c19p3657r",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {},
-            "primary": "label:nth-of-type(1)",
+            "primary": "label[for='subscribed']",
             "strategy": "css"
           },
-          "timestamp": 1766408700668,
+          "timestamp": 1766412567717,
           "type": "waitForElement",
           "value": "500"
         },
         {
-          "id": "cmd_1766408700666_s9by5m5t3",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {},
-            "metadata": {
-              "attrs": {},
-              "classes": [],
-              "text": "I would like to receive updates about new imagery, photographers and offers from mptv by email."
-            },
-            "primary": "label[for=\"subscribed\"]",
-            "selector": "label[for=\"subscribed\"]",
-            "strategy": "css"
-          },
-          "timestamp": 1766409077358,
-          "type": "click"
-        },
-        {
-          "id": "cmd_1766409194777_q9v5gso43",
+          "id": "cmd_1766412587526_seejxwslk",
           "metadata": {
             "manual": true
           },
@@ -1005,43 +835,18 @@
             "selector": "form#register-form button.btn.btn-lg.btn-primary[type=\"submit\"]",
             "strategy": "css"
           },
-          "timestamp": 1766409361106,
-          "type": "submit"
-        },
-        {
-          "description": "Wait for element before select",
-          "id": "cmd_1766409809910_wait_fwgx4xlvr",
-          "metadata": {
-            "healed": true,
-            "healedAt": 1766410211372,
-            "healedFrom": "#industry",
-            "healedSelector": "#navbar",
-            "manual": true,
-            "originalSelector": "#industry"
-          },
-          "target": {
-            "alternatives": {
-              "healedFrom": "#industry"
-            },
-            "metadata": {
-              "source": "healed-persisted"
-            },
-            "primary": "#navbar",
-            "strategy": "css"
-          },
-          "timestamp": 1766409809909,
-          "type": "waitForElement",
-          "value": "500"
+          "timestamp": 1766412689096,
+          "type": "click"
         }
       ],
       "description": "Created with Step Builder",
       "deviceType": "desktop",
-      "id": "flow_1766403952497_akkx2r",
+      "id": "flow_1766411758233_rn6s0f",
       "metadata": {
-        "createdAt": "2025-12-22T11:45:52.497Z",
-        "updatedAt": "2025-12-22T13:25:54.826Z"
+        "createdAt": "2025-12-22T13:55:58.233Z",
+        "updatedAt": "2025-12-22T14:16:08.957Z"
       },
-      "name": "MPTV - Registration Flow",
+      "name": "MPTV - Register Flow",
       "tags": [
         "MPTV"
       ]
@@ -1082,56 +887,5 @@
     }
   ],
   "savedChains": [],
-  "elementLibrary": [
-    {
-      "createdAt": 1766403787557,
-      "customAttributes": {
-        "elementInfo": {
-          "attributes": {
-            "href": "https://stage2.mptvimages.com"
-          },
-          "tagName": "a",
-          "text": "License Images"
-        },
-        "fingerprint": "5fc68991",
-        "flowId": "flow_1766403783858_nfjj8j12w",
-        "initialCommandId": "cmd_1766403787527_38eugq2h6",
-        "selectorPrimary": "//a[normalize-space(.)='License Images']",
-        "source": "auto-recording"
-      },
-      "description": "Auto-recorded a element • Text: \"License Images\"",
-      "id": "elem_1766403787557_acf86ww4s",
-      "lastUsed": 1766403787557,
-      "name": "License Images",
-      "selector": {
-        "alternatives": {
-          "href": "https://stage2.mptvimages.com",
-          "playwright": "getByRole('link', { name: 'License Images' })",
-          "text": "License Images",
-          "xpath": "//a[normalize-space(.)='License Images']"
-        },
-        "primary": "//a[normalize-space(.)='License Images']",
-        "strategy": "xpath"
-      },
-      "selectorHistory": [],
-      "tags": [
-        "auto-recorded",
-        "a"
-      ],
-      "updatedAt": 1766403787562,
-      "usageCount": 0,
-      "usedInCommands": [
-        "cmd_1766403787527_38eugq2h6"
-      ],
-      "usedInFlows": [
-        "flow_1766403783858_nfjj8j12w"
-      ],
-      "validation": {
-        "lastChecked": 1766403787557,
-        "status": "pending",
-        "strategies": {}
-      },
-      "version": 1
-    }
-  ]
+  "elementLibrary": []
 }
