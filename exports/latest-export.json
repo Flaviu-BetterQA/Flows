@@ -1,11 +1,11 @@
 {
   "version": "2.1.0",
-  "timestamp": "2025-12-23T13:40:28.425Z",
+  "timestamp": "2025-12-23T14:58:29.545Z",
   "flows": [
     {
       "_optimized": true,
-      "_optimizedSize": 954,
-      "_originalSize": 954,
+      "_optimizedSize": 938,
+      "_originalSize": 982,
       "commands": [
         {
           "description": "Navigate to starting page",
@@ -46,17 +46,14 @@
       "id": "flow_1765476407339_46embv",
       "metadata": {
         "createdAt": "2025-12-11T18:06:47.339Z",
-        "updatedAt": "2025-12-23T13:40:14.928Z"
+        "updatedAt": "2025-12-11T18:06:48.462Z"
       },
-      "name": "MPTV - Logout Flow",
-      "tags": [
-        "MPTV"
-      ]
+      "name": "MPTV - Logout Flow"
     },
     {
       "_optimized": true,
-      "_optimizedSize": 3837,
-      "_originalSize": 3837,
+      "_optimizedSize": 1853,
+      "_originalSize": 1897,
       "commands": [
         {
           "description": "Navigate to starting page",
@@ -132,72 +129,6 @@
           },
           "timestamp": 1765475976112,
           "type": "click"
-        },
-        {
-          "description": "Wait for element before click",
-          "id": "cmd_1766496193734_wait_179civq4c",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "css": "[data-remote=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v/modal\"]",
-              "href": "https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v",
-              "xpath": "//html/body/div[1]/main/section[2]/article[1]/a"
-            },
-            "metadata": {
-              "attrs": {
-                "data-keyboard": "true",
-                "data-modal-class": "item-detail-modal",
-                "data-remote": "https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v/modal",
-                "data-target": "#esensiModal",
-                "data-toggle": "modal",
-                "href": "https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v"
-              },
-              "classes": [
-                "item-cell-image-container"
-              ],
-              "text": ""
-            },
-            "primary": "a[href=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v\"]",
-            "selector": "a[href=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v\"]",
-            "strategy": "css"
-          },
-          "timestamp": 1766496193733,
-          "type": "waitForElement",
-          "value": "500"
-        },
-        {
-          "id": "cmd_1766496193732_62c8wiigj",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "css": "[data-remote=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v/modal\"]",
-              "href": "https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v",
-              "xpath": "//html/body/div[1]/main/section[2]/article[1]/a"
-            },
-            "metadata": {
-              "attrs": {
-                "data-keyboard": "true",
-                "data-modal-class": "item-detail-modal",
-                "data-remote": "https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v/modal",
-                "data-target": "#esensiModal",
-                "data-toggle": "modal",
-                "href": "https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v"
-              },
-              "classes": [
-                "item-cell-image-container"
-              ],
-              "text": ""
-            },
-            "primary": "a[href=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v\"]",
-            "selector": "a[href=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v\"]",
-            "strategy": "css"
-          },
-          "timestamp": 1766496193732,
-          "type": "click"
         }
       ],
       "description": "Created with Step Builder",
@@ -205,17 +136,14 @@
       "id": "flow_1765475755442_7vzh6w",
       "metadata": {
         "createdAt": "2025-12-11T17:55:55.442Z",
-        "updatedAt": "2025-12-23T13:40:11.512Z"
+        "updatedAt": "2025-12-11T17:59:36.125Z"
       },
-      "name": "MPTV - Search Image and Check Result",
-      "tags": [
-        "MPTV"
-      ]
+      "name": "MPTV - Search Image and Check Result"
     },
     {
       "_optimized": true,
-      "_optimizedSize": 2364,
-      "_originalSize": 2364,
+      "_optimizedSize": 2348,
+      "_originalSize": 2392,
       "commands": [
         {
           "id": "cmd_1765472995033_zh3w8ytp0",
@@ -331,7 +259,7 @@
         "createdAt": "2025-12-11T17:09:54.686Z",
         "duration": 13249,
         "pageCount": 1,
-        "updatedAt": "2025-12-23T13:40:18.832Z",
+        "updatedAt": "2025-12-11T18:02:58.305Z",
         "url": "https://stage2.mptvimages.com/",
         "viewport": {
           "height": 1242,
@@ -339,10 +267,7 @@
         }
       },
       "name": "MPTV - User Login (MPTV)",
-      "project": "MPTV",
-      "tags": [
-        "MPTV"
-      ]
+      "project": "MPTV"
     }
   ],
   "testSuites": [
