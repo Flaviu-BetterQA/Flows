@@ -1,7 +1,6 @@
 {
-  "_optimized": true,
-  "_optimizedSize": 938,
-  "_originalSize": 982,
+  "id": "flow_1765476407339_46embv",
+  "name": "MPTV - Logout Flow",
   "commands": [
     {
       "description": "Navigate to starting page",
@@ -37,12 +36,17 @@
       "type": "click"
     }
   ],
-  "description": "Created with Step Builder",
-  "deviceType": "desktop",
-  "id": "flow_1765476407339_46embv",
   "metadata": {
     "createdAt": "2025-12-11T18:06:47.339Z",
-    "updatedAt": "2025-12-11T18:06:48.462Z"
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/mptv___logout_flow_flow_176.json",
+      "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+      "source": "local",
+      "syncStatus": "exported"
+    },
+    "updatedAt": "2025-12-23T16:52:31.727Z"
   },
-  "name": "MPTV - Logout Flow"
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
 }

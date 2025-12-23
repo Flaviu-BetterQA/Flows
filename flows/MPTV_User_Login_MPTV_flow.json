@@ -1,7 +1,6 @@
 {
-  "_optimized": true,
-  "_optimizedSize": 2348,
-  "_originalSize": 2392,
+  "id": "flow_1765472994685_a7bzuqpen",
+  "name": "MPTV - User Login (MPTV)",
   "commands": [
     {
       "id": "cmd_1765472995033_zh3w8ytp0",
@@ -111,19 +110,23 @@
       "type": "submit"
     }
   ],
-  "deviceType": "desktop",
-  "id": "flow_1765472994685_a7bzuqpen",
   "metadata": {
     "createdAt": "2025-12-11T17:09:54.686Z",
     "duration": 13249,
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/mptv___user_login__mptv__flow_176.json",
+      "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+      "source": "local",
+      "syncStatus": "exported"
+    },
     "pageCount": 1,
-    "updatedAt": "2025-12-11T18:02:58.305Z",
+    "updatedAt": "2025-12-23T16:52:35.147Z",
     "url": "https://stage2.mptvimages.com/",
     "viewport": {
       "height": 1242,
       "width": 2560
     }
   },
-  "name": "MPTV - User Login (MPTV)",
-  "project": "MPTV"
+  "deviceType": "desktop"
 }

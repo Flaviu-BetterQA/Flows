@@ -1,7 +1,6 @@
 {
-  "_optimized": true,
-  "_optimizedSize": 1853,
-  "_originalSize": 1897,
+  "id": "flow_1765475755442_7vzh6w",
+  "name": "MPTV - Search Image and Check Result",
   "commands": [
     {
       "description": "Navigate to starting page",
@@ -79,12 +78,17 @@
       "type": "click"
     }
   ],
-  "description": "Created with Step Builder",
-  "deviceType": "desktop",
-  "id": "flow_1765475755442_7vzh6w",
   "metadata": {
     "createdAt": "2025-12-11T17:55:55.442Z",
-    "updatedAt": "2025-12-11T17:59:36.125Z"
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/mptv___search_image_and_check_result_flow_176.json",
+      "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+      "source": "local",
+      "syncStatus": "exported"
+    },
+    "updatedAt": "2025-12-23T16:52:33.967Z"
   },
-  "name": "MPTV - Search Image and Check Result"
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
 }

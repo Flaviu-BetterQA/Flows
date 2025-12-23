@@ -1,0 +1,219 @@
+{
+  "id": "flow_1766512997028_x8sdiz",
+  "name": "MPTV - Rename Lightbox",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1766512997028_0mh3o3i",
+      "target": {
+        "alternatives": [],
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766513005943_wait_u63vgxsya",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "lightbox-item-actions-btn",
+            "dropdown-toggle"
+          ],
+          "text": "ACTIONS"
+        },
+        "primary": ".lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "selector": ".lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1766513096812,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766513005940_jm3df7h12",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "lightbox-item-actions-btn",
+            "dropdown-toggle"
+          ],
+          "text": "ACTIONS"
+        },
+        "primary": ".lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "selector": ".lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1766513100737,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766513142300_wait_4mpsydjw6",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/80/rename",
+          "playwright": "getByRole('link', { name: 'Rename' })",
+          "text": "Rename",
+          "xpath": "//a[contains(@class, 'element-highlight')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-keyboard": "true",
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/lightboxes/80/rename"
+          },
+          "classes": [
+            "element-highlight"
+          ],
+          "text": "Rename"
+        },
+        "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+        "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766513142299,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766513142296_hzj8jkobl",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/80/rename",
+          "playwright": "getByRole('link', { name: 'Rename' })",
+          "text": "Rename",
+          "xpath": "//a[contains(@class, 'element-highlight')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-keyboard": "true",
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/lightboxes/80/rename"
+          },
+          "classes": [
+            "element-highlight"
+          ],
+          "text": "Rename"
+        },
+        "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+        "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766513142296,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766513168154_wait_7hbdo4k8j",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"name\"]",
+          "id": "name",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "name",
+            "name": "name",
+            "placeholder": "New Lightbox Name",
+            "type": "text",
+            "value": "Test Lightbox"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "New Lightbox Name",
+          "text": ""
+        },
+        "primary": "input[name=\"name\"]",
+        "selector": "input[name=\"name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766513168153,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766513168152_p6s3moskw",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"name\"]",
+          "id": "name",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "name",
+            "name": "name",
+            "placeholder": "New Lightbox Name",
+            "type": "text",
+            "value": "Test Lightbox"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "New Lightbox Name",
+          "text": ""
+        },
+        "primary": "input[name=\"name\"]",
+        "selector": "input[name=\"name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766513168152,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-23T18:03:17.028Z",
+    "updatedAt": "2025-12-23T18:20:44.768Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

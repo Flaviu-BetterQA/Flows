@@ -1,0 +1,1074 @@
+{
+  "id": "flow_1766509297170_bk6ujs",
+  "name": "MPTV - Registration Flow",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1766509297170_qrj2pxp",
+      "target": {
+        "alternatives": [],
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "type": "navigate",
+      "value": "https://www.mptvimages.com/"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766509344422_wait_s375cdqtk",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//a[normalize-space(.)='Register'])[2]",
+          "href": "https://www.mptvimages.com/register",
+          "playwright": "getByRole('link', { name: 'Register' })",
+          "text": "Register",
+          "xpath": "//a[normalize-space(.)='Register']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://www.mptvimages.com/register"
+          },
+          "classes": [],
+          "text": "REGISTER"
+        },
+        "primary": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+        "selector": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509535491,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509344420_n5jiox5mc",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//a[normalize-space(.)='Register'])[2]",
+          "href": "https://www.mptvimages.com/register",
+          "playwright": "getByRole('link', { name: 'Register' })",
+          "text": "Register",
+          "xpath": "//a[normalize-space(.)='Register']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://www.mptvimages.com/register"
+          },
+          "classes": [],
+          "text": "REGISTER"
+        },
+        "primary": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+        "selector": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509540474,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509558935_wait_jc1almwt4",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"email\"]",
+          "id": "email",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "email",
+            "name": "email",
+            "type": "email"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"email\"]",
+        "selector": "input[name=\"email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509558934,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509558934_sixemf24a",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"email\"]",
+          "id": "email",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "email",
+            "name": "email",
+            "type": "email"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"email\"]",
+        "selector": "input[name=\"email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509558934,
+      "type": "type",
+      "value": "flaviu+mptv@betterqa.co"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509579594_wait_u2xx765o4",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "password",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "password",
+            "name": "password",
+            "type": "password"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"password\"]",
+        "selector": "input[name=\"password\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509579593,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509579593_e9gdii7p7",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "password",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "password",
+            "name": "password",
+            "type": "password"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"password\"]",
+        "selector": "input[name=\"password\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509579593,
+      "type": "type",
+      "value": "Flaviu@MPTV"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509587173_wait_a4uzwoxde",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "password_confirmation",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[3]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "password_confirmation",
+            "name": "password_confirmation",
+            "type": "password"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"password_confirmation\"]",
+        "selector": "input[name=\"password_confirmation\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509587172,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509587171_hb7xc5n7e",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "password_confirmation",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[3]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "password_confirmation",
+            "name": "password_confirmation",
+            "type": "password"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"password_confirmation\"]",
+        "selector": "input[name=\"password_confirmation\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509587171,
+      "type": "type",
+      "value": "Flaviu@MPTV"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509598446_wait_htkgtvugy",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "first_name",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "first_name",
+            "name": "first_name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "[data-gtm-form-interact-id=\"0\"]",
+        "selector": "[data-gtm-form-interact-id=\"0\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509598445,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509598445_dga73ip3s",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "first_name",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "first_name",
+            "name": "first_name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"first_name\"]",
+        "selector": "input[name=\"first_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509642426,
+      "type": "type",
+      "value": "Tester"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509608676_wait_10adncrvc",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "last_name",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "last_name",
+            "name": "last_name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"last_name\"]",
+        "selector": "input[name=\"last_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509608675,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509608675_hvck2otan",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "last_name",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "last_name",
+            "name": "last_name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"last_name\"]",
+        "selector": "input[name=\"last_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509608675,
+      "type": "type",
+      "value": "Testington"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509657829_wait_4124ydcpm",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "company",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[3]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "company",
+            "name": "company",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"company\"]",
+        "selector": "input[name=\"company\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509657828,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509657826_e75400am5",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "company",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[3]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "company",
+            "name": "company",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"company\"]",
+        "selector": "input[name=\"company\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509657826,
+      "type": "type",
+      "value": "BetterQA"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766509682099_wait_rcyput8pk",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "industry",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[4]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "industry",
+            "name": "industry"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "[Select Your Industry]\nAdvertising\nPublishing\nGraphic Design\nCorporate\nPR / Marketing\nTV / Film Prod"
+        },
+        "primary": "select[name=\"industry\"]",
+        "selector": "select[name=\"industry\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509682098,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509682096_90oqa4oa7",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "industry",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[4]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "industry",
+            "name": "industry"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "[Select Your Industry]\nAdvertising\nPublishing\nGraphic Design\nCorporate\nPR / Marketing\nTV / Film Prod"
+        },
+        "primary": "select[name=\"industry\"]",
+        "selector": "select[name=\"industry\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509682096,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before select",
+      "id": "cmd_1766509703035_wait_0d8mqvmkx",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "industry",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[4]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "industry",
+            "name": "industry"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "[Select Your Industry]\nAdvertising\nPublishing\nGraphic Design\nCorporate\nPR / Marketing\nTV / Film Prod"
+        },
+        "primary": "select[name=\"industry\"]",
+        "selector": "select[name=\"industry\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509703034,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "description": "Select \"Graphic Design\"",
+      "id": "cmd_1766509703033_7va1m9t06",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "industry",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[4]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "industry",
+            "name": "industry"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "[Select Your Industry]\nAdvertising\nPublishing\nGraphic Design\nCorporate\nPR / Marketing\nTV / Film Prod"
+        },
+        "primary": "select[name=\"industry\"]",
+        "selector": "select[name=\"industry\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509703033,
+      "type": "select",
+      "value": "Graphic Design"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509718583_wait_rcfdkamj4",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "number",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[5]/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "number",
+            "name": "number",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "[data-gtm-form-interact-id=\"0\"]",
+        "selector": "[data-gtm-form-interact-id=\"0\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509718582,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509718582_ujxzpdndr",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "number",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[5]/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "number",
+            "name": "number",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"number\"]",
+        "selector": "input[name=\"number\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509737412,
+      "type": "type",
+      "value": "+40000000001"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509769706_wait_rnpa42ccm",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "line_1",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "line_1",
+            "name": "line_1",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"line_1\"]",
+        "selector": "input[name=\"line_1\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509769705,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509769703_tczv1nmtr",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "line_1",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "line_1",
+            "name": "line_1",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"line_1\"]",
+        "selector": "input[name=\"line_1\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509769703,
+      "type": "type",
+      "value": "Custom Address for Adress Line 1"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509784787_wait_c50lh8cp6",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "line_2",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "line_2",
+            "name": "line_2",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"line_2\"]",
+        "selector": "input[name=\"line_2\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509784786,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509784784_gcfwjjbod",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "line_2",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "line_2",
+            "name": "line_2",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"line_2\"]",
+        "selector": "input[name=\"line_2\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509784784,
+      "type": "type",
+      "value": "Custom Address Line - Optional"
+    },
+    {
+      "id": "cmd_1766509810672_asikd29l4",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "primary": "[data-gtm-form-interact-id=\"0\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509942319,
+      "type": "click"
+    },
+    {
+      "description": "Select \"Romania\"",
+      "id": "cmd_1766509973972_dn72bhn39",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-field-id=\"11\"]",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[4]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-invalid": "false",
+            "data-gtm-form-interact-field-id": "11",
+            "name": "country_id"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "Select Country\nAfghanistan\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua"
+        },
+        "primary": "select[name=\"country_id\"]",
+        "selector": "select[name=\"country_id\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766510003089,
+      "type": "select",
+      "value": "176"
+    },
+    {
+      "id": "cmd_1766509810675_wait_yf3ytw4y1",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "primary": "input[name=\"state\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509895788,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "description": "Wait for element before select",
+      "id": "cmd_1766509826167_wait_mfaje9nrt",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[4]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "country_id"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "Select Country\nAfghanistan\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua"
+        },
+        "primary": "[data-gtm-form-interact-id=\"0\"]",
+        "selector": "[data-gtm-form-interact-id=\"0\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509826166,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766509836427_wait_kqp531ds2",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "state",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[5]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "state",
+            "name": "state",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"state\"]",
+        "selector": "input[name=\"state\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509836426,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766509836426_6k9w1luff",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "state",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[5]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "state",
+            "name": "state",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"state\"]",
+        "selector": "input[name=\"state\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509836426,
+      "type": "type",
+      "value": "Cluj"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766509973976_wait_zfzhqh32q",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-field-id=\"11\"]",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[4]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-invalid": "false",
+            "data-gtm-form-interact-field-id": "11",
+            "name": "country_id"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "Select Country\nAfghanistan\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua"
+        },
+        "primary": "[data-gtm-form-interact-field-id=\"11\"]",
+        "selector": "[data-gtm-form-interact-field-id=\"11\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766509973975,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766510021129_wait_nw8tu67s3",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "city",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[6]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "city",
+            "name": "city",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"city\"]",
+        "selector": "input[name=\"city\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766510021128,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766510021126_gaztqzcxx",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "city",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[6]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "city",
+            "name": "city",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"city\"]",
+        "selector": "input[name=\"city\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766510021126,
+      "type": "type",
+      "value": "Cluj-Napoca"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766510035262_wait_1ii6c64sv",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "post_code",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[7]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "post_code",
+            "name": "post_code",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"post_code\"]",
+        "selector": "input[name=\"post_code\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766510045055,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766510035258_04ioy8cbb",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "post_code",
+          "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[7]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "post_code",
+            "name": "post_code",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"post_code\"]",
+        "selector": "input[name=\"post_code\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766510048104,
+      "type": "type",
+      "value": "400400"
+    },
+    {
+      "id": "cmd_1766510071393_b36szjnba",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "playwright": "getByRole('button', { name: 'Create Account' })",
+          "text": "Create Account",
+          "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-lg') and contains(@class, 'btn-primary')]"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-lg",
+            "btn-primary"
+          ],
+          "text": "CREATE ACCOUNT"
+        },
+        "primary": "//button[contains(., 'Create Account')]",
+        "selector": "//button[contains(., 'Create Account')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766510071394,
+      "type": "submit"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-23T17:01:37.170Z",
+    "updatedAt": "2025-12-23T17:32:07.537Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

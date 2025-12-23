@@ -1,0 +1,147 @@
+{
+  "id": "flow_1766514081454_7onb0v",
+  "name": "MPTV - View Lightbox",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1766514081454_hrmvc5h",
+      "target": {
+        "alternatives": [],
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766514089226_wait_f6uivfd3j",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "lightbox-item-actions-btn",
+            "dropdown-toggle"
+          ],
+          "text": "ACTIONS"
+        },
+        "primary": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "selector": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1766514155110,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766514089225_oal9fgyq0",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "lightbox-item-actions-btn",
+            "dropdown-toggle"
+          ],
+          "text": "ACTIONS"
+        },
+        "primary": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "selector": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1766514158911,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766514178719_wait_7lmk1ql27",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554",
+          "playwright": "getByRole('link', { name: 'View' })",
+          "text": "View",
+          "xpath": "//a[contains(@class, 'element-highlight')]"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554"
+          },
+          "classes": [
+            "element-highlight"
+          ],
+          "text": "View"
+        },
+        "primary": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+        "selector": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766514178718,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766514178716_szs2kn21e",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554",
+          "playwright": "getByRole('link', { name: 'View' })",
+          "text": "View",
+          "xpath": "//a[contains(@class, 'element-highlight')]"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554"
+          },
+          "classes": [
+            "element-highlight"
+          ],
+          "text": "View"
+        },
+        "primary": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+        "selector": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766514178716,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-23T18:21:21.454Z",
+    "updatedAt": "2025-12-23T18:22:58.726Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

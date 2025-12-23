@@ -1,0 +1,336 @@
+{
+  "id": "flow_1766514223351_aw3uz2i0l",
+  "name": "MPTV - Copy Lightbox",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1766514081454_hrmvc5h",
+      "target": {
+        "alternatives": [],
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766514363665_wait_33ke5fpmw",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes"
+          },
+          "classes": [],
+          "text": "MY LIGHTBOXES"
+        },
+        "primary": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+        "selector": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766514363664,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766514363657_cthkgdyrd",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes"
+          },
+          "classes": [],
+          "text": "MY LIGHTBOXES"
+        },
+        "primary": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+        "selector": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766514363657,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766514089226_wait_f6uivfd3j",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "lightbox-item-actions-btn",
+            "dropdown-toggle"
+          ],
+          "text": "ACTIONS"
+        },
+        "primary": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "selector": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1766514155110,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766514089225_oal9fgyq0",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "lightbox-item-actions-btn",
+            "dropdown-toggle"
+          ],
+          "text": "ACTIONS"
+        },
+        "primary": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "selector": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1766514158911,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766514267937_wait_evpx845wg",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/80/copy",
+          "playwright": "getByRole('link', { name: 'Copy' })",
+          "text": "Copy",
+          "xpath": "//a[contains(@class, 'element-highlight')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-keyboard": "true",
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/lightboxes/80/copy"
+          },
+          "classes": [
+            "element-highlight"
+          ],
+          "text": "Copy"
+        },
+        "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+        "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766514267936,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766514267932_2oeqtwic9",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/80/copy",
+          "playwright": "getByRole('link', { name: 'Copy' })",
+          "text": "Copy",
+          "xpath": "//a[contains(@class, 'element-highlight')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-keyboard": "true",
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/lightboxes/80/copy"
+          },
+          "classes": [
+            "element-highlight"
+          ],
+          "text": "Copy"
+        },
+        "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+        "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766514267933,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766514418521_wait_zbor326of",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"name\"]",
+          "id": "name",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "name",
+            "name": "name",
+            "placeholder": "New Lightbox Name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "New Lightbox Name",
+          "text": ""
+        },
+        "primary": "input[name=\"name\"]",
+        "selector": "input[name=\"name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766514418520,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766514418510_4a9m6yjal",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"name\"]",
+          "id": "name",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "name",
+            "name": "name",
+            "placeholder": "New Lightbox Name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "New Lightbox Name",
+          "text": ""
+        },
+        "primary": "input[name=\"name\"]",
+        "selector": "input[name=\"name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766514418510,
+      "type": "type",
+      "value": "Copy of My Lightbox"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766514432353_wait_1qku5nizm",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-modal-submit=\"button\"]",
+          "playwright": "getByRole('button', { name: 'Copy Lightbox' })",
+          "text": "Copy Lightbox",
+          "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-modal-submit": "button",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "COPY LIGHTBOX"
+        },
+        "primary": "//button[contains(., 'Copy Lightbox')]",
+        "selector": "//button[contains(., 'Copy Lightbox')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766514432352,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766514432349_dwg8s7tiz",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-modal-submit=\"button\"]",
+          "playwright": "getByRole('button', { name: 'Copy Lightbox' })",
+          "text": "Copy Lightbox",
+          "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-modal-submit": "button",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "COPY LIGHTBOX"
+        },
+        "primary": "//button[contains(., 'Copy Lightbox')]",
+        "selector": "//button[contains(., 'Copy Lightbox')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766514432350,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-23T18:23:43.351Z",
+    "updatedAt": "2025-12-23T18:27:12.362Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

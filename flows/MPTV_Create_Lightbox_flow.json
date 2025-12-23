@@ -1,0 +1,338 @@
+{
+  "id": "flow_1766511417923_9d2cbg",
+  "name": "MPTV - Create Lightbox",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1766511417923_n0u4498",
+      "target": {
+        "alternatives": [],
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766511428397_wait_pr1xj8em2",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes"
+          },
+          "classes": [],
+          "text": "MY LIGHTBOXES"
+        },
+        "primary": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+        "selector": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766511428396,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766511428395_tfpcbv1um",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+          "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+          "text": "My Lightboxes",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes"
+          },
+          "classes": [],
+          "text": "MY LIGHTBOXES"
+        },
+        "primary": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+        "selector": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766511428395,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766511455300_wait_7u1mypkkw",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes/create",
+          "playwright": "getByRole('link', { name: 'Create New Lightbox' })",
+          "text": "Create New Lightbox",
+          "xpath": "//a[normalize-space(.)='Create New Lightbox']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-keyboard": "true",
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes/create"
+          },
+          "classes": [
+            "btn",
+            "btn-primary",
+            "btn-with-icon"
+          ],
+          "text": "CREATE NEW LIGHTBOX"
+        },
+        "primary": "//a[normalize-space(.)='Create New Lightbox']",
+        "selector": "//a[normalize-space(.)='Create New Lightbox']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766511455299,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766511455297_o1lzq9li5",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes/create",
+          "playwright": "getByRole('link', { name: 'Create New Lightbox' })",
+          "text": "Create New Lightbox",
+          "xpath": "//a[normalize-space(.)='Create New Lightbox']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-keyboard": "true",
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes/create"
+          },
+          "classes": [
+            "btn",
+            "btn-primary",
+            "btn-with-icon"
+          ],
+          "text": "CREATE NEW LIGHTBOX"
+        },
+        "primary": "//a[normalize-space(.)='Create New Lightbox']",
+        "selector": "//a[normalize-space(.)='Create New Lightbox']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766511455297,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766511515855_wait_0h2j6idnn",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"name\"]",
+          "id": "name",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "name",
+            "name": "name",
+            "placeholder": "Lightbox Name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Lightbox Name",
+          "text": ""
+        },
+        "primary": "input[name=\"name\"]",
+        "selector": "input[name=\"name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766511515854,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766511515851_64j60riea",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"name\"]",
+          "id": "name",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "name",
+            "name": "name",
+            "placeholder": "Lightbox Name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Lightbox Name",
+          "text": ""
+        },
+        "primary": "input[name=\"name\"]",
+        "selector": "input[name=\"name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766511515851,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766511585538_wait_x794klkon",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"name\"]",
+          "id": "name",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "name",
+            "name": "name",
+            "placeholder": "Lightbox Name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Lightbox Name",
+          "text": ""
+        },
+        "primary": "input[name=\"name\"]",
+        "selector": "input[name=\"name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766511585537,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766511585529_r5999mbfj",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"name\"]",
+          "id": "name",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "name",
+            "name": "name",
+            "placeholder": "Lightbox Name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Lightbox Name",
+          "text": ""
+        },
+        "primary": "input[name=\"name\"]",
+        "selector": "input[name=\"name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766511585529,
+      "type": "type",
+      "value": "Test Lightbox"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766511599740_wait_i9v9gtd2c",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-modal-submit=\"button\"]",
+          "playwright": "getByRole('button', { name: 'Create Lightbox' })",
+          "text": "Create Lightbox",
+          "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-modal-submit": "button",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "CREATE LIGHTBOX"
+        },
+        "primary": "//button[contains(., 'Create Lightbox')]",
+        "selector": "//button[contains(., 'Create Lightbox')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766511599739,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766511599736_v91oxbr4q",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-modal-submit=\"button\"]",
+          "playwright": "getByRole('button', { name: 'Create Lightbox' })",
+          "text": "Create Lightbox",
+          "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-modal-submit": "button",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "CREATE LIGHTBOX"
+        },
+        "primary": "//button[contains(., 'Create Lightbox')]",
+        "selector": "//button[contains(., 'Create Lightbox')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766511599736,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-23T17:36:57.923Z",
+    "updatedAt": "2025-12-23T17:40:00.445Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

@@ -1,0 +1,276 @@
+{
+  "id": "flow_1766506706422_yjcon4",
+  "name": "MPTV - Header Navigation",
+  "commands": [
+    {
+      "id": "cmd_1766506753839_mhtgwe2ui",
+      "metadata": {
+        "manual": true
+      },
+      "timestamp": 1766506753839,
+      "type": "navigate",
+      "value": "https://www.mptvimages.com/"
+    },
+    {
+      "description": "Wait for page to load after navigate",
+      "id": "cmd_1766506753840_wait_page_2xopimwb7",
+      "metadata": {
+        "manual": true
+      },
+      "timestamp": 1766506753841,
+      "type": "waitForDomIdle",
+      "value": "5000"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766506791491_wait_7ufrz1y00",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://www.mptvimages.com",
+          "playwright": "getByRole('link', { name: 'License Images' })",
+          "text": "License Images",
+          "xpath": "//a[normalize-space(.)='License Images']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://www.mptvimages.com"
+          },
+          "classes": [],
+          "text": "LICENSE IMAGES"
+        },
+        "primary": "//a[normalize-space(.)='License Images']",
+        "selector": "//a[normalize-space(.)='License Images']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766506791490,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766506791490_ij1d19ezd",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://www.mptvimages.com",
+          "playwright": "getByRole('link', { name: 'License Images' })",
+          "text": "License Images",
+          "xpath": "//a[normalize-space(.)='License Images']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://www.mptvimages.com"
+          },
+          "classes": [],
+          "text": "LICENSE IMAGES"
+        },
+        "primary": "//a[normalize-space(.)='License Images']",
+        "selector": "//a[normalize-space(.)='License Images']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766506791490,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766506809036_wait_7irlm6f17",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://www.mptvimages.com/pages/prints",
+          "playwright": "getByRole('link', { name: 'Buy Prints' })",
+          "text": "Buy Prints",
+          "xpath": "//a[normalize-space(.)='Buy Prints']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://www.mptvimages.com/pages/prints"
+          },
+          "classes": [],
+          "text": "BUY PRINTS"
+        },
+        "primary": "//a[normalize-space(.)='Buy Prints']",
+        "selector": "//a[normalize-space(.)='Buy Prints']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766506809035,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766506809035_vn3ya59e1",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://www.mptvimages.com/pages/prints",
+          "playwright": "getByRole('link', { name: 'Buy Prints' })",
+          "text": "Buy Prints",
+          "xpath": "//a[normalize-space(.)='Buy Prints']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://www.mptvimages.com/pages/prints"
+          },
+          "classes": [],
+          "text": "BUY PRINTS"
+        },
+        "primary": "//a[normalize-space(.)='Buy Prints']",
+        "selector": "//a[normalize-space(.)='Buy Prints']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766506809035,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1766506821049_mcow1z0lv",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "http://infocus.mptvimages.com/?_gl=1*l29k49*_ga*MzI3MTQ5NDI3LjE3NjU0MzQ2OTc.*_ga_HYZRVD28ZE*czE3NjY1MDU4OTckbzE4JGcxJHQxNzY2NTA2ODEzJGo0MSRsMCRoMA..",
+          "playwright": "getByRole('link', { name: 'Our Blog' })",
+          "text": "Our Blog",
+          "xpath": "//a[normalize-space(.)='Our Blog']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "http://infocus.mptvimages.com/?_gl=1*l29k49*_ga*MzI3MTQ5NDI3LjE3NjU0MzQ2OTc.*_ga_HYZRVD28ZE*czE3NjY1MDU4OTckbzE4JGcxJHQxNzY2NTA2ODEzJGo0MSRsMCRoMA.."
+          },
+          "classes": [],
+          "text": "OUR BLOG"
+        },
+        "primary": "//a[normalize-space(.)='Our Blog']",
+        "selector": "//a[normalize-space(.)='Our Blog']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766506872599,
+      "type": "click",
+      "value": "//a[normalize-space(.)='Our Blog']"
+    },
+    {
+      "description": "Wait for page to load after navigate",
+      "id": "cmd_1766506821051_wait_page_7fq9dkoj9",
+      "metadata": {
+        "manual": true
+      },
+      "timestamp": 1766506821052,
+      "type": "waitForDomIdle",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1766506888065_d24vm3206",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://www.mptvimages.com/login",
+          "playwright": "getByRole('link', { name: 'Login' })",
+          "text": "Login",
+          "xpath": "//a[normalize-space(.)='Login']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://www.mptvimages.com/login"
+          },
+          "classes": [],
+          "text": "LOGIN"
+        },
+        "primary": "//a[normalize-space(.)='Login']",
+        "selector": "//a[normalize-space(.)='Login']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1766506902310,
+      "type": "click",
+      "value": "//a[normalize-space(.)='Login']"
+    },
+    {
+      "description": "Wait for page to load after navigate",
+      "id": "cmd_1766506888067_wait_page_iyzm1xu3n",
+      "metadata": {
+        "manual": true
+      },
+      "timestamp": 1766506888068,
+      "type": "waitForDomIdle",
+      "value": "5000"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766506921244_wait_flhezo7zw",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//a[normalize-space(.)='Register'])[2]",
+          "href": "https://www.mptvimages.com/register",
+          "playwright": "getByRole('link', { name: 'Register' })",
+          "text": "Register",
+          "xpath": "//a[normalize-space(.)='Register']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://www.mptvimages.com/register"
+          },
+          "classes": [],
+          "text": "REGISTER"
+        },
+        "primary": "(//a[normalize-space(.)='Register'])[2]",
+        "selector": "(//a[normalize-space(.)='Register'])[2]",
+        "strategy": "css"
+      },
+      "timestamp": 1766506921243,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766506921243_sb2mvnheo",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//a[normalize-space(.)='Register'])[2]",
+          "href": "https://www.mptvimages.com/register",
+          "playwright": "getByRole('link', { name: 'Register' })",
+          "text": "Register",
+          "xpath": "//a[normalize-space(.)='Register']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://www.mptvimages.com/register"
+          },
+          "classes": [],
+          "text": "REGISTER"
+        },
+        "primary": "(//a[normalize-space(.)='Register'])[2]",
+        "selector": "(//a[normalize-space(.)='Register'])[2]",
+        "strategy": "css"
+      },
+      "timestamp": 1766507017711,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-23T16:18:26.422Z",
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/mptv___header_navigation_flow_176.json",
+      "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+      "source": "local",
+      "syncStatus": "exported"
+    },
+    "updatedAt": "2025-12-23T16:26:17.649Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}
