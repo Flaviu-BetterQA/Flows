@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "timestamp": "2025-12-23T12:06:51.456Z",
+  "timestamp": "2025-12-23T12:36:03.824Z",
   "flows": [
     {
       "_optimized": true,
@@ -46,7 +46,14 @@
       "id": "flow_1765476407339_46embv",
       "metadata": {
         "createdAt": "2025-12-11T18:06:47.339Z",
-        "updatedAt": "2025-12-11T18:06:48.462Z"
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/mptv___logout_flow_flow_176.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
+        "updatedAt": "2025-12-23T12:06:52.397Z"
       },
       "name": "MPTV - Logout Flow"
     },
@@ -136,7 +143,14 @@
       "id": "flow_1765475755442_7vzh6w",
       "metadata": {
         "createdAt": "2025-12-11T17:55:55.442Z",
-        "updatedAt": "2025-12-11T17:59:36.125Z"
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/mptv___search_image_and_check_result_flow_176.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
+        "updatedAt": "2025-12-23T12:06:52.401Z"
       },
       "name": "MPTV - Search Image and Check Result"
     },
@@ -258,8 +272,15 @@
       "metadata": {
         "createdAt": "2025-12-11T17:09:54.686Z",
         "duration": 13249,
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/mptv___user_login__mptv__flow_176.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "pageCount": 1,
-        "updatedAt": "2025-12-11T18:02:58.305Z",
+        "updatedAt": "2025-12-23T12:06:52.406Z",
         "url": "https://stage2.mptvimages.com/",
         "viewport": {
           "height": 1242,
@@ -267,6 +288,111 @@
         }
       },
       "name": "MPTV - User Login (MPTV)",
+      "project": "MPTV"
+    },
+    {
+      "_optimized": true,
+      "_optimizedSize": 2175,
+      "_originalSize": 2175,
+      "commands": [
+        {
+          "id": "cmd_1766492066280_r1eyf7lq2",
+          "timestamp": 1766492066280,
+          "type": "navigate",
+          "value": "https://mptvimages.com/"
+        },
+        {
+          "id": "cmd_1766492091518_q7u05hiwt",
+          "metadata": {
+            "elementLibraryStatus": {
+              "elementId": "elem_1766492091525_th3qmrd8b",
+              "elementName": "Search Input",
+              "status": "new",
+              "timestamp": 1766492091562
+            }
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[placeholder=\"Enter search words...\"]",
+              "id": "search-input",
+              "xpath": "//html/body/div[1]/nav/div[3]/div/form/fieldset/div/div/input"
+            },
+            "primary": "input[placeholder=\"Enter search words...\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766492091520,
+          "type": "waitForElement",
+          "value": 500
+        },
+        {
+          "id": "cmd_1766492091526_ly0w4a5g1",
+          "metadata": {
+            "elementLibraryStatus": {
+              "elementId": "elem_1766492091547_jhn2xheto",
+              "elementName": "Button",
+              "status": "new",
+              "timestamp": 1766492091564
+            }
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "playwright": "getByRole('button', { name: 'Search' })",
+              "text": "Search",
+              "xpath": "//button[normalize-space()='Search']"
+            },
+            "primary": "//button[normalize-space()='Search']",
+            "strategy": "xpath"
+          },
+          "timestamp": 1766492091527,
+          "type": "waitForElement",
+          "value": 500
+        },
+        {
+          "id": "cmd_1766492091517_czefece1u",
+          "target": {
+            "alternatives": {
+              "css": "input[placeholder=\"Enter search words...\"]",
+              "id": "search-input",
+              "xpath": "//html/body/div[1]/nav/div[3]/div/form/fieldset/div/div/input"
+            },
+            "primary": "input[placeholder=\"Enter search words...\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766492091534,
+          "type": "type",
+          "value": "marlon brando"
+        },
+        {
+          "id": "cmd_1766492091526_ebqmt4s2n",
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "playwright": "getByRole('button', { name: 'Search' })",
+              "text": "Search",
+              "xpath": "//button[normalize-space()='Search']"
+            },
+            "primary": "//button[normalize-space()='Search']",
+            "strategy": "xpath"
+          },
+          "timestamp": 1766492091547,
+          "type": "click"
+        }
+      ],
+      "deviceType": "desktop",
+      "id": "flow_1766492065937_zve9juciv",
+      "metadata": {
+        "createdAt": "2025-12-23T12:14:25.938Z",
+        "duration": 39197,
+        "pageCount": 1,
+        "updatedAt": "2025-12-23T12:15:43.501Z",
+        "url": "https://mptvimages.com/",
+        "viewport": {
+          "height": 1242,
+          "width": 2560
+        }
+      },
+      "name": "MPTV - Image Search (MPTV)",
       "project": "MPTV"
     }
   ],
@@ -290,6 +416,13 @@
       "id": "suite_1765476471311",
       "metadata": {
         "createdAt": "2025-12-11T18:07:51.311Z",
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "suites/mptv_images_suite_17.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "totalRuns": 0,
         "updatedAt": "2025-12-11T18:07:51.311Z"
       },
@@ -305,5 +438,107 @@
     }
   ],
   "savedChains": [],
-  "elementLibrary": []
+  "elementLibrary": [
+    {
+      "createdAt": 1766492091525,
+      "customAttributes": {
+        "elementInfo": {
+          "attributes": {
+            "data-gtm-form-interact-field-id": "0",
+            "id": "search-input",
+            "name": "phrase",
+            "placeholder": "Enter search words...",
+            "type": "text"
+          },
+          "tagName": "input"
+        },
+        "fingerprint": "1bf0df73",
+        "flowId": "flow_1766492065937_zve9juciv",
+        "initialCommandId": "cmd_1766492091518_q7u05hiwt",
+        "selectorPrimary": "input[placeholder=\"Enter search words...\"]",
+        "source": "auto-recording"
+      },
+      "description": "Auto-recorded input element",
+      "id": "elem_1766492091525_th3qmrd8b",
+      "lastUsed": 1766492091525,
+      "name": "Search Input",
+      "selector": {
+        "alternatives": {
+          "css": "input[placeholder=\"Enter search words...\"]",
+          "id": "search-input",
+          "xpath": "//html/body/div[1]/nav/div[3]/div/form/fieldset/div/div/input"
+        },
+        "primary": "input[placeholder=\"Enter search words...\"]",
+        "strategy": "css"
+      },
+      "selectorHistory": [],
+      "tags": [
+        "auto-recorded",
+        "input"
+      ],
+      "updatedAt": 1766492091558,
+      "usageCount": 0,
+      "usedInCommands": [
+        "cmd_1766492091518_q7u05hiwt"
+      ],
+      "usedInFlows": [
+        "flow_1766492065937_zve9juciv"
+      ],
+      "validation": {
+        "lastChecked": 1766492091524,
+        "status": "pending",
+        "strategies": {}
+      },
+      "version": 1
+    },
+    {
+      "createdAt": 1766492091547,
+      "customAttributes": {
+        "elementInfo": {
+          "attributes": {
+            "aria-label": "Search"
+          },
+          "tagName": "button"
+        },
+        "fingerprint": "3689e015",
+        "flowId": "flow_1766492065937_zve9juciv",
+        "initialCommandId": "cmd_1766492091526_ly0w4a5g1",
+        "selectorPrimary": "//button[normalize-space()='Search']",
+        "source": "auto-recording"
+      },
+      "description": "Auto-recorded button element",
+      "id": "elem_1766492091547_jhn2xheto",
+      "lastUsed": 1766492091547,
+      "name": "Button",
+      "selector": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "playwright": "getByRole('button', { name: 'Search' })",
+          "text": "Search",
+          "xpath": "//button[normalize-space()='Search']"
+        },
+        "primary": "//button[normalize-space()='Search']",
+        "strategy": "xpath"
+      },
+      "selectorHistory": [],
+      "tags": [
+        "auto-recorded",
+        "button"
+      ],
+      "updatedAt": 1766492091563,
+      "usageCount": 0,
+      "usedInCommands": [
+        "cmd_1766492091526_ly0w4a5g1"
+      ],
+      "usedInFlows": [
+        "flow_1766492065937_zve9juciv"
+      ],
+      "validation": {
+        "lastChecked": 1766492091547,
+        "status": "pending",
+        "strategies": {}
+      },
+      "version": 1
+    }
+  ]
 }
