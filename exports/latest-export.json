@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "timestamp": "2025-12-22T15:58:28.863Z",
+  "timestamp": "2025-12-23T11:43:09.709Z",
   "flows": [
     {
       "_optimized": true,
@@ -53,7 +53,7 @@
           "source": "local",
           "syncStatus": "exported"
         },
-        "updatedAt": "2025-12-22T14:16:29.356Z"
+        "updatedAt": "2025-12-22T15:58:30.520Z"
       },
       "name": "MPTV - Logout Flow"
     },
@@ -150,7 +150,7 @@
           "source": "local",
           "syncStatus": "exported"
         },
-        "updatedAt": "2025-12-22T14:16:29.361Z"
+        "updatedAt": "2025-12-22T15:58:30.527Z"
       },
       "name": "MPTV - Search Image and Check Result"
     },
@@ -280,7 +280,7 @@
           "syncStatus": "exported"
         },
         "pageCount": 1,
-        "updatedAt": "2025-12-22T14:16:29.366Z",
+        "updatedAt": "2025-12-22T15:58:30.536Z",
         "url": "https://stage2.mptvimages.com/",
         "viewport": {
           "height": 1242,
@@ -872,7 +872,7 @@
           "source": "local",
           "syncStatus": "exported"
         },
-        "updatedAt": "2025-12-22T14:16:29.372Z"
+        "updatedAt": "2025-12-22T15:58:30.543Z"
       },
       "name": "MPTV - Register Flow",
       "tags": [
@@ -1027,8 +1027,15 @@
       "metadata": {
         "createdAt": "2025-12-22T14:50:22.241Z",
         "duration": 33281,
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/mptv___guest_navigation__mptv__flow_176.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "pageCount": 1,
-        "updatedAt": "2025-12-22T14:55:00.004Z",
+        "updatedAt": "2025-12-22T15:58:30.548Z",
         "url": "https://stage2.mptvimages.com/",
         "viewport": {
           "height": 769,
@@ -1040,8 +1047,8 @@
     },
     {
       "_optimized": true,
-      "_optimizedSize": 3252,
-      "_originalSize": 3296,
+      "_optimizedSize": 3600,
+      "_originalSize": 3644,
       "commands": [
         {
           "description": "Navigate to starting page",
@@ -1176,10 +1183,11 @@
           },
           "target": {
             "alternatives": {},
-            "primary": "[data-remote][href*='marlon-brando']",
+            "primary": "a[data-toggle=\"modal\"][data-remote]",
+            "selector": "a[data-toggle=\"modal\"][data-remote]",
             "strategy": "css"
           },
-          "timestamp": 1766417065080,
+          "timestamp": 1766419761807,
           "type": "click"
         },
         {
@@ -1190,25 +1198,29 @@
           },
           "target": {
             "alternatives": {},
-            "primary": ".modal-content >.modal-body",
+            "primary": "body.modal-open",
+            "selector": "body.modal-open",
             "strategy": "css"
           },
-          "timestamp": 1766418926457,
+          "timestamp": 1766419793079,
           "type": "waitForElement",
-          "value": "500"
+          "value": "5000"
         },
         {
-          "id": "cmd_1766418926456_o5476dn33",
+          "description": "Wait for element before click",
+          "id": "cmd_1766418926458_wait_uu4w1r23x",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {},
-            "primary": ".modal-content >.modal-body",
+            "primary": "#share-image-button",
+            "selector": "#share-image-button",
             "strategy": "css"
           },
-          "timestamp": 1766418926456,
-          "type": "click"
+          "timestamp": 1766419522362,
+          "type": "waitForElement",
+          "value": "5000"
         }
       ],
       "description": "Created with Step Builder",
@@ -1216,7 +1228,14 @@
       "id": "flow_1766416174398_qbyw2g",
       "metadata": {
         "createdAt": "2025-12-22T15:09:34.398Z",
-        "updatedAt": "2025-12-22T15:55:26.746Z"
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/mptv___image_search_flow_176.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
+        "updatedAt": "2025-12-22T16:09:53.160Z"
       },
       "name": "MPTV - Image Search"
     }
