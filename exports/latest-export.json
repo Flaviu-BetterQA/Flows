@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "timestamp": "2025-12-23T15:43:55.679Z",
+  "timestamp": "2025-12-23T15:45:56.109Z",
   "flows": [
     {
       "_optimized": true,
@@ -46,7 +46,14 @@
       "id": "flow_1765476407339_46embv",
       "metadata": {
         "createdAt": "2025-12-11T18:06:47.339Z",
-        "updatedAt": "2025-12-11T18:06:48.462Z"
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/mptv___logout_flow_flow_176.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
+        "updatedAt": "2025-12-23T15:43:56.488Z"
       },
       "name": "MPTV - Logout Flow"
     },
@@ -136,7 +143,14 @@
       "id": "flow_1765475755442_7vzh6w",
       "metadata": {
         "createdAt": "2025-12-11T17:55:55.442Z",
-        "updatedAt": "2025-12-11T17:59:36.125Z"
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/mptv___search_image_and_check_result_flow_176.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
+        "updatedAt": "2025-12-23T15:43:56.492Z"
       },
       "name": "MPTV - Search Image and Check Result"
     },
@@ -258,8 +272,15 @@
       "metadata": {
         "createdAt": "2025-12-11T17:09:54.686Z",
         "duration": 13249,
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "flows/mptv___user_login__mptv__flow_176.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "pageCount": 1,
-        "updatedAt": "2025-12-11T18:02:58.305Z",
+        "updatedAt": "2025-12-23T15:43:56.498Z",
         "url": "https://stage2.mptvimages.com/",
         "viewport": {
           "height": 1242,
@@ -290,6 +311,13 @@
       "id": "suite_1765476471311",
       "metadata": {
         "createdAt": "2025-12-11T18:07:51.311Z",
+        "gitHubLink": {
+          "branch": "main",
+          "filePath": "suites/mptv_images_suite_17.json",
+          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+          "source": "local",
+          "syncStatus": "exported"
+        },
         "totalRuns": 0,
         "updatedAt": "2025-12-11T18:07:51.311Z"
       },
