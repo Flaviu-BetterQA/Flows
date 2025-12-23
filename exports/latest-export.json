@@ -1,216 +1,1151 @@
 {
   "version": "2.1.0",
-  "timestamp": "2025-12-23T16:26:16.357Z",
+  "timestamp": "2025-12-23T19:43:39.063Z",
   "flows": [
     {
       "_optimized": true,
-      "_optimizedSize": 938,
-      "_originalSize": 982,
+      "_optimizedSize": 3963,
+      "_originalSize": 3963,
       "commands": [
         {
           "description": "Navigate to starting page",
-          "id": "cmd_1765476407339_yw5q84k",
+          "id": "cmd_1766514081454_hrmvc5h",
           "target": {
-            "alternatives": [],
+            "alternatives": {},
             "primary": "",
             "xpathSelector": ""
           },
+          "timestamp": 1766518652764,
           "type": "navigate",
           "value": "https://stage2.mptvimages.com/"
         },
         {
-          "id": "cmd_1765476408071_rld57yxvu",
+          "description": "Wait for element before click",
+          "id": "cmd_1766514089226_wait_f6uivfd3j",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {
-              "href": "https://stage2.mptvimages.com/logout",
-              "playwright": "getByRole('link', { name: 'Logout' })",
-              "text": "Logout",
-              "xpath": "//html/body/div[1]/nav/div[2]/div[4]/ul/li/a"
-            },
-            "metadata": {
-              "generatedAt": 1765476405206,
-              "source": "step-builder:picker"
-            },
-            "primary": "//html/body/div[1]/nav/div[2]/div[4]/ul/li/a",
-            "strategy": "xpath"
-          },
-          "timestamp": 1765476408071,
-          "type": "click"
-        }
-      ],
-      "description": "Created with Step Builder",
-      "deviceType": "desktop",
-      "id": "flow_1765476407339_46embv",
-      "metadata": {
-        "createdAt": "2025-12-11T18:06:47.339Z",
-        "gitHubLink": {
-          "branch": "main",
-          "filePath": "flows/mptv___logout_flow_flow_176.json",
-          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
-          "source": "local",
-          "syncStatus": "exported"
-        },
-        "updatedAt": "2025-12-23T16:15:55.945Z"
-      },
-      "name": "MPTV - Logout Flow"
-    },
-    {
-      "_optimized": true,
-      "_optimizedSize": 1853,
-      "_originalSize": 1897,
-      "commands": [
-        {
-          "description": "Navigate to starting page",
-          "id": "cmd_1765475755442_rtnab6d",
-          "target": {
-            "alternatives": [],
-            "primary": "",
-            "xpathSelector": ""
-          },
-          "type": "navigate",
-          "value": "https://stage2.mptvimages.com/"
-        },
-        {
-          "id": "cmd_1765475774147_k4lh15gcw",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "css": "#search-input",
-              "id": "search-input",
-              "xpath": "//html/body/div[1]/nav/div[3]/div/form/fieldset/div/div/input"
-            },
-            "metadata": {
-              "generatedAt": 1765475764891,
-              "source": "step-builder:picker"
-            },
-            "primary": "#search-input",
-            "strategy": "css"
-          },
-          "timestamp": 1765475774147,
-          "type": "type",
-          "value": "sophia loren"
-        },
-        {
-          "id": "cmd_1765475847064_j7oxygkms",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "css": ".search-box-button i.fa.fa-search.fa.fa-search",
-              "xpath": "//html/body/div[1]/nav/div[3]/div/form/fieldset/div/button/i"
-            },
-            "metadata": {
-              "generatedAt": 1765475844066,
-              "source": "step-builder:picker"
-            },
-            "primary": ".search-box-button i.fa.fa-search.fa.fa-search",
-            "strategy": "css"
-          },
-          "timestamp": 1765475847064,
-          "type": "click"
-        },
-        {
-          "id": "cmd_1765475976112_m4q9s6drq",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "css": "[data-remote=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v/modal\"]",
-              "playwright": "getByText('22727_0976')",
-              "text": "22727_0976",
-              "xpath": "//html/body/div[1]/main/section[2]/article[1]/a/img"
-            },
-            "metadata": {
-              "generatedAt": 1765475972362,
-              "source": "step-builder:picker"
-            },
-            "primary": "[data-remote=\"https://stage2.mptvimages.com/images/19841/sophia-loren-circa-1960s-i-v/modal\"]",
-            "strategy": "css"
-          },
-          "timestamp": 1765475976112,
-          "type": "click"
-        }
-      ],
-      "description": "Created with Step Builder",
-      "deviceType": "desktop",
-      "id": "flow_1765475755442_7vzh6w",
-      "metadata": {
-        "createdAt": "2025-12-11T17:55:55.442Z",
-        "gitHubLink": {
-          "branch": "main",
-          "filePath": "flows/mptv___search_image_and_check_result_flow_176.json",
-          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
-          "source": "local",
-          "syncStatus": "exported"
-        },
-        "updatedAt": "2025-12-23T16:15:55.948Z"
-      },
-      "name": "MPTV - Search Image and Check Result"
-    },
-    {
-      "_optimized": true,
-      "_optimizedSize": 2348,
-      "_originalSize": 2392,
-      "commands": [
-        {
-          "id": "cmd_1765472995033_zh3w8ytp0",
-          "timestamp": 1765472995033,
-          "type": "navigate",
-          "value": "https://stage2.mptvimages.com/"
-        },
-        {
-          "id": "cmd_1765473728750_nbvw6yy3p",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "href": "https://stage2.mptvimages.com/login",
-              "playwright": "getByRole('link', { name: 'Login' })",
-              "text": "Login",
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
               "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
             },
             "metadata": {
-              "generatedAt": 1765473727073,
-              "source": "step-builder:picker"
+              "attrs": {
+                "data-toggle": "dropdown",
+                "type": "button"
+              },
+              "classes": [
+                "lightbox-item-actions-btn",
+                "dropdown-toggle"
+              ],
+              "text": "ACTIONS"
             },
-            "primary": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a",
-            "strategy": "xpath"
+            "primary": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "selector": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "strategy": "css"
           },
-          "timestamp": 1765473728750,
-          "type": "click"
+          "timestamp": 1766514155110,
+          "type": "waitForElement",
+          "value": "500"
         },
         {
-          "id": "cmd_1765475206299_6h7kidp64",
+          "id": "cmd_1766514089225_oal9fgyq0",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {
-              "css": "[data-gtm-form-interact-id=\"0\"]",
-              "id": "login-button",
-              "xpath": "//input[contains(@class, 'btn')]"
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
             },
             "metadata": {
-              "generatedAt": 1765475188210,
-              "source": "step-builder:picker"
+              "attrs": {
+                "data-toggle": "dropdown",
+                "type": "button"
+              },
+              "classes": [
+                "lightbox-item-actions-btn",
+                "dropdown-toggle"
+              ],
+              "text": "ACTIONS"
             },
-            "primary": "[data-gtm-form-interact-id=\"0\"]",
+            "primary": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "selector": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
             "strategy": "css"
           },
-          "timestamp": 1765475206299,
-          "type": "wait",
-          "value": "5000"
+          "timestamp": 1766514158911,
+          "type": "click"
         },
         {
-          "id": "cmd_1765474975489_xn6fbtq0z",
+          "description": "Wait for element before click",
+          "id": "cmd_1766514178719_wait_7lmk1ql27",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554",
+              "playwright": "getByRole('link', { name: 'View' })",
+              "text": "View",
+              "xpath": "//a[contains(@class, 'element-highlight')]"
+            },
+            "metadata": {
+              "attrs": {
+                "href": "https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554"
+              },
+              "classes": [
+                "element-highlight"
+              ],
+              "text": "View"
+            },
+            "primary": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+            "selector": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766514178718,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766514178716_szs2kn21e",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554",
+              "playwright": "getByRole('link', { name: 'View' })",
+              "text": "View",
+              "xpath": "//a[contains(@class, 'element-highlight')]"
+            },
+            "metadata": {
+              "attrs": {
+                "href": "https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554"
+              },
+              "classes": [
+                "element-highlight"
+              ],
+              "text": "View"
+            },
+            "primary": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+            "selector": ".dropdown-menu a[href=\"https://stage2.mptvimages.com/lightboxes/65F860EB745ABF555440630943FBC554\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766514178716,
+          "type": "click"
+        }
+      ],
+      "description": "Created with Step Builder",
+      "deviceType": "desktop",
+      "id": "flow_1766514081454_7onb0v",
+      "metadata": {
+        "createdAt": "2025-12-23T18:21:21.454Z",
+        "updatedAt": "2025-12-23T19:42:57.275Z"
+      },
+      "name": "MPTV - View Lightbox",
+      "tags": [
+        "MPTV"
+      ]
+    },
+    {
+      "_optimized": true,
+      "_optimizedSize": 4805,
+      "_originalSize": 4805,
+      "commands": [
+        {
+          "description": "Navigate to starting page",
+          "id": "cmd_1766512997028_0mh3o3i",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "xpathSelector": ""
+          },
+          "timestamp": 1766518652877,
+          "type": "navigate",
+          "value": "https://stage2.mptvimages.com/"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766513005943_wait_u63vgxsya",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+            },
+            "metadata": {
+              "attrs": {
+                "data-toggle": "dropdown",
+                "type": "button"
+              },
+              "classes": [
+                "lightbox-item-actions-btn",
+                "dropdown-toggle"
+              ],
+              "text": "ACTIONS"
+            },
+            "primary": ".lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "selector": ".lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "strategy": "css"
+          },
+          "timestamp": 1766513096812,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766513005940_jm3df7h12",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+            },
+            "metadata": {
+              "attrs": {
+                "data-toggle": "dropdown",
+                "type": "button"
+              },
+              "classes": [
+                "lightbox-item-actions-btn",
+                "dropdown-toggle"
+              ],
+              "text": "ACTIONS"
+            },
+            "primary": ".lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "selector": ".lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "strategy": "css"
+          },
+          "timestamp": 1766513100737,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766513142300_wait_4mpsydjw6",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/80/rename",
+              "playwright": "getByRole('link', { name: 'Rename' })",
+              "text": "Rename",
+              "xpath": "//a[contains(@class, 'element-highlight')]"
+            },
+            "metadata": {
+              "attrs": {
+                "data-keyboard": "true",
+                "data-target": "#esensiModal",
+                "data-toggle": "modal",
+                "href": "https://stage2.mptvimages.com/lightboxes/80/rename"
+              },
+              "classes": [
+                "element-highlight"
+              ],
+              "text": "Rename"
+            },
+            "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+            "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766513142299,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766513142296_hzj8jkobl",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/80/rename",
+              "playwright": "getByRole('link', { name: 'Rename' })",
+              "text": "Rename",
+              "xpath": "//a[contains(@class, 'element-highlight')]"
+            },
+            "metadata": {
+              "attrs": {
+                "data-keyboard": "true",
+                "data-target": "#esensiModal",
+                "data-toggle": "modal",
+                "href": "https://stage2.mptvimages.com/lightboxes/80/rename"
+              },
+              "classes": [
+                "element-highlight"
+              ],
+              "text": "Rename"
+            },
+            "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+            "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/rename\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766513142296,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766513168154_wait_7hbdo4k8j",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[name=\"name\"]",
+              "id": "name",
+              "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "name",
+                "name": "name",
+                "placeholder": "New Lightbox Name",
+                "type": "text",
+                "value": "Test Lightbox"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "placeholder": "New Lightbox Name",
+              "text": ""
+            },
+            "primary": "input[name=\"name\"]",
+            "selector": "input[name=\"name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766513168153,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766513168152_p6s3moskw",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[name=\"name\"]",
+              "id": "name",
+              "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "name",
+                "name": "name",
+                "placeholder": "New Lightbox Name",
+                "type": "text",
+                "value": "Test Lightbox"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "placeholder": "New Lightbox Name",
+              "text": ""
+            },
+            "primary": "input[name=\"name\"]",
+            "selector": "input[name=\"name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766513168152,
+          "type": "click"
+        }
+      ],
+      "description": "Created with Step Builder",
+      "deviceType": "desktop",
+      "id": "flow_1766512997028_x8sdiz",
+      "metadata": {
+        "createdAt": "2025-12-23T18:03:17.028Z",
+        "updatedAt": "2025-12-23T19:42:56.110Z"
+      },
+      "name": "MPTV - Rename Lightbox",
+      "tags": [
+        "MPTV"
+      ]
+    },
+    {
+      "_optimized": true,
+      "_optimizedSize": 7690,
+      "_originalSize": 7690,
+      "commands": [
+        {
+          "description": "Navigate to starting page",
+          "id": "cmd_1766514081454_hrmvc5h",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "xpathSelector": ""
+          },
+          "timestamp": 1766518652990,
+          "type": "navigate",
+          "value": "https://stage2.mptvimages.com/"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766514363665_wait_33ke5fpmw",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+            },
+            "metadata": {
+              "attrs": {
+                "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes"
+              },
+              "classes": [],
+              "text": "MY LIGHTBOXES"
+            },
+            "primary": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+            "selector": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766514363664,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766514363657_cthkgdyrd",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+            },
+            "metadata": {
+              "attrs": {
+                "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes"
+              },
+              "classes": [],
+              "text": "MY LIGHTBOXES"
+            },
+            "primary": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+            "selector": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766514363657,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766514089226_wait_f6uivfd3j",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+            },
+            "metadata": {
+              "attrs": {
+                "data-toggle": "dropdown",
+                "type": "button"
+              },
+              "classes": [
+                "lightbox-item-actions-btn",
+                "dropdown-toggle"
+              ],
+              "text": "ACTIONS"
+            },
+            "primary": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "selector": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "strategy": "css"
+          },
+          "timestamp": 1766514155110,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766514089225_oal9fgyq0",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+            },
+            "metadata": {
+              "attrs": {
+                "data-toggle": "dropdown",
+                "type": "button"
+              },
+              "classes": [
+                "lightbox-item-actions-btn",
+                "dropdown-toggle"
+              ],
+              "text": "ACTIONS"
+            },
+            "primary": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "selector": ".lightbox-item-heading .lightbox-item-actions button.lightbox-item-actions-btn.dropdown-toggle",
+            "strategy": "css"
+          },
+          "timestamp": 1766514158911,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766514267937_wait_evpx845wg",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/80/copy",
+              "playwright": "getByRole('link', { name: 'Copy' })",
+              "text": "Copy",
+              "xpath": "//a[contains(@class, 'element-highlight')]"
+            },
+            "metadata": {
+              "attrs": {
+                "data-keyboard": "true",
+                "data-target": "#esensiModal",
+                "data-toggle": "modal",
+                "href": "https://stage2.mptvimages.com/lightboxes/80/copy"
+              },
+              "classes": [
+                "element-highlight"
+              ],
+              "text": "Copy"
+            },
+            "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+            "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766514267936,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766514267932_2oeqtwic9",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/80/copy",
+              "playwright": "getByRole('link', { name: 'Copy' })",
+              "text": "Copy",
+              "xpath": "//a[contains(@class, 'element-highlight')]"
+            },
+            "metadata": {
+              "attrs": {
+                "data-keyboard": "true",
+                "data-target": "#esensiModal",
+                "data-toggle": "modal",
+                "href": "https://stage2.mptvimages.com/lightboxes/80/copy"
+              },
+              "classes": [
+                "element-highlight"
+              ],
+              "text": "Copy"
+            },
+            "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+            "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766514267933,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766514418521_wait_zbor326of",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[name=\"name\"]",
+              "id": "name",
+              "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "name",
+                "name": "name",
+                "placeholder": "New Lightbox Name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "placeholder": "New Lightbox Name",
+              "text": ""
+            },
+            "primary": "input[name=\"name\"]",
+            "selector": "input[name=\"name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766514418520,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766514418510_4a9m6yjal",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[name=\"name\"]",
+              "id": "name",
+              "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "name",
+                "name": "name",
+                "placeholder": "New Lightbox Name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "placeholder": "New Lightbox Name",
+              "text": ""
+            },
+            "primary": "input[name=\"name\"]",
+            "selector": "input[name=\"name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766514418510,
+          "type": "type",
+          "value": "Copy of My Lightbox"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766514432353_wait_1qku5nizm",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-modal-submit=\"button\"]",
+              "playwright": "getByRole('button', { name: 'Copy Lightbox' })",
+              "text": "Copy Lightbox",
+              "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+            },
+            "metadata": {
+              "attrs": {
+                "data-modal-submit": "button",
+                "type": "button"
+              },
+              "classes": [
+                "btn",
+                "btn-primary"
+              ],
+              "text": "COPY LIGHTBOX"
+            },
+            "primary": "//button[contains(., 'Copy Lightbox')]",
+            "selector": "//button[contains(., 'Copy Lightbox')]",
+            "strategy": "xpath"
+          },
+          "timestamp": 1766514432352,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766514432349_dwg8s7tiz",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-modal-submit=\"button\"]",
+              "playwright": "getByRole('button', { name: 'Copy Lightbox' })",
+              "text": "Copy Lightbox",
+              "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+            },
+            "metadata": {
+              "attrs": {
+                "data-modal-submit": "button",
+                "type": "button"
+              },
+              "classes": [
+                "btn",
+                "btn-primary"
+              ],
+              "text": "COPY LIGHTBOX"
+            },
+            "primary": "//button[contains(., 'Copy Lightbox')]",
+            "selector": "//button[contains(., 'Copy Lightbox')]",
+            "strategy": "xpath"
+          },
+          "timestamp": 1766514432350,
+          "type": "click"
+        }
+      ],
+      "description": "Created with Step Builder",
+      "deviceType": "desktop",
+      "id": "flow_1766514223351_aw3uz2i0l",
+      "metadata": {
+        "createdAt": "2025-12-23T18:23:43.351Z",
+        "updatedAt": "2025-12-23T19:42:50.022Z"
+      },
+      "name": "MPTV - Copy Lightbox",
+      "tags": [
+        "MPTV"
+      ]
+    },
+    {
+      "_optimized": true,
+      "_optimizedSize": 7023,
+      "_originalSize": 7023,
+      "commands": [
+        {
+          "description": "Navigate to starting page",
+          "id": "cmd_1766511417923_n0u4498",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "xpathSelector": ""
+          },
+          "timestamp": 1766518653105,
+          "type": "navigate",
+          "value": "https://stage2.mptvimages.com/"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766511428397_wait_pr1xj8em2",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+            },
+            "metadata": {
+              "attrs": {
+                "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes"
+              },
+              "classes": [],
+              "text": "MY LIGHTBOXES"
+            },
+            "primary": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+            "selector": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766511428396,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766511428395_tfpcbv1um",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes",
+              "playwright": "getByRole('link', { name: 'My Lightboxes' })",
+              "text": "My Lightboxes",
+              "xpath": "//html/body/div[1]/nav/div[2]/div[3]/ul/li[1]/a"
+            },
+            "metadata": {
+              "attrs": {
+                "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes"
+              },
+              "classes": [],
+              "text": "MY LIGHTBOXES"
+            },
+            "primary": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+            "selector": "li.highlight-link a[href=\"https://stage2.mptvimages.com/lightboxes/my-lightboxes\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766511428395,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766511455300_wait_7u1mypkkw",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes/create",
+              "playwright": "getByRole('link', { name: 'Create New Lightbox' })",
+              "text": "Create New Lightbox",
+              "xpath": "//a[normalize-space(.)='Create New Lightbox']"
+            },
+            "metadata": {
+              "attrs": {
+                "data-keyboard": "true",
+                "data-target": "#esensiModal",
+                "data-toggle": "modal",
+                "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes/create"
+              },
+              "classes": [
+                "btn",
+                "btn-primary",
+                "btn-with-icon"
+              ],
+              "text": "CREATE NEW LIGHTBOX"
+            },
+            "primary": "//a[normalize-space(.)='Create New Lightbox']",
+            "selector": "//a[normalize-space(.)='Create New Lightbox']",
+            "strategy": "xpath"
+          },
+          "timestamp": 1766511455299,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766511455297_o1lzq9li5",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes/create",
+              "playwright": "getByRole('link', { name: 'Create New Lightbox' })",
+              "text": "Create New Lightbox",
+              "xpath": "//a[normalize-space(.)='Create New Lightbox']"
+            },
+            "metadata": {
+              "attrs": {
+                "data-keyboard": "true",
+                "data-target": "#esensiModal",
+                "data-toggle": "modal",
+                "href": "https://stage2.mptvimages.com/lightboxes/my-lightboxes/create"
+              },
+              "classes": [
+                "btn",
+                "btn-primary",
+                "btn-with-icon"
+              ],
+              "text": "CREATE NEW LIGHTBOX"
+            },
+            "primary": "//a[normalize-space(.)='Create New Lightbox']",
+            "selector": "//a[normalize-space(.)='Create New Lightbox']",
+            "strategy": "xpath"
+          },
+          "timestamp": 1766511455297,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766511515855_wait_0h2j6idnn",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[name=\"name\"]",
+              "id": "name",
+              "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "name",
+                "name": "name",
+                "placeholder": "Lightbox Name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "placeholder": "Lightbox Name",
+              "text": ""
+            },
+            "primary": "input[name=\"name\"]",
+            "selector": "input[name=\"name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766511515854,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766511515851_64j60riea",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[name=\"name\"]",
+              "id": "name",
+              "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "name",
+                "name": "name",
+                "placeholder": "Lightbox Name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "placeholder": "Lightbox Name",
+              "text": ""
+            },
+            "primary": "input[name=\"name\"]",
+            "selector": "input[name=\"name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766511515851,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766511585538_wait_x794klkon",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[name=\"name\"]",
+              "id": "name",
+              "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "name",
+                "name": "name",
+                "placeholder": "Lightbox Name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "placeholder": "Lightbox Name",
+              "text": ""
+            },
+            "primary": "input[name=\"name\"]",
+            "selector": "input[name=\"name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766511585537,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766511585529_r5999mbfj",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "input[name=\"name\"]",
+              "id": "name",
+              "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "name",
+                "name": "name",
+                "placeholder": "Lightbox Name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "placeholder": "Lightbox Name",
+              "text": ""
+            },
+            "primary": "input[name=\"name\"]",
+            "selector": "input[name=\"name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766511585529,
+          "type": "type",
+          "value": "Test Lightbox"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766511599740_wait_i9v9gtd2c",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-modal-submit=\"button\"]",
+              "playwright": "getByRole('button', { name: 'Create Lightbox' })",
+              "text": "Create Lightbox",
+              "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+            },
+            "metadata": {
+              "attrs": {
+                "data-modal-submit": "button",
+                "type": "button"
+              },
+              "classes": [
+                "btn",
+                "btn-primary"
+              ],
+              "text": "CREATE LIGHTBOX"
+            },
+            "primary": "//button[contains(., 'Create Lightbox')]",
+            "selector": "//button[contains(., 'Create Lightbox')]",
+            "strategy": "xpath"
+          },
+          "timestamp": 1766511599739,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766511599736_v91oxbr4q",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-modal-submit=\"button\"]",
+              "playwright": "getByRole('button', { name: 'Create Lightbox' })",
+              "text": "Create Lightbox",
+              "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+            },
+            "metadata": {
+              "attrs": {
+                "data-modal-submit": "button",
+                "type": "button"
+              },
+              "classes": [
+                "btn",
+                "btn-primary"
+              ],
+              "text": "CREATE LIGHTBOX"
+            },
+            "primary": "//button[contains(., 'Create Lightbox')]",
+            "selector": "//button[contains(., 'Create Lightbox')]",
+            "strategy": "xpath"
+          },
+          "timestamp": 1766511599736,
+          "type": "click"
+        }
+      ],
+      "description": "Created with Step Builder",
+      "deviceType": "desktop",
+      "id": "flow_1766511417923_9d2cbg",
+      "metadata": {
+        "createdAt": "2025-12-23T17:36:57.923Z",
+        "updatedAt": "2025-12-23T19:42:55.137Z"
+      },
+      "name": "MPTV - Create Lightbox",
+      "tags": [
+        "MPTV"
+      ]
+    },
+    {
+      "_optimized": true,
+      "_optimizedSize": 19582,
+      "_originalSize": 19582,
+      "commands": [
+        {
+          "description": "Navigate to starting page",
+          "id": "cmd_1766509297170_qrj2pxp",
+          "target": {
+            "alternatives": {},
+            "primary": "",
+            "xpathSelector": ""
+          },
+          "timestamp": 1766518653229,
+          "type": "navigate",
+          "value": "https://www.mptvimages.com/"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766509344422_wait_s375cdqtk",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "(//a[normalize-space(.)='Register'])[2]",
+              "href": "https://www.mptvimages.com/register",
+              "playwright": "getByRole('link', { name: 'Register' })",
+              "text": "Register",
+              "xpath": "//a[normalize-space(.)='Register']"
+            },
+            "metadata": {
+              "attrs": {
+                "href": "https://www.mptvimages.com/register"
+              },
+              "classes": [],
+              "text": "REGISTER"
+            },
+            "primary": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+            "selector": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509535491,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509344420_n5jiox5mc",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "(//a[normalize-space(.)='Register'])[2]",
+              "href": "https://www.mptvimages.com/register",
+              "playwright": "getByRole('link', { name: 'Register' })",
+              "text": "Register",
+              "xpath": "//a[normalize-space(.)='Register']"
+            },
+            "metadata": {
+              "attrs": {
+                "href": "https://www.mptvimages.com/register"
+              },
+              "classes": [],
+              "text": "REGISTER"
+            },
+            "primary": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+            "selector": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/register\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509540474,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766509558935_wait_jc1almwt4",
           "metadata": {
             "manual": true
           },
@@ -218,392 +1153,1006 @@
             "alternatives": {
               "css": "input[name=\"email\"]",
               "id": "email",
-              "xpath": "//html/body/div[1]/main/section/div[2]/div/div/form/fieldset/div/div[1]/input"
+              "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[1]/input"
             },
             "metadata": {
-              "generatedAt": 1765474969787,
-              "source": "step-builder:picker"
+              "attrs": {
+                "id": "email",
+                "name": "email",
+                "type": "email"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
             },
             "primary": "input[name=\"email\"]",
+            "selector": "input[name=\"email\"]",
             "strategy": "css"
           },
-          "timestamp": 1765474975489,
-          "type": "type",
-          "value": "david@siterocket.com"
+          "timestamp": 1766509558934,
+          "type": "waitForElement",
+          "value": "500"
         },
         {
-          "id": "cmd_1765475002116_g781nxaz5",
+          "id": "cmd_1766509558934_sixemf24a",
           "metadata": {
             "manual": true
           },
           "target": {
-            "alternatives": {},
-            "primary": "input[name=\"password\"]",
+            "alternatives": {
+              "css": "input[name=\"email\"]",
+              "id": "email",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[1]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "email",
+                "name": "email",
+                "type": "email"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"email\"]",
+            "selector": "input[name=\"email\"]",
             "strategy": "css"
           },
-          "timestamp": 1765476178005,
+          "timestamp": 1766509558934,
           "type": "type",
-          "value": "Password1!"
+          "value": "flaviu+mptv@betterqa.co"
         },
         {
-          "id": "cmd_1765475189471_9zx94u850",
+          "description": "Wait for element before type",
+          "id": "cmd_1766509579594_wait_u2xx765o4",
           "metadata": {
             "manual": true
           },
           "target": {
             "alternatives": {
               "css": "[data-gtm-form-interact-id=\"0\"]",
-              "id": "login-button",
-              "xpath": "//input[contains(@class, 'btn')]"
+              "id": "password",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[2]/input"
             },
             "metadata": {
-              "generatedAt": 1765475188210,
-              "source": "step-builder:picker"
+              "attrs": {
+                "id": "password",
+                "name": "password",
+                "type": "password"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
             },
+            "primary": "input[name=\"password\"]",
+            "selector": "input[name=\"password\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509579593,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509579593_e9gdii7p7",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "password",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[2]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "password",
+                "name": "password",
+                "type": "password"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"password\"]",
+            "selector": "input[name=\"password\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509579593,
+          "type": "type",
+          "value": "Flaviu@MPTV"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766509587173_wait_a4uzwoxde",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "password_confirmation",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[3]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "password_confirmation",
+                "name": "password_confirmation",
+                "type": "password"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"password_confirmation\"]",
+            "selector": "input[name=\"password_confirmation\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509587172,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509587171_hb7xc5n7e",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "password_confirmation",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[1]/div[3]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "password_confirmation",
+                "name": "password_confirmation",
+                "type": "password"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"password_confirmation\"]",
+            "selector": "input[name=\"password_confirmation\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509587171,
+          "type": "type",
+          "value": "Flaviu@MPTV"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766509598446_wait_htkgtvugy",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "first_name",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[1]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "first_name",
+                "name": "first_name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "[data-gtm-form-interact-id=\"0\"]",
+            "selector": "[data-gtm-form-interact-id=\"0\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509598445,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509598445_dga73ip3s",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "first_name",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[1]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "first_name",
+                "name": "first_name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"first_name\"]",
+            "selector": "input[name=\"first_name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509642426,
+          "type": "type",
+          "value": "Tester"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766509608676_wait_10adncrvc",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "last_name",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[2]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "last_name",
+                "name": "last_name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"last_name\"]",
+            "selector": "input[name=\"last_name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509608675,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509608675_hvck2otan",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "last_name",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[2]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "last_name",
+                "name": "last_name",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"last_name\"]",
+            "selector": "input[name=\"last_name\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509608675,
+          "type": "type",
+          "value": "Testington"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766509657829_wait_4124ydcpm",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "company",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[3]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "company",
+                "name": "company",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"company\"]",
+            "selector": "input[name=\"company\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509657828,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509657826_e75400am5",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "company",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[3]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "company",
+                "name": "company",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"company\"]",
+            "selector": "input[name=\"company\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509657826,
+          "type": "type",
+          "value": "BetterQA"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766509682099_wait_rcyput8pk",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "industry",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[4]/select"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "industry",
+                "name": "industry"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": "[Select Your Industry]\nAdvertising\nPublishing\nGraphic Design\nCorporate\nPR / Marketing\nTV / Film Prod"
+            },
+            "primary": "select[name=\"industry\"]",
+            "selector": "select[name=\"industry\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509682098,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509682096_90oqa4oa7",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "industry",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[4]/select"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "industry",
+                "name": "industry"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": "[Select Your Industry]\nAdvertising\nPublishing\nGraphic Design\nCorporate\nPR / Marketing\nTV / Film Prod"
+            },
+            "primary": "select[name=\"industry\"]",
+            "selector": "select[name=\"industry\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509682096,
+          "type": "click"
+        },
+        {
+          "description": "Wait for element before select",
+          "id": "cmd_1766509703035_wait_0d8mqvmkx",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "industry",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[4]/select"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "industry",
+                "name": "industry"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": "[Select Your Industry]\nAdvertising\nPublishing\nGraphic Design\nCorporate\nPR / Marketing\nTV / Film Prod"
+            },
+            "primary": "select[name=\"industry\"]",
+            "selector": "select[name=\"industry\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509703034,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "description": "Select \"Graphic Design\"",
+          "id": "cmd_1766509703033_7va1m9t06",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "industry",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[3]/div[4]/select"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "industry",
+                "name": "industry"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": "[Select Your Industry]\nAdvertising\nPublishing\nGraphic Design\nCorporate\nPR / Marketing\nTV / Film Prod"
+            },
+            "primary": "select[name=\"industry\"]",
+            "selector": "select[name=\"industry\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509703033,
+          "type": "select",
+          "value": "Graphic Design"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766509718583_wait_rcfdkamj4",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "number",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[5]/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "number",
+                "name": "number",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "[data-gtm-form-interact-id=\"0\"]",
+            "selector": "[data-gtm-form-interact-id=\"0\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509718582,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509718582_ujxzpdndr",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "number",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[5]/div/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "number",
+                "name": "number",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"number\"]",
+            "selector": "input[name=\"number\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509737412,
+          "type": "type",
+          "value": "+40000000001"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766509769706_wait_rnpa42ccm",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "line_1",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[1]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "line_1",
+                "name": "line_1",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"line_1\"]",
+            "selector": "input[name=\"line_1\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509769705,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509769703_tczv1nmtr",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "line_1",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[1]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "line_1",
+                "name": "line_1",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"line_1\"]",
+            "selector": "input[name=\"line_1\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509769703,
+          "type": "type",
+          "value": "Custom Address for Adress Line 1"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766509784787_wait_c50lh8cp6",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "line_2",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[2]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "line_2",
+                "name": "line_2",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"line_2\"]",
+            "selector": "input[name=\"line_2\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509784786,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509784784_gcfwjjbod",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "line_2",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[2]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "line_2",
+                "name": "line_2",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"line_2\"]",
+            "selector": "input[name=\"line_2\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509784784,
+          "type": "type",
+          "value": "Custom Address Line - Optional"
+        },
+        {
+          "id": "cmd_1766509810672_asikd29l4",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {},
             "primary": "[data-gtm-form-interact-id=\"0\"]",
             "strategy": "css"
           },
-          "timestamp": 1765475189471,
+          "timestamp": 1766509942319,
+          "type": "click"
+        },
+        {
+          "description": "Select \"Romania\"",
+          "id": "cmd_1766509973972_dn72bhn39",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-field-id=\"11\"]",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[4]/select"
+            },
+            "metadata": {
+              "attrs": {
+                "aria-invalid": "false",
+                "data-gtm-form-interact-field-id": "11",
+                "name": "country_id"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": "Select Country\nAfghanistan\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua"
+            },
+            "primary": "select[name=\"country_id\"]",
+            "selector": "select[name=\"country_id\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766510003089,
+          "type": "select",
+          "value": "176"
+        },
+        {
+          "id": "cmd_1766509810675_wait_yf3ytw4y1",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {},
+            "primary": "input[name=\"state\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509895788,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "description": "Wait for element before select",
+          "id": "cmd_1766509826167_wait_mfaje9nrt",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[4]/select"
+            },
+            "metadata": {
+              "attrs": {
+                "name": "country_id"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": "Select Country\nAfghanistan\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua"
+            },
+            "primary": "[data-gtm-form-interact-id=\"0\"]",
+            "selector": "[data-gtm-form-interact-id=\"0\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509826166,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766509836427_wait_kqp531ds2",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "state",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[5]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "state",
+                "name": "state",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"state\"]",
+            "selector": "input[name=\"state\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509836426,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766509836426_6k9w1luff",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "state",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[5]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "state",
+                "name": "state",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"state\"]",
+            "selector": "input[name=\"state\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509836426,
+          "type": "type",
+          "value": "Cluj"
+        },
+        {
+          "description": "Wait for element before click",
+          "id": "cmd_1766509973976_wait_zfzhqh32q",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-field-id=\"11\"]",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[4]/select"
+            },
+            "metadata": {
+              "attrs": {
+                "aria-invalid": "false",
+                "data-gtm-form-interact-field-id": "11",
+                "name": "country_id"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": "Select Country\nAfghanistan\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua"
+            },
+            "primary": "[data-gtm-form-interact-field-id=\"11\"]",
+            "selector": "[data-gtm-form-interact-field-id=\"11\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766509973975,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766510021129_wait_nw8tu67s3",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "city",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[6]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "city",
+                "name": "city",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"city\"]",
+            "selector": "input[name=\"city\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766510021128,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766510021126_gaztqzcxx",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "city",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[6]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "city",
+                "name": "city",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"city\"]",
+            "selector": "input[name=\"city\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766510021126,
+          "type": "type",
+          "value": "Cluj-Napoca"
+        },
+        {
+          "description": "Wait for element before type",
+          "id": "cmd_1766510035262_wait_1ii6c64sv",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "post_code",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[7]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "post_code",
+                "name": "post_code",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"post_code\"]",
+            "selector": "input[name=\"post_code\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766510045055,
+          "type": "waitForElement",
+          "value": "500"
+        },
+        {
+          "id": "cmd_1766510035258_04ioy8cbb",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "id": "post_code",
+              "xpath": "//html/body/div[1]/main/section/div/form/div[7]/div[7]/input"
+            },
+            "metadata": {
+              "attrs": {
+                "id": "post_code",
+                "name": "post_code",
+                "type": "text"
+              },
+              "classes": [
+                "form-control"
+              ],
+              "text": ""
+            },
+            "primary": "input[name=\"post_code\"]",
+            "selector": "input[name=\"post_code\"]",
+            "strategy": "css"
+          },
+          "timestamp": 1766510048104,
+          "type": "type",
+          "value": "400400"
+        },
+        {
+          "id": "cmd_1766510071393_b36szjnba",
+          "metadata": {
+            "manual": true
+          },
+          "target": {
+            "alternatives": {
+              "css": "[data-gtm-form-interact-id=\"0\"]",
+              "playwright": "getByRole('button', { name: 'Create Account' })",
+              "text": "Create Account",
+              "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-lg') and contains(@class, 'btn-primary')]"
+            },
+            "metadata": {
+              "attrs": {
+                "type": "submit"
+              },
+              "classes": [
+                "btn",
+                "btn-lg",
+                "btn-primary"
+              ],
+              "text": "CREATE ACCOUNT"
+            },
+            "primary": "//button[contains(., 'Create Account')]",
+            "selector": "//button[contains(., 'Create Account')]",
+            "strategy": "xpath"
+          },
+          "timestamp": 1766510071394,
           "type": "submit"
-        }
-      ],
-      "deviceType": "desktop",
-      "id": "flow_1765472994685_a7bzuqpen",
-      "metadata": {
-        "createdAt": "2025-12-11T17:09:54.686Z",
-        "duration": 13249,
-        "gitHubLink": {
-          "branch": "main",
-          "filePath": "flows/mptv___user_login__mptv__flow_176.json",
-          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
-          "source": "local",
-          "syncStatus": "exported"
-        },
-        "pageCount": 1,
-        "updatedAt": "2025-12-23T16:15:55.953Z",
-        "url": "https://stage2.mptvimages.com/",
-        "viewport": {
-          "height": 1242,
-          "width": 2560
-        }
-      },
-      "name": "MPTV - User Login (MPTV)",
-      "project": "MPTV"
-    },
-    {
-      "_optimized": true,
-      "_optimizedSize": 5791,
-      "_originalSize": 5835,
-      "commands": [
-        {
-          "id": "cmd_1766506753839_mhtgwe2ui",
-          "metadata": {
-            "manual": true
-          },
-          "timestamp": 1766506753839,
-          "type": "navigate",
-          "value": "https://www.mptvimages.com/"
-        },
-        {
-          "description": "Wait for page to load after navigate",
-          "id": "cmd_1766506753840_wait_page_2xopimwb7",
-          "metadata": {
-            "manual": true
-          },
-          "timestamp": 1766506753841,
-          "type": "waitForDomIdle",
-          "value": "5000"
-        },
-        {
-          "description": "Wait for element before click",
-          "id": "cmd_1766506791491_wait_7ufrz1y00",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "href": "https://www.mptvimages.com",
-              "playwright": "getByRole('link', { name: 'License Images' })",
-              "text": "License Images",
-              "xpath": "//a[normalize-space(.)='License Images']"
-            },
-            "metadata": {
-              "attrs": {
-                "href": "https://www.mptvimages.com"
-              },
-              "classes": [],
-              "text": "LICENSE IMAGES"
-            },
-            "primary": "//a[normalize-space(.)='License Images']",
-            "selector": "//a[normalize-space(.)='License Images']",
-            "strategy": "xpath"
-          },
-          "timestamp": 1766506791490,
-          "type": "waitForElement",
-          "value": "500"
-        },
-        {
-          "id": "cmd_1766506791490_ij1d19ezd",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "href": "https://www.mptvimages.com",
-              "playwright": "getByRole('link', { name: 'License Images' })",
-              "text": "License Images",
-              "xpath": "//a[normalize-space(.)='License Images']"
-            },
-            "metadata": {
-              "attrs": {
-                "href": "https://www.mptvimages.com"
-              },
-              "classes": [],
-              "text": "LICENSE IMAGES"
-            },
-            "primary": "//a[normalize-space(.)='License Images']",
-            "selector": "//a[normalize-space(.)='License Images']",
-            "strategy": "xpath"
-          },
-          "timestamp": 1766506791490,
-          "type": "click"
-        },
-        {
-          "description": "Wait for element before click",
-          "id": "cmd_1766506809036_wait_7irlm6f17",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "href": "https://www.mptvimages.com/pages/prints",
-              "playwright": "getByRole('link', { name: 'Buy Prints' })",
-              "text": "Buy Prints",
-              "xpath": "//a[normalize-space(.)='Buy Prints']"
-            },
-            "metadata": {
-              "attrs": {
-                "href": "https://www.mptvimages.com/pages/prints"
-              },
-              "classes": [],
-              "text": "BUY PRINTS"
-            },
-            "primary": "//a[normalize-space(.)='Buy Prints']",
-            "selector": "//a[normalize-space(.)='Buy Prints']",
-            "strategy": "xpath"
-          },
-          "timestamp": 1766506809035,
-          "type": "waitForElement",
-          "value": "500"
-        },
-        {
-          "id": "cmd_1766506809035_vn3ya59e1",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "href": "https://www.mptvimages.com/pages/prints",
-              "playwright": "getByRole('link', { name: 'Buy Prints' })",
-              "text": "Buy Prints",
-              "xpath": "//a[normalize-space(.)='Buy Prints']"
-            },
-            "metadata": {
-              "attrs": {
-                "href": "https://www.mptvimages.com/pages/prints"
-              },
-              "classes": [],
-              "text": "BUY PRINTS"
-            },
-            "primary": "//a[normalize-space(.)='Buy Prints']",
-            "selector": "//a[normalize-space(.)='Buy Prints']",
-            "strategy": "xpath"
-          },
-          "timestamp": 1766506809035,
-          "type": "click"
-        },
-        {
-          "id": "cmd_1766506821049_mcow1z0lv",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "href": "http://infocus.mptvimages.com/?_gl=1*l29k49*_ga*MzI3MTQ5NDI3LjE3NjU0MzQ2OTc.*_ga_HYZRVD28ZE*czE3NjY1MDU4OTckbzE4JGcxJHQxNzY2NTA2ODEzJGo0MSRsMCRoMA..",
-              "playwright": "getByRole('link', { name: 'Our Blog' })",
-              "text": "Our Blog",
-              "xpath": "//a[normalize-space(.)='Our Blog']"
-            },
-            "metadata": {
-              "attrs": {
-                "href": "http://infocus.mptvimages.com/?_gl=1*l29k49*_ga*MzI3MTQ5NDI3LjE3NjU0MzQ2OTc.*_ga_HYZRVD28ZE*czE3NjY1MDU4OTckbzE4JGcxJHQxNzY2NTA2ODEzJGo0MSRsMCRoMA.."
-              },
-              "classes": [],
-              "text": "OUR BLOG"
-            },
-            "primary": "//a[normalize-space(.)='Our Blog']",
-            "selector": "//a[normalize-space(.)='Our Blog']",
-            "strategy": "xpath"
-          },
-          "timestamp": 1766506872599,
-          "type": "click",
-          "value": "//a[normalize-space(.)='Our Blog']"
-        },
-        {
-          "description": "Wait for page to load after navigate",
-          "id": "cmd_1766506821051_wait_page_7fq9dkoj9",
-          "metadata": {
-            "manual": true
-          },
-          "timestamp": 1766506821052,
-          "type": "waitForDomIdle",
-          "value": "5000"
-        },
-        {
-          "id": "cmd_1766506888065_d24vm3206",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "href": "https://www.mptvimages.com/login",
-              "playwright": "getByRole('link', { name: 'Login' })",
-              "text": "Login",
-              "xpath": "//a[normalize-space(.)='Login']"
-            },
-            "metadata": {
-              "attrs": {
-                "href": "https://www.mptvimages.com/login"
-              },
-              "classes": [],
-              "text": "LOGIN"
-            },
-            "primary": "//a[normalize-space(.)='Login']",
-            "selector": "//a[normalize-space(.)='Login']",
-            "strategy": "xpath"
-          },
-          "timestamp": 1766506902310,
-          "type": "click",
-          "value": "//a[normalize-space(.)='Login']"
-        },
-        {
-          "description": "Wait for page to load after navigate",
-          "id": "cmd_1766506888067_wait_page_iyzm1xu3n",
-          "metadata": {
-            "manual": true
-          },
-          "timestamp": 1766506888068,
-          "type": "waitForDomIdle",
-          "value": "5000"
-        },
-        {
-          "description": "Wait for element before click",
-          "id": "cmd_1766506921244_wait_flhezo7zw",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "css": "(//a[normalize-space(.)='Register'])[2]",
-              "href": "https://www.mptvimages.com/register",
-              "playwright": "getByRole('link', { name: 'Register' })",
-              "text": "Register",
-              "xpath": "//a[normalize-space(.)='Register']"
-            },
-            "metadata": {
-              "attrs": {
-                "href": "https://www.mptvimages.com/register"
-              },
-              "classes": [],
-              "text": "REGISTER"
-            },
-            "primary": "(//a[normalize-space(.)='Register'])[2]",
-            "selector": "(//a[normalize-space(.)='Register'])[2]",
-            "strategy": "css"
-          },
-          "timestamp": 1766506921243,
-          "type": "waitForElement",
-          "value": "500"
-        },
-        {
-          "id": "cmd_1766506921243_sb2mvnheo",
-          "metadata": {
-            "manual": true
-          },
-          "target": {
-            "alternatives": {
-              "css": "(//a[normalize-space(.)='Register'])[2]",
-              "href": "https://www.mptvimages.com/register",
-              "playwright": "getByRole('link', { name: 'Register' })",
-              "text": "Register",
-              "xpath": "//a[normalize-space(.)='Register']"
-            },
-            "metadata": {
-              "attrs": {
-                "href": "https://www.mptvimages.com/register"
-              },
-              "classes": [],
-              "text": "REGISTER"
-            },
-            "primary": "(//a[normalize-space(.)='Register'])[2]",
-            "selector": "(//a[normalize-space(.)='Register'])[2]",
-            "strategy": "css"
-          },
-          "timestamp": 1766507017711,
-          "type": "click"
         }
       ],
       "description": "Created with Step Builder",
       "deviceType": "desktop",
-      "id": "flow_1766506706422_yjcon4",
+      "id": "flow_1766509297170_bk6ujs",
       "metadata": {
-        "createdAt": "2025-12-23T16:18:26.422Z",
-        "updatedAt": "2025-12-23T16:23:37.717Z"
+        "createdAt": "2025-12-23T17:01:37.170Z",
+        "updatedAt": "2025-12-23T19:42:53.759Z"
       },
-      "name": "MPTV - Header Navigation"
+      "name": "MPTV - Registration Flow",
+      "tags": [
+        "MPTV"
+      ]
     }
   ],
-  "testSuites": [
-    {
-      "bugboardSuiteId": "b7e4d5a2-f4e8-4f45-9827-eaf0117f6001",
-      "config": {
-        "aiAnalysis": false,
-        "captureScreenshots": true,
-        "generateReport": true,
-        "parallel": false,
-        "retryCount": 0,
-        "setupFlowId": "flow_1765472994685_a7bzuqpen",
-        "stopOnFailure": true,
-        "teardownFlowId": "flow_1765476407339_46embv",
-        "timeout": 30000
-      },
-      "flows": [
-        "flow_1765475755442_7vzh6w"
-      ],
-      "id": "suite_1765476471311",
-      "metadata": {
-        "createdAt": "2025-12-11T18:07:51.311Z",
-        "gitHubLink": {
-          "branch": "main",
-          "filePath": "suites/mptv_images_suite_17.json",
-          "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
-          "source": "local",
-          "syncStatus": "exported"
-        },
-        "totalRuns": 0,
-        "updatedAt": "2025-12-11T18:07:51.311Z"
-      },
-      "name": "MPTV Images",
-      "testData": {
-        "compatibilityStatus": "compatible",
-        "flowTestDataMap": {
-          "flow_1765475755442_7vzh6w": "none"
-        },
-        "type": "none",
-        "warnings": []
-      }
-    }
-  ],
+  "testSuites": [],
   "savedChains": [],
   "elementLibrary": []
 }
