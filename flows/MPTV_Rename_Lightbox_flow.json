@@ -6,10 +6,11 @@
       "description": "Navigate to starting page",
       "id": "cmd_1766512997028_0mh3o3i",
       "target": {
-        "alternatives": [],
+        "alternatives": {},
         "primary": "",
         "xpathSelector": ""
       },
+      "timestamp": 1766520061386,
       "type": "navigate",
       "value": "https://stage2.mptvimages.com/"
     },

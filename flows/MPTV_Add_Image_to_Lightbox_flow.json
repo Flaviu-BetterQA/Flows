@@ -1,0 +1,290 @@
+{
+  "id": "flow_1766523321894_xsqv53",
+  "name": "MPTV - Add Image to Lightbox",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1766523321894_qb4yutp",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766523341800_wait_4md1leo5k",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "#search-input",
+          "id": "search-input",
+          "xpath": "//html/body/div[1]/nav/div[3]/div/form/fieldset/div/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "search-input",
+            "name": "phrase",
+            "placeholder": "Enter search words...",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Enter search words...",
+          "text": ""
+        },
+        "primary": "input[type=\"text\"][placeholder=\"Enter search words...\"]",
+        "selector": "input[type=\"text\"][placeholder=\"Enter search words...\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766523341799,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766523341778_3dprmbg4y",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "#search-input",
+          "id": "search-input",
+          "xpath": "//html/body/div[1]/nav/div[3]/div/form/fieldset/div/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "search-input",
+            "name": "phrase",
+            "placeholder": "Enter search words...",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Enter search words...",
+          "text": ""
+        },
+        "primary": "input[type=\"text\"][placeholder=\"Enter search words...\"]",
+        "selector": "input[type=\"text\"][placeholder=\"Enter search words...\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766523341778,
+      "type": "type",
+      "value": "Marlon Brando"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766523359177_wait_3mqv0jqcl",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "button.search-box-button",
+          "playwright": "getByRole('button', { name: 'Search' })",
+          "text": "Search",
+          "xpath": "//button[contains(@class, 'search-box-button')]"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-label": "Search"
+          },
+          "classes": [
+            "search-box-button"
+          ],
+          "name": "Search",
+          "text": ""
+        },
+        "primary": "button[aria-label=\"Search\"]",
+        "selector": "button[aria-label=\"Search\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766523359176,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766523359172_9yqzajdwc",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "button.search-box-button",
+          "playwright": "getByRole('button', { name: 'Search' })",
+          "text": "Search",
+          "xpath": "//button[contains(@class, 'search-box-button')]"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-label": "Search"
+          },
+          "classes": [
+            "search-box-button"
+          ],
+          "name": "Search",
+          "text": ""
+        },
+        "primary": "button[aria-label=\"Search\"]",
+        "selector": "button[aria-label=\"Search\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766523359172,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766523521926_wait_wt9pbuape",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Add to Lightbox'])[1]",
+          "playwright": "getByRole('button', { name: 'Add to Lightbox' })",
+          "text": "Add to Lightbox",
+          "xpath": "//button[normalize-space(.)='Add to Lightbox']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "aria-haspopup": "true",
+            "data-fail-text": "Try again later",
+            "data-keep-success": "true",
+            "data-loading-text": "Processing...",
+            "data-success-text": "Added",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-info",
+            "br-0"
+          ],
+          "text": "Add to Lightbox"
+        },
+        "primary": ".btn-group > button.btn.btn-info.br-0[data-loading-text=\"Processing...\"]",
+        "selector": ".btn-group > button.btn.btn-info.br-0[data-loading-text=\"Processing...\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766523627406,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766523521920_ah1dsswp5",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Add to Lightbox'])[1]",
+          "playwright": "getByRole('button', { name: 'Add to Lightbox' })",
+          "text": "Add to Lightbox",
+          "xpath": "//button[normalize-space(.)='Add to Lightbox']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "aria-haspopup": "true",
+            "data-fail-text": "Try again later",
+            "data-keep-success": "true",
+            "data-loading-text": "Processing...",
+            "data-success-text": "Added",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-info",
+            "br-0"
+          ],
+          "text": "Add to Lightbox"
+        },
+        "primary": ".btn-group > button.btn.btn-info.br-0[data-loading-text=\"Processing...\"]",
+        "selector": ".btn-group > button.btn.btn-info.br-0[data-loading-text=\"Processing...\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766523631646,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1766523795832_wait_didkwly66",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-lightbox-image-id=\"80125132\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/80/add?images=125132&phrase=marlon+brando",
+          "playwright": "getByRole('link', { name: 'Test Lightbox' })",
+          "text": "Test Lightbox",
+          "xpath": "//a[contains(@class, 'element-highlight')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-ajax-button": "true",
+            "data-lightbox-id": "80",
+            "data-lightbox-image-id": "80125132",
+            "href": "https://stage2.mptvimages.com/lightboxes/80/add?images=125132&phrase=marlon+brando"
+          },
+          "classes": [
+            "element-highlight"
+          ],
+          "text": "Test Lightbox"
+        },
+        "primary": "ul.lightboxes-dropdown-menu a[data-lightbox-id=\"80\"][data-ajax-button=\"true\"]",
+        "selector": "ul.lightboxes-dropdown-menu a[data-lightbox-id=\"80\"][data-ajax-button=\"true\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766523795831,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766523795829_jptd4k50q",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-lightbox-image-id=\"80125132\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/80/add?images=125132&phrase=marlon+brando",
+          "playwright": "getByRole('link', { name: 'Test Lightbox' })",
+          "text": "Test Lightbox",
+          "xpath": "//a[contains(@class, 'element-highlight')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-ajax-button": "true",
+            "data-lightbox-id": "80",
+            "data-lightbox-image-id": "80125132",
+            "href": "https://stage2.mptvimages.com/lightboxes/80/add?images=125132&phrase=marlon+brando"
+          },
+          "classes": [
+            "element-highlight"
+          ],
+          "text": "Test Lightbox"
+        },
+        "primary": "ul.lightboxes-dropdown-menu a[data-lightbox-id=\"80\"][data-ajax-button=\"true\"]",
+        "selector": "ul.lightboxes-dropdown-menu a[data-lightbox-id=\"80\"][data-ajax-button=\"true\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766523795829,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-23T20:55:21.894Z",
+    "updatedAt": "2025-12-23T21:03:16.110Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

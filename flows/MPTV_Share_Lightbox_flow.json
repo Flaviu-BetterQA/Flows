@@ -1,6 +1,6 @@
 {
-  "id": "flow_1766514223351_aw3uz2i0l",
-  "name": "MPTV - Copy Lightbox",
+  "id": "flow_1766520179277_f8wcqcari",
+  "name": "MPTV - Share Lightbox",
   "commands": [
     {
       "description": "Navigate to starting page",
@@ -136,16 +136,17 @@
     },
     {
       "description": "Wait for element before click",
-      "id": "cmd_1766514267937_wait_evpx845wg",
+      "id": "cmd_1766520252275_wait_b26psrjd7",
       "metadata": {
         "manual": true
       },
       "target": {
         "alternatives": {
-          "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
-          "href": "https://stage2.mptvimages.com/lightboxes/80/copy",
-          "playwright": "getByRole('link', { name: 'Copy' })",
-          "text": "Copy",
+          "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/81/share\"]",
+          "healedFrom": "a[href=\"https://stage2.mptvimages.com/lightboxes/81/share\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/81/share",
+          "playwright": "getByRole('link', { name: 'Share' })",
+          "text": "Share",
           "xpath": "//a[contains(@class, 'element-highlight')]"
         },
         "metadata": {
@@ -153,32 +154,32 @@
             "data-keyboard": "true",
             "data-target": "#esensiModal",
             "data-toggle": "modal",
-            "href": "https://stage2.mptvimages.com/lightboxes/80/copy"
+            "href": "https://stage2.mptvimages.com/lightboxes/81/share"
           },
           "classes": [
             "element-highlight"
           ],
-          "text": "Copy"
+          "source": "healed-persisted",
+          "text": "Share"
         },
-        "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
-        "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+        "primary": "#navbar",
         "strategy": "css"
       },
-      "timestamp": 1766514267936,
+      "timestamp": 1766520252274,
       "type": "waitForElement",
       "value": "500"
     },
     {
-      "id": "cmd_1766514267932_2oeqtwic9",
+      "id": "cmd_1766520252269_f70c9epzr",
       "metadata": {
         "manual": true
       },
       "target": {
         "alternatives": {
-          "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
-          "href": "https://stage2.mptvimages.com/lightboxes/80/copy",
-          "playwright": "getByRole('link', { name: 'Copy' })",
-          "text": "Copy",
+          "css": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/share\"]",
+          "href": "https://stage2.mptvimages.com/lightboxes/80/share",
+          "playwright": "getByRole('link', { name: 'Share' })",
+          "text": "Share",
           "xpath": "//a[contains(@class, 'element-highlight')]"
         },
         "metadata": {
@@ -186,97 +187,194 @@
             "data-keyboard": "true",
             "data-target": "#esensiModal",
             "data-toggle": "modal",
-            "href": "https://stage2.mptvimages.com/lightboxes/80/copy"
+            "href": "https://stage2.mptvimages.com/lightboxes/80/share"
           },
           "classes": [
             "element-highlight"
           ],
-          "text": "Copy"
+          "text": "Share"
         },
-        "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
-        "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/copy\"]",
+        "primary": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/share\"]",
+        "selector": "a[href=\"https://stage2.mptvimages.com/lightboxes/80/share\"]",
         "strategy": "css"
       },
-      "timestamp": 1766514267933,
+      "timestamp": 1766522144320,
       "type": "click"
     },
     {
-      "description": "Wait for element before type",
-      "id": "cmd_1766514418521_wait_zbor326of",
+      "description": "Wait for element before click",
+      "id": "cmd_1766520970674_wait_a1gyl2m8p",
       "metadata": {
         "manual": true
       },
       "target": {
         "alternatives": {
-          "css": "input[name=\"name\"]",
-          "id": "name",
-          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+          "css": "input[name=\"users\"]",
+          "id": "users",
+          "xpath": "//input[contains(@class, 'form-control') and contains(@class, 'element-highlight')]"
         },
         "metadata": {
           "attrs": {
-            "id": "name",
-            "name": "name",
-            "placeholder": "New Lightbox Name",
+            "id": "users",
+            "name": "users",
+            "placeholder": "Recipient users",
             "type": "text"
           },
           "classes": [
-            "form-control"
+            "form-control",
+            "element-highlight"
           ],
-          "placeholder": "New Lightbox Name",
+          "placeholder": "Recipient users",
           "text": ""
         },
-        "primary": "input[name=\"name\"]",
-        "selector": "input[name=\"name\"]",
+        "primary": "input[name=\"users\"]",
+        "selector": "input[name=\"users\"]",
         "strategy": "css"
       },
-      "timestamp": 1766514418520,
+      "timestamp": 1766520970673,
       "type": "waitForElement",
       "value": "500"
     },
     {
-      "id": "cmd_1766514418510_4a9m6yjal",
+      "id": "cmd_1766520970668_rmqxrl5t0",
       "metadata": {
         "manual": true
       },
       "target": {
         "alternatives": {
-          "css": "input[name=\"name\"]",
-          "id": "name",
-          "xpath": "//html/body/div[3]/div/div/div[2]/form/div/input"
+          "css": "input[name=\"users\"]",
+          "id": "users",
+          "xpath": "//input[contains(@class, 'form-control') and contains(@class, 'element-highlight')]"
         },
         "metadata": {
           "attrs": {
-            "id": "name",
-            "name": "name",
-            "placeholder": "New Lightbox Name",
+            "id": "users",
+            "name": "users",
+            "placeholder": "Recipient users",
+            "type": "text"
+          },
+          "classes": [
+            "form-control",
+            "element-highlight"
+          ],
+          "placeholder": "Recipient users",
+          "text": ""
+        },
+        "primary": "input[name=\"users\"]",
+        "selector": "input[name=\"users\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766520970668,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1766522503961_exfmqjmcd",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"users\"]",
+          "id": "users",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div[1]/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "users",
+            "name": "users",
+            "placeholder": "Recipient users",
             "type": "text"
           },
           "classes": [
             "form-control"
           ],
-          "placeholder": "New Lightbox Name",
+          "placeholder": "Recipient users",
           "text": ""
         },
-        "primary": "input[name=\"name\"]",
-        "selector": "input[name=\"name\"]",
+        "primary": "input[name=\"users\"]",
+        "selector": "input[name=\"users\"]",
         "strategy": "css"
       },
-      "timestamp": 1766514418510,
+      "timestamp": 1766522503962,
       "type": "type",
-      "value": "Copy of My Lightbox"
+      "value": "flaviu+mptv@betterqa.co"
+    },
+    {
+      "description": "Wait for element before type",
+      "id": "cmd_1766522166508_wait_rs3kkrsh1",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"users\"]",
+          "id": "users",
+          "xpath": "//html/body/div[3]/div/div/div[2]/form/div[1]/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "users",
+            "name": "users",
+            "placeholder": "Recipient users",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Recipient users",
+          "text": ""
+        },
+        "primary": "input[name=\"users\"]",
+        "selector": "input[name=\"users\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766522166507,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1766522166499_w6kavxl7t",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "textarea[name=\"message\"]",
+          "id": "message",
+          "xpath": "//textarea[contains(@class, 'form-control')]"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "message",
+            "name": "message",
+            "placeholder": "Your brief message to the user"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Your brief message to the user",
+          "text": ""
+        },
+        "primary": "textarea[name=\"message\"]",
+        "selector": "textarea[name=\"message\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1766522328635,
+      "type": "type",
+      "value": "This is an automated message."
     },
     {
       "description": "Wait for element before click",
-      "id": "cmd_1766514432353_wait_1qku5nizm",
+      "id": "cmd_1766522342408_wait_a7yy2rw1m",
       "metadata": {
         "manual": true
       },
       "target": {
         "alternatives": {
           "css": "[data-modal-submit=\"button\"]",
-          "playwright": "getByRole('button', { name: 'Copy Lightbox' })",
-          "text": "Copy Lightbox",
-          "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+          "playwright": "getByRole('button', { name: 'Share Lightbox' })",
+          "text": "Share Lightbox",
+          "xpath": "//html/body/div[3]/div/div/div[3]/button[2]"
         },
         "metadata": {
           "attrs": {
@@ -287,27 +385,27 @@
             "btn",
             "btn-primary"
           ],
-          "text": "COPY LIGHTBOX"
+          "text": "SHARE LIGHTBOX"
         },
-        "primary": "//button[contains(., 'Copy Lightbox')]",
-        "selector": "//button[contains(., 'Copy Lightbox')]",
+        "primary": "//button[contains(., 'Share Lightbox')]",
+        "selector": "//button[contains(., 'Share Lightbox')]",
         "strategy": "xpath"
       },
-      "timestamp": 1766514432352,
+      "timestamp": 1766522342407,
       "type": "waitForElement",
       "value": "500"
     },
     {
-      "id": "cmd_1766514432349_dwg8s7tiz",
+      "id": "cmd_1766522342399_lsh48o4lj",
       "metadata": {
         "manual": true
       },
       "target": {
         "alternatives": {
           "css": "[data-modal-submit=\"button\"]",
-          "playwright": "getByRole('button', { name: 'Copy Lightbox' })",
-          "text": "Copy Lightbox",
-          "xpath": "//button[contains(@class, 'btn') and contains(@class, 'btn-primary')]"
+          "playwright": "getByRole('button', { name: 'Share Lightbox' })",
+          "text": "Share Lightbox",
+          "xpath": "//html/body/div[3]/div/div/div[3]/button[2]"
         },
         "metadata": {
           "attrs": {
@@ -318,19 +416,19 @@
             "btn",
             "btn-primary"
           ],
-          "text": "COPY LIGHTBOX"
+          "text": "SHARE LIGHTBOX"
         },
-        "primary": "//button[contains(., 'Copy Lightbox')]",
-        "selector": "//button[contains(., 'Copy Lightbox')]",
+        "primary": "//button[contains(., 'Share Lightbox')]",
+        "selector": "//button[contains(., 'Share Lightbox')]",
         "strategy": "xpath"
       },
-      "timestamp": 1766514432350,
+      "timestamp": 1766522342399,
       "type": "click"
     }
   ],
   "metadata": {
-    "createdAt": "2025-12-23T18:23:43.351Z",
-    "updatedAt": "2025-12-23T18:27:12.362Z"
+    "createdAt": "2025-12-23T20:02:59.277Z",
+    "updatedAt": "2025-12-23T20:41:59.476Z"
   },
   "deviceType": "desktop",
   "description": "Created with Step Builder"

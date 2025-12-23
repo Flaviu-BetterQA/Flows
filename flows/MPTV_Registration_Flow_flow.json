@@ -6,10 +6,11 @@
       "description": "Navigate to starting page",
       "id": "cmd_1766509297170_qrj2pxp",
       "target": {
-        "alternatives": [],
+        "alternatives": {},
         "primary": "",
         "xpathSelector": ""
       },
+      "timestamp": 1766520061379,
       "type": "navigate",
       "value": "https://www.mptvimages.com/"
     },
