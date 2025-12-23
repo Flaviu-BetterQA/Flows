@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "timestamp": "2025-12-23T15:45:56.109Z",
+  "timestamp": "2025-12-23T15:56:35.068Z",
   "flows": [
     {
       "_optimized": true,
@@ -53,7 +53,7 @@
           "source": "local",
           "syncStatus": "exported"
         },
-        "updatedAt": "2025-12-23T15:43:56.488Z"
+        "updatedAt": "2025-12-23T15:45:57.073Z"
       },
       "name": "MPTV - Logout Flow"
     },
@@ -150,7 +150,7 @@
           "source": "local",
           "syncStatus": "exported"
         },
-        "updatedAt": "2025-12-23T15:43:56.492Z"
+        "updatedAt": "2025-12-23T15:45:57.077Z"
       },
       "name": "MPTV - Search Image and Check Result"
     },
@@ -280,7 +280,7 @@
           "syncStatus": "exported"
         },
         "pageCount": 1,
-        "updatedAt": "2025-12-23T15:43:56.498Z",
+        "updatedAt": "2025-12-23T15:45:57.083Z",
         "url": "https://stage2.mptvimages.com/",
         "viewport": {
           "height": 1242,
