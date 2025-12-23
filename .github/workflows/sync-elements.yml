@@ -3,22 +3,26 @@ name: Sync Elements
 on:
   workflow_dispatch:
     inputs:
-      exportPath:
-        description: "Path to the exported flows JSON in the repo"
+      scope:
+        description: "What to sync/export (sent by extension)"
+        required: false
+        default: "all"
+      export_path:
+        description: "Path to the exported flows JSON (sent by extension)"
         required: false
         default: "exports/latest-export.json"
+      branch:
+        description: "Branch name (sent by extension)"
+        required: false
+        default: "main"
       commitSha:
         description: "Commit SHA created by the extension (optional)"
-        required: false
-      ref:
-        description: "Branch/tag/SHA to checkout (optional)"
         required: false
 
 jobs:
   sync-elements:
     runs-on: ubuntu-latest
 
-    # If later you want this workflow to commit changes back, keep contents: write.
     permissions:
       contents: write
 
@@ -26,22 +30,23 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.ref || github.ref_name }}
+          ref: ${{ inputs.branch || github.ref_name }}
           fetch-depth: 0
 
       - name: Log inputs (debug)
         run: |
-          echo "exportPath=${{ inputs.exportPath }}"
+          echo "scope=${{ inputs.scope }}"
+          echo "export_path=${{ inputs.export_path }}"
+          echo "branch=${{ inputs.branch }}"
           echo "commitSha=${{ inputs.commitSha }}"
-          echo "ref=${{ inputs.ref }}"
           echo "github.ref=${{ github.ref }}"
 
       - name: Check if export file exists
         run: |
-          if [ -f "${{ inputs.exportPath }}" ]; then
-            echo "✅ Found export file at '${{ inputs.exportPath }}'"
+          if [ -f "${{ inputs.export_path }}" ]; then
+            echo "✅ Found export file at '${{ inputs.export_path }}'"
           else
-            echo "⚠️ Export file not found at '${{ inputs.exportPath }}' (workflow still OK as placeholder)."
+            echo "⚠️ Export file not found at '${{ inputs.export_path }}' (workflow still OK as placeholder)."
           fi
 
       - name: Placeholder
