@@ -1,0 +1,53 @@
+{
+  "id": "flow_1765476407339_46embv",
+  "name": "MPTV - Logout Flow",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1765476407339_yw5q84k",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1766520061372,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/"
+    },
+    {
+      "id": "cmd_1765476408071_rld57yxvu",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/logout",
+          "playwright": "getByRole('link', { name: 'Logout' })",
+          "text": "Logout",
+          "xpath": "//html/body/div[1]/nav/div[2]/div[4]/ul/li/a"
+        },
+        "metadata": {
+          "generatedAt": 1765476405206,
+          "source": "step-builder:picker"
+        },
+        "primary": "//html/body/div[1]/nav/div[2]/div[4]/ul/li/a",
+        "strategy": "xpath"
+      },
+      "timestamp": 1765476408071,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-11T18:06:47.339Z",
+    "gitHubLink": {
+      "branch": "main",
+      "filePath": "flows/mptv___logout_flow_flow_176.json",
+      "repoUrl": "https://github.com/Flaviu-BetterQA/Flows",
+      "source": "local",
+      "syncStatus": "exported"
+    },
+    "updatedAt": "2025-12-23T16:52:31.727Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

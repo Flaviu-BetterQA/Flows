@@ -1,0 +1,867 @@
+{
+  "id": "flow_1767710017605_w3b20f",
+  "name": "MPTV - Admin - Edit User",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767710017605_oytdgc3",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767710017609,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/users"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767710043448_wait_dc6s31gnh",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/users",
+          "playwright": "getByRole('link', { name: 'Browse Users' })",
+          "text": "Browse Users",
+          "xpath": "//a[normalize-space(.)='Browse Users']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/users"
+          },
+          "classes": [],
+          "text": "Browse Users"
+        },
+        "primary": "//a[normalize-space(.)='Browse Users']",
+        "selector": "//a[normalize-space(.)='Browse Users']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710043447,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767710043441_woti06m6v",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/users",
+          "playwright": "getByRole('link', { name: 'Browse Users' })",
+          "text": "Browse Users",
+          "xpath": "//a[normalize-space(.)='Browse Users']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/users"
+          },
+          "classes": [],
+          "text": "Browse Users"
+        },
+        "primary": "//a[normalize-space(.)='Browse Users']",
+        "selector": "//a[normalize-space(.)='Browse Users']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710043441,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767710109896_wait_dwrxsmd4a",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767710109895,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767710109882_rvjc95zp2",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767710109883,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767710159873_wait_h5ett98ju",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .dropdown-menu.pull-right a[href$=\"/edit\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .dropdown-menu.pull-right a[href$=\"/edit\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710159872,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767710159869_cou603hax",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .dropdown-menu.pull-right a[href$=\"/edit\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .dropdown-menu.pull-right a[href$=\"/edit\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710159869,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767710177848_wait_h50kieagm",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "select[name=\"title\"]",
+          "playwright": "getByRole('combobox', { name: 'Mr.Mrs.Ms.Dr.Rev.Hon.' })",
+          "text": "Mr.Mrs.Ms.Dr.Rev.Hon.",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[1]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "title"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "Mr.\nMrs.\nMs.\nDr.\nRev.\nHon."
+        },
+        "primary": "select[name=\"title\"]",
+        "selector": "select[name=\"title\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710177847,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "description": "Select \"Dr.\"",
+      "id": "cmd_1767710177839_pgkmt797o",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "select[name=\"title\"]",
+          "playwright": "getByRole('combobox', { name: 'Mr.Mrs.Ms.Dr.Rev.Hon.' })",
+          "text": "Mr.Mrs.Ms.Dr.Rev.Hon.",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[1]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "title"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "Mr.\nMrs.\nMs.\nDr.\nRev.\nHon."
+        },
+        "primary": "select[name=\"title\"]",
+        "selector": "select[name=\"title\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710196080,
+      "type": "select",
+      "value": "Dr."
+    },
+    {
+      "id": "cmd_1767710212441_9tajso69g",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"first_name\"]",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "first_name",
+            "placeholder": "First",
+            "type": "text",
+            "value": "Test"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "First",
+          "text": ""
+        },
+        "primary": "input[name=\"first_name\"]",
+        "selector": "input[name=\"first_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710212441,
+      "type": "type",
+      "value": "Test - Edited"
+    },
+    {
+      "id": "cmd_1767710223992_wafhjgtw0",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"middle_name\"]",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[3]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "middle_name",
+            "placeholder": "Middle",
+            "type": "text",
+            "value": "Test"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Middle",
+          "text": ""
+        },
+        "primary": "input[name=\"middle_name\"]",
+        "selector": "input[name=\"middle_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710223992,
+      "type": "type",
+      "value": "Test - Edited"
+    },
+    {
+      "id": "cmd_1767710235139_epbc3bwfm",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"last_name\"]",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[4]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "last_name",
+            "placeholder": "Last",
+            "type": "text",
+            "value": "Testington"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Last",
+          "text": ""
+        },
+        "primary": "input[name=\"last_name\"]",
+        "selector": "input[name=\"last_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710235139,
+      "type": "type",
+      "value": "Testington - Edited"
+    },
+    {
+      "id": "cmd_1767710253415_q9kn7qwl4",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"email\"]",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[2]/div/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "email",
+            "type": "email",
+            "value": "flaviu+admincreateuser@betterqa.co"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"email\"]",
+        "selector": "input[name=\"email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710253415,
+      "type": "type",
+      "value": "flaviu+adminedituser@betterqa.co"
+    },
+    {
+      "id": "cmd_1767710264078_yah2w4sk7",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"credits\"]",
+          "xpath": "//html/body/div[3]/div/form/div[2]/div/div/div[2]/fieldset/div/div/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "credits",
+            "type": "text",
+            "value": "0"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"credits\"]",
+        "selector": "input[name=\"credits\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710264078,
+      "type": "type",
+      "value": "5"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767710277249_wait_c3h7qxstu",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/users/44/edit/address/create",
+          "playwright": "getByRole('link', { name: 'Add a new address' })",
+          "text": "Add a new address",
+          "xpath": "//a[normalize-space(.)='Add a new address']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/users/44/edit/address/create"
+          },
+          "classes": [
+            "btn",
+            "btn-default"
+          ],
+          "text": "Add a new address"
+        },
+        "primary": "//a[normalize-space(.)='Add a new address']",
+        "selector": "//a[normalize-space(.)='Add a new address']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710277248,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767710277239_tuijx3m2m",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/users/44/edit/address/create",
+          "playwright": "getByRole('link', { name: 'Add a new address' })",
+          "text": "Add a new address",
+          "xpath": "//a[normalize-space(.)='Add a new address']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/users/44/edit/address/create"
+          },
+          "classes": [
+            "btn",
+            "btn-default"
+          ],
+          "text": "Add a new address"
+        },
+        "primary": "//a[normalize-space(.)='Add a new address']",
+        "selector": "//a[normalize-space(.)='Add a new address']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710277239,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1767710292183_28z55tlwl",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"line_1\"]",
+          "id": "line_1",
+          "xpath": "//html/body/div[3]/div/form/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "line_1",
+            "name": "line_1",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"line_1\"]",
+        "selector": "input[name=\"line_1\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710292183,
+      "type": "type",
+      "value": "Line 1"
+    },
+    {
+      "id": "cmd_1767710300581_lg6orxibx",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"line_2\"]",
+          "id": "line_2",
+          "xpath": "//html/body/div[3]/div/form/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "line_2",
+            "name": "line_2",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"line_2\"]",
+        "selector": "input[name=\"line_2\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710300581,
+      "type": "type",
+      "value": "Line 2"
+    },
+    {
+      "id": "cmd_1767710308452_b3y31cora",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"city\"]",
+          "id": "city",
+          "xpath": "//html/body/div[3]/div/form/div[4]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "city",
+            "name": "city",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"city\"]",
+        "selector": "input[name=\"city\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710308452,
+      "type": "type",
+      "value": "Cluj-Napoca"
+    },
+    {
+      "id": "cmd_1767710317617_61gyo3768",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"post_code\"]",
+          "id": "post_code",
+          "xpath": "//html/body/div[3]/div/form/div[5]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "post_code",
+            "name": "post_code",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"post_code\"]",
+        "selector": "input[name=\"post_code\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710317617,
+      "type": "type",
+      "value": "400400"
+    },
+    {
+      "id": "cmd_1767710326842_uzbhe4c2o",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"state\"]",
+          "id": "state",
+          "xpath": "//html/body/div[3]/div/form/div[6]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "state",
+            "name": "state",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"state\"]",
+        "selector": "input[name=\"state\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710326842,
+      "type": "type",
+      "value": "Cluj"
+    },
+    {
+      "description": "Select \"Romania\"",
+      "id": "cmd_1767710348202_yean9ggi8",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "select[name=\"country_id\"]",
+          "id": "country_id",
+          "xpath": "//div[contains(@class, 'form-group')]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "country_id",
+            "name": "country_id"
+          },
+          "classes": [],
+          "text": "[Select the Country]\nAfghanistan\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nA"
+        },
+        "primary": "select[name=\"country_id\"]",
+        "selector": "select[name=\"country_id\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710348202,
+      "type": "select",
+      "value": "176"
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767710359550_wait_yn8mxrrb1",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Create Address' })",
+          "text": "Create Address",
+          "xpath": "//button[normalize-space(.)='Create Address']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Create Address"
+        },
+        "primary": "//button[normalize-space(.)='Create Address']",
+        "selector": "//button[normalize-space(.)='Create Address']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710359549,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767710359540_9ty0mx4mp",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Create Address' })",
+          "text": "Create Address",
+          "xpath": "//button[normalize-space(.)='Create Address']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Create Address"
+        },
+        "primary": "//button[normalize-space(.)='Create Address']",
+        "selector": "//button[normalize-space(.)='Create Address']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710359540,
+      "type": "submit"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767710430107_wait_qwctkscv4",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/users/44/edit/phone/create",
+          "playwright": "getByRole('link', { name: 'Add a new phone' })",
+          "text": "Add a new phone",
+          "xpath": "//a[normalize-space(.)='Add a new phone']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/users/44/edit/phone/create"
+          },
+          "classes": [
+            "btn",
+            "btn-default"
+          ],
+          "text": "Add a new phone"
+        },
+        "primary": "//a[normalize-space(.)='Add a new phone']",
+        "selector": "//a[normalize-space(.)='Add a new phone']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710430106,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767710430097_xgrccxg64",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/users/44/edit/phone/create",
+          "playwright": "getByRole('link', { name: 'Add a new phone' })",
+          "text": "Add a new phone",
+          "xpath": "//a[normalize-space(.)='Add a new phone']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/users/44/edit/phone/create"
+          },
+          "classes": [
+            "btn",
+            "btn-default"
+          ],
+          "text": "Add a new phone"
+        },
+        "primary": "//a[normalize-space(.)='Add a new phone']",
+        "selector": "//a[normalize-space(.)='Add a new phone']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710430097,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1767710446614_tk96whj8f",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"number\"]",
+          "id": "number",
+          "xpath": "//input[contains(@class, 'form-control')]"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "number",
+            "name": "number",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"number\"]",
+        "selector": "input[name=\"number\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710446615,
+      "type": "type",
+      "value": "123456789"
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767710457186_wait_e1a2z42a8",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Create Phone' })",
+          "text": "Create Phone",
+          "xpath": "//button[normalize-space(.)='Create Phone']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Create Phone"
+        },
+        "primary": "//button[contains(., 'Create Phone')]",
+        "selector": "//button[contains(., 'Create Phone')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710457185,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767710457177_e0bgmqt1i",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Create Phone' })",
+          "text": "Create Phone",
+          "xpath": "//button[normalize-space(.)='Create Phone']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Create Phone"
+        },
+        "primary": "//button[contains(., 'Create Phone')]",
+        "selector": "//button[contains(., 'Create Phone')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767710457177,
+      "type": "submit"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-06T14:33:37.605Z",
+    "updatedAt": "2026-01-06T14:40:57.916Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

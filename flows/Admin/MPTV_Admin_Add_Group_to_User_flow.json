@@ -1,0 +1,382 @@
+{
+  "id": "flow_1767713568435_ydr45h",
+  "name": "MPTV - Admin - Add Group to User",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767713568435_u1ho2nk",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767713568437,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/users"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767713613187_wait_mdw30rgy7",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:last-of-type .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:last-of-type .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767713613186,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767713613181_3g5r546cz",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:last-of-type .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:last-of-type .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767713613181,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767713642229_wait_fjqb7a46y",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:last-of-type .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:last-of-type .btn-group > button.btn.btn-sm.btn-default.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767713642228,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767713642207_hkrvijxg1",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:last-of-type .dropdown-menu a[href$=\"/groups\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:last-of-type .dropdown-menu a[href$=\"/groups\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767713722466,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767713783381_wait_ugdjaki51",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByText('mptv-basic×')",
+          "text": "mptv-basic×",
+          "xpath": "//html/body/div[4]/div/div/div[2]/form/div/div[1]"
+        },
+        "metadata": {
+          "attrs": {},
+          "classes": [
+            "selectize-input",
+            "items",
+            "not-full",
+            "has-options",
+            "has-items",
+            "focus",
+            "input-active",
+            "dropdown-active"
+          ],
+          "text": "mptv-basic\n×"
+        },
+        "primary": ".modal-dialog .selectize-control.esensi-tags .selectize-input input[type=\"text\"]",
+        "selector": ".modal-dialog .selectize-control.esensi-tags .selectize-input input[type=\"text\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767713783380,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767713783375_zayhjiaxj",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByText('mptv-basic×')",
+          "text": "mptv-basic×",
+          "xpath": "//html/body/div[4]/div/div/div[2]/form/div/div[1]"
+        },
+        "metadata": {
+          "attrs": {},
+          "classes": [
+            "selectize-input",
+            "items",
+            "not-full",
+            "has-options",
+            "has-items",
+            "focus",
+            "input-active",
+            "dropdown-active"
+          ],
+          "text": "mptv-basic\n×"
+        },
+        "primary": ".modal-dialog .selectize-control.esensi-tags .selectize-input input[type=\"text\"]",
+        "selector": ".modal-dialog .selectize-control.esensi-tags .selectize-input input[type=\"text\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767713783375,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767713817458_wait_rj8114vgp",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "healedFrom": ".modal-dialog .selectize-dropdown.esensi-tags .selectize-dropdown-content .option[data-value=\"1\"]",
+          "playwright": "getByText('mptv-basic×admin×')",
+          "text": "mptv-basic×admin×",
+          "xpath": "//html/body/div[4]/div/div/div[2]/form/div/div[1]"
+        },
+        "metadata": {
+          "attrs": {},
+          "classes": [
+            "selectize-input",
+            "items",
+            "not-full",
+            "has-options",
+            "has-items",
+            "focus",
+            "input-active",
+            "dropdown-active"
+          ],
+          "source": "healed-persisted",
+          "text": "mptv-basic\n×\nadmin\n×"
+        },
+        "primary": "//html/body/div[4]/div/div/div[2]/form/div/div[1]",
+        "strategy": "css"
+      },
+      "timestamp": 1767713817457,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767713817451_wpo7rz16g",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByText('mptv-basic×admin×')",
+          "text": "mptv-basic×admin×",
+          "xpath": "//html/body/div[4]/div/div/div[2]/form/div/div[1]"
+        },
+        "metadata": {
+          "attrs": {},
+          "classes": [
+            "selectize-input",
+            "items",
+            "not-full",
+            "has-options",
+            "has-items",
+            "focus",
+            "input-active",
+            "dropdown-active"
+          ],
+          "text": "mptv-basic\n×\nadmin\n×"
+        },
+        "primary": "#esensiModal .selectize-dropdown.esensi-tags .selectize-dropdown-content .option[data-value=\"1\"]",
+        "selector": "#esensiModal .selectize-dropdown.esensi-tags .selectize-dropdown-content .option[data-value=\"1\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767713999047,
+      "type": "click",
+      "value": "admin"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767715771952_wait_aj3abiu13",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "div.modal-body",
+          "xpath": "//div[contains(@class, 'modal-body')]"
+        },
+        "metadata": {
+          "attrs": {},
+          "classes": [
+            "modal-body"
+          ],
+          "text": "Groups are just a convenient ways to assign a collection of permissions to a user. Users can be assi"
+        },
+        "primary": "div.modal-body",
+        "selector": "div.modal-body",
+        "strategy": "css"
+      },
+      "timestamp": 1767715771951,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767715771945_ih5q2ntqp",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "div.modal-body",
+          "xpath": "//div[contains(@class, 'modal-body')]"
+        },
+        "metadata": {
+          "attrs": {},
+          "classes": [
+            "modal-body"
+          ],
+          "text": "Groups are just a convenient ways to assign a collection of permissions to a user. Users can be assi"
+        },
+        "primary": "div.modal-body",
+        "selector": "div.modal-body",
+        "strategy": "css"
+      },
+      "timestamp": 1767715771945,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767714042738_wait_9rwwrmlys",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Assign Groups' })",
+          "text": "Assign Groups",
+          "xpath": "//button[normalize-space(.)='Assign Groups']"
+        },
+        "primary": "#esensiModal .modal-footer .btn.btn-assign-groups",
+        "selector": "#esensiModal .modal-footer .btn.btn-assign-groups",
+        "strategy": "css"
+      },
+      "timestamp": 1767715026825,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767714042724_p7zhsk1ed",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Assign Groups' })",
+          "text": "Assign Groups",
+          "xpath": "//button[normalize-space(.)='Assign Groups']"
+        },
+        "primary": "#esensiModal .modal-footer .btn.btn-assign-groups",
+        "selector": "#esensiModal .modal-footer .btn.btn-assign-groups",
+        "strategy": "css"
+      },
+      "timestamp": 1767715037319,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-06T15:32:48.435Z",
+    "updatedAt": "2026-01-06T16:09:41.413Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

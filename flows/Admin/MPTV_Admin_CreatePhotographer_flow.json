@@ -1,0 +1,351 @@
+{
+  "id": "flow_1767631447885_7v098k",
+  "name": "MPTV - Admin - CreatePhotographer",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767631447885_mjaf3aa",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767631447887,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/users"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767631464339_wait_ptkux8wxq",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-target=\"#collapsePhotographers\"]",
+          "href": "#",
+          "playwright": "getByRole('link', { name: 'Photographers' })",
+          "text": "Photographers",
+          "xpath": "//html/body/div[1]/ul/li[6]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-parent": "#sidebarMenu",
+            "data-target": "#collapsePhotographers",
+            "data-toggle": "collapse",
+            "href": "#"
+          },
+          "classes": [
+            "dropdown-toggle"
+          ],
+          "text": "Photographers"
+        },
+        "primary": "[data-target=\"#collapsePhotographers\"]",
+        "selector": "[data-target=\"#collapsePhotographers\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767631464338,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767631464333_vu7t2c5f9",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-target=\"#collapsePhotographers\"]",
+          "href": "#",
+          "playwright": "getByRole('link', { name: 'Photographers' })",
+          "text": "Photographers",
+          "xpath": "//html/body/div[1]/ul/li[6]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-parent": "#sidebarMenu",
+            "data-target": "#collapsePhotographers",
+            "data-toggle": "collapse",
+            "href": "#"
+          },
+          "classes": [
+            "dropdown-toggle"
+          ],
+          "text": "Photographers"
+        },
+        "primary": "[data-target=\"#collapsePhotographers\"]",
+        "selector": "[data-target=\"#collapsePhotographers\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767631464333,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767631512512_wait_nk19vx56o",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/photographers/create",
+          "playwright": "getByRole('link', { name: 'Create Photographer' })",
+          "text": "Create Photographer",
+          "xpath": "//a[normalize-space(.)='Create Photographer']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/photographers/create"
+          },
+          "classes": [],
+          "text": "Create Photographer"
+        },
+        "primary": "//a[normalize-space(.)='Create Photographer']",
+        "selector": "//a[normalize-space(.)='Create Photographer']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767631512511,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767631512506_f2ah2sz93",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/photographers/create",
+          "playwright": "getByRole('link', { name: 'Create Photographer' })",
+          "text": "Create Photographer",
+          "xpath": "//a[normalize-space(.)='Create Photographer']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/photographers/create"
+          },
+          "classes": [],
+          "text": "Create Photographer"
+        },
+        "primary": "//a[normalize-space(.)='Create Photographer']",
+        "selector": "//a[normalize-space(.)='Create Photographer']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767631512506,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1767631538739_ohbgavquc",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"first_name\"]",
+          "id": "first_name",
+          "xpath": "//html/body/div[3]/div/div/div/form/div[1]/div[2]/fieldset/div[1]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "first_name",
+            "name": "first_name",
+            "placeholder": "First",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "First",
+          "text": ""
+        },
+        "primary": "input[name=\"first_name\"]",
+        "selector": "input[name=\"first_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767631538739,
+      "type": "type",
+      "value": "Test"
+    },
+    {
+      "id": "cmd_1767631549331_sju7vl58r",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"last_name\"]",
+          "id": "last_name",
+          "xpath": "//html/body/div[3]/div/div/div/form/div[1]/div[2]/fieldset/div[1]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "last_name",
+            "name": "last_name",
+            "placeholder": "Last",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Last",
+          "text": ""
+        },
+        "primary": "input[name=\"last_name\"]",
+        "selector": "input[name=\"last_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767631549331,
+      "type": "type",
+      "value": "Photographer"
+    },
+    {
+      "id": "cmd_1767631561617_yuaqxlirk",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "metadata": {
+          "attrs": {
+            "data-mask": "9999",
+            "id": "year_birth",
+            "name": "year_birth",
+            "placeholder": "Year of Birth",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Year of Birth",
+          "text": ""
+        },
+        "primary": "input[name=\"year_birth\"]",
+        "selector": "input[name=\"year_birth\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767631582976,
+      "type": "type",
+      "value": "2025"
+    },
+    {
+      "id": "cmd_1767631590067_zclrh2rjr",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"year_death\"]",
+          "id": "year_death",
+          "xpath": "//html/body/div[3]/div/div/div/form/div[1]/div[2]/fieldset/div[2]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "data-mask": "9999",
+            "id": "year_death",
+            "name": "year_death",
+            "placeholder": "Year of Death",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Year of Death",
+          "text": ""
+        },
+        "primary": "input[name=\"year_death\"]",
+        "selector": "input[name=\"year_death\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767631590067,
+      "type": "type",
+      "value": "2026"
+    },
+    {
+      "id": "cmd_1767631608729_qsn6bwnty",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "div.wysiwyg-editor",
+          "xpath": "//div[contains(@class, 'wysiwyg-editor')]"
+        },
+        "metadata": {
+          "attrs": {},
+          "classes": [
+            "wysiwyg-editor"
+          ],
+          "text": ""
+        },
+        "primary": "div.wysiwyg-editor",
+        "selector": "div.wysiwyg-editor",
+        "strategy": "css"
+      },
+      "timestamp": 1767631608729,
+      "type": "type",
+      "value": "This is a test photographer created by an automated test"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767631639550_wait_k1njn5t00",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-new-gr-c-s-check-loaded=\"14.1267.0\"]",
+          "healedFrom": "//input[contains(., 'Save')]",
+          "xpath": "//input[contains(@class, 'btn')]"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit",
+            "value": "Save"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "source": "healed-persisted",
+          "text": ""
+        },
+        "primary": "[data-new-gr-c-s-check-loaded=\"14.1267.0\"]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767631639549,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767631639542_5p4t7uz5i",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "metadata": {
+          "attrs": {
+            "type": "submit",
+            "value": "Save"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": ""
+        },
+        "primary": "input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "selector": "input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767632517115,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-05T16:44:07.885Z",
+    "updatedAt": "2026-01-05T17:37:47.449Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

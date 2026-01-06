@@ -1,0 +1,594 @@
+{
+  "id": "flow_1767717321564_mznes0",
+  "name": "MPTV - Admin - Add Images to Lightbox",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767717321565_dt61otb",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767717321569,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/users"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767717330190_wait_e0puh35td",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-target=\"#collapseLightbox\"]",
+          "href": "#",
+          "playwright": "getByRole('link', { name: 'Lightboxes' })",
+          "text": "Lightboxes",
+          "xpath": "//html/body/div[1]/ul/li[4]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-parent": "#sidebarMenu",
+            "data-target": "#collapseLightbox",
+            "data-toggle": "collapse",
+            "href": "#"
+          },
+          "classes": [
+            "dropdown-toggle"
+          ],
+          "text": "Lightboxes"
+        },
+        "primary": "[data-target=\"#collapseLightbox\"]",
+        "selector": "[data-target=\"#collapseLightbox\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767717330189,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767717330176_wq57wqv3z",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-target=\"#collapseLightbox\"]",
+          "href": "#",
+          "playwright": "getByRole('link', { name: 'Lightboxes' })",
+          "text": "Lightboxes",
+          "xpath": "//html/body/div[1]/ul/li[4]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-parent": "#sidebarMenu",
+            "data-target": "#collapseLightbox",
+            "data-toggle": "collapse",
+            "href": "#"
+          },
+          "classes": [
+            "dropdown-toggle"
+          ],
+          "text": "Lightboxes"
+        },
+        "primary": "[data-target=\"#collapseLightbox\"]",
+        "selector": "[data-target=\"#collapseLightbox\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767717330176,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767717340641_wait_p9xw9fvf7",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes",
+          "playwright": "getByRole('link', { name: 'Browse Lightboxes' })",
+          "text": "Browse Lightboxes",
+          "xpath": "//a[normalize-space(.)='Browse Lightboxes']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes"
+          },
+          "classes": [],
+          "text": "Browse Lightboxes"
+        },
+        "primary": "//a[normalize-space(.)='Browse Lightboxes']",
+        "selector": "//a[normalize-space(.)='Browse Lightboxes']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717340640,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767717340629_9um0bmr4a",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes",
+          "playwright": "getByRole('link', { name: 'Browse Lightboxes' })",
+          "text": "Browse Lightboxes",
+          "xpath": "//a[normalize-space(.)='Browse Lightboxes']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes"
+          },
+          "classes": [],
+          "text": "Browse Lightboxes"
+        },
+        "primary": "//a[normalize-space(.)='Browse Lightboxes']",
+        "selector": "//a[normalize-space(.)='Browse Lightboxes']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717340629,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767717493125_wait_s4a97vqmn",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes?order=id&sort=asc&max=25&trashed=0&page=3",
+          "playwright": "getByRole('link', { name: '3' })",
+          "text": "3",
+          "xpath": "//a[normalize-space(.)='3']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes?order=id&sort=asc&max=25&trashed=0&page=3"
+          },
+          "classes": [],
+          "text": "3"
+        },
+        "primary": "//div[@class='content']//ul[contains(@class,'pagination')]/li[a[not(@rel='next')]][last()]/a",
+        "selector": "//div[@class='content']//ul[contains(@class,'pagination')]/li[a[not(@rel='next')]][last()]/a",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717493124,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767717493118_zww0kcz0g",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes?order=id&sort=asc&max=25&trashed=0&page=3",
+          "playwright": "getByRole('link', { name: '3' })",
+          "text": "3",
+          "xpath": "//a[normalize-space(.)='3']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes?order=id&sort=asc&max=25&trashed=0&page=3"
+          },
+          "classes": [],
+          "text": "3"
+        },
+        "primary": "//div[@class='content']//ul[contains(@class,'pagination')]/li[a[not(@rel='next')]][last()]/a",
+        "selector": "//div[@class='content']//ul[contains(@class,'pagination')]/li[a[not(@rel='next')]][last()]/a",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717493118,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767717553081_wait_xp1nntcuj",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[10]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "//table[contains(@class,'table-striped') and contains(@class,'table-hover')]   /tbody/tr[last()]//div[@class='btn-group']   /button[contains(@class,'dropdown-toggle')]",
+        "selector": "//table[contains(@class,'table-striped') and contains(@class,'table-hover')]   /tbody/tr[last()]//div[@class='btn-group']   /button[contains(@class,'dropdown-toggle')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717553080,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767717553072_0x061wgwv",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[10]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "//table[contains(@class,'table-striped') and contains(@class,'table-hover')]   /tbody/tr[last()]//div[@class='btn-group']   /a[contains(@class,'btn') and contains(@class,'btn-default')]",
+        "selector": "//table[contains(@class,'table-striped') and contains(@class,'table-hover')]   /tbody/tr[last()]//div[@class='btn-group']   /a[contains(@class,'btn') and contains(@class,'btn-default')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717592956,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767717648307_wait_co4gzhgsx",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images",
+          "playwright": "getByRole('link', { name: 'Add Images' })",
+          "text": "Add Images",
+          "xpath": "//a[normalize-space(.)='Add Images']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default"
+          ],
+          "text": "Add Images"
+        },
+        "primary": ".breadcrumb .btn-group a.btn.btn-sm.btn-default[href*=\"/lightboxes/\"][href$=\"/add-images\"]",
+        "selector": ".breadcrumb .btn-group a.btn.btn-sm.btn-default[href*=\"/lightboxes/\"][href$=\"/add-images\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767717648306,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767717648297_0pvxghntm",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images",
+          "playwright": "getByRole('link', { name: 'Add Images' })",
+          "text": "Add Images",
+          "xpath": "//a[normalize-space(.)='Add Images']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default"
+          ],
+          "text": "Add Images"
+        },
+        "primary": ".breadcrumb .btn-group a.btn.btn-sm.btn-default[href*=\"/lightboxes/\"][href$=\"/add-images\"]",
+        "selector": ".breadcrumb .btn-group a.btn.btn-sm.btn-default[href*=\"/lightboxes/\"][href$=\"/add-images\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767717648297,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767717830476_wait_vi4t94dla",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152429\"]",
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152429",
+          "id": "add-image-152429",
+          "playwright": "getByRole('link', { name: 'Add' })",
+          "text": "Add",
+          "xpath": "//html/body/div[3]/div[3]/table/tbody/tr[1]/td[7]/div/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152429",
+            "id": "add-image-152429"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default"
+          ],
+          "text": "Add"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:first-child .btn-group > a.btn.btn-sm.btn-default[id^=\"add-image-\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:first-child .btn-group > a.btn.btn-sm.btn-default[id^=\"add-image-\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767717830475,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767717830470_9u0dbsvxs",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152429\"]",
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152429",
+          "id": "add-image-152429",
+          "playwright": "getByRole('link', { name: 'Add' })",
+          "text": "Add",
+          "xpath": "//html/body/div[3]/div[3]/table/tbody/tr[1]/td[7]/div/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152429",
+            "id": "add-image-152429"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default"
+          ],
+          "text": "Add"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:first-child .btn-group > a.btn.btn-sm.btn-default[id^=\"add-image-\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:first-child .btn-group > a.btn.btn-sm.btn-default[id^=\"add-image-\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767717830470,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767717842700_wait_o4jfxsrgu",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "id": "delete",
+          "playwright": "getByRole('button', { name: 'Add Images' })",
+          "text": "Add Images",
+          "xpath": "//button[normalize-space(.)='Add Images']"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "delete",
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Add Images"
+        },
+        "primary": "//button[normalize-space(.)='Add Images']",
+        "selector": "//button[normalize-space(.)='Add Images']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717842699,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767717842687_xsermzett",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "id": "delete",
+          "playwright": "getByRole('button', { name: 'Add Images' })",
+          "text": "Add Images",
+          "xpath": "//button[normalize-space(.)='Add Images']"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "delete",
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Add Images"
+        },
+        "primary": "//button[normalize-space(.)='Add Images']",
+        "selector": "//button[normalize-space(.)='Add Images']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717842687,
+      "type": "submit"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767717878537_wait_v2vy6l0a6",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152428\"]",
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152428",
+          "id": "add-image-152428",
+          "playwright": "getByRole('link', { name: 'Add' })",
+          "text": "Add",
+          "xpath": "//html/body/div[3]/div[3]/table/tbody/tr[2]/td[7]/div/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152428",
+            "id": "add-image-152428"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default"
+          ],
+          "text": "Add"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:nth-of-type(2) .btn-group > a.btn.btn-sm.btn-default[id^=\"add-image-\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:nth-of-type(2) .btn-group > a.btn.btn-sm.btn-default[id^=\"add-image-\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767717878536,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767717878528_0irohxcnj",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152428\"]",
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152428",
+          "id": "add-image-152428",
+          "playwright": "getByRole('link', { name: 'Add' })",
+          "text": "Add",
+          "xpath": "//html/body/div[3]/div[3]/table/tbody/tr[2]/td[7]/div/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/87/add-images/add?images=152428",
+            "id": "add-image-152428"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default"
+          ],
+          "text": "Add"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:nth-of-type(2) .btn-group > a.btn.btn-sm.btn-default[id^=\"add-image-\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] > tr:nth-of-type(2) .btn-group > a.btn.btn-sm.btn-default[id^=\"add-image-\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767717878528,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767717886324_wait_ozioyp8jx",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "id": "delete",
+          "playwright": "getByRole('button', { name: 'Add Images' })",
+          "text": "Add Images",
+          "xpath": "//button[normalize-space(.)='Add Images']"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "delete",
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Add Images"
+        },
+        "primary": "//button[normalize-space(.)='Add Images']",
+        "selector": "//button[normalize-space(.)='Add Images']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717886323,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767717886314_rmoodmm20",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "id": "delete",
+          "playwright": "getByRole('button', { name: 'Add Images' })",
+          "text": "Add Images",
+          "xpath": "//button[normalize-space(.)='Add Images']"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "delete",
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Add Images"
+        },
+        "primary": "//button[normalize-space(.)='Add Images']",
+        "selector": "//button[normalize-space(.)='Add Images']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767717886314,
+      "type": "submit"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-06T16:35:21.565Z",
+    "updatedAt": "2026-01-06T16:44:47.414Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

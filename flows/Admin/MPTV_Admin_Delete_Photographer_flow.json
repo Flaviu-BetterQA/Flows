@@ -1,0 +1,380 @@
+{
+  "id": "flow_1767635517016_loq3es031",
+  "name": "MPTV - Admin -Delete Photographer",
+  "commands": [
+    {
+      "id": "cmd_1767634566549_gg5f53gu3",
+      "metadata": {
+        "manual": true
+      },
+      "timestamp": 1767634566549,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/photographers"
+    },
+    {
+      "description": "Wait for page to load after navigate",
+      "id": "cmd_1767634566553_wait_page_tc5688zrl",
+      "metadata": {
+        "manual": true
+      },
+      "timestamp": 1767634566554,
+      "type": "waitForDomIdle",
+      "value": "5000"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767632319679_wait_74h19fbli",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/photographers",
+          "playwright": "getByRole('link', { name: 'Browse Photographers' })",
+          "text": "Browse Photographers",
+          "xpath": "//a[normalize-space(.)='Browse Photographers']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/photographers"
+          },
+          "classes": [],
+          "text": "Browse Photographers"
+        },
+        "primary": "//a[normalize-space(.)='Browse Photographers']",
+        "selector": "//a[normalize-space(.)='Browse Photographers']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767632319679,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767632319670_0idndck5i",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/photographers",
+          "playwright": "getByRole('link', { name: 'Browse Photographers' })",
+          "text": "Browse Photographers",
+          "xpath": "//a[normalize-space(.)='Browse Photographers']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/photographers"
+          },
+          "classes": [],
+          "text": "Browse Photographers"
+        },
+        "primary": "//a[normalize-space(.)='Browse Photographers']",
+        "selector": "//a[normalize-space(.)='Browse Photographers']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767632319671,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1767632554656_wait_jnld2kmms",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "primary": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type .btn-group > button.dropdown-toggle",
+        "selector": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type .btn-group > button.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767635269477,
+      "type": "waitForElement"
+    },
+    {
+      "id": "cmd_1767632665544_bbbpb5fd6",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[3]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "primary": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type .btn-group > button.dropdown-toggle",
+        "selector": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type .btn-group > button.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767635273727,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767635600348_wait_7zoohrj2o",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[3]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type ul.dropdown-menu.pull-right a[href$=\"/trash\"]",
+        "selector": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type ul.dropdown-menu.pull-right a[href$=\"/trash\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767635600347,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767635600323_6xt5xd5az",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[3]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "aria-expanded": "false",
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type ul.dropdown-menu.pull-right a[href$=\"/trash\"]",
+        "selector": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type ul.dropdown-menu.pull-right a[href$=\"/trash\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767635600323,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767635651474_wait_yh8nb75tv",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Send to Trash' })",
+          "text": "Send to Trash",
+          "xpath": "//button[normalize-space(.)='Send to Trash']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-danger"
+          ],
+          "text": "Send to Trash"
+        },
+        "primary": "//button[normalize-space(.)='Send to Trash']",
+        "selector": "//button[normalize-space(.)='Send to Trash']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767635651473,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767635651465_won20l43r",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Send to Trash' })",
+          "text": "Send to Trash",
+          "xpath": "//button[normalize-space(.)='Send to Trash']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-danger"
+          ],
+          "text": "Send to Trash"
+        },
+        "primary": "//button[normalize-space(.)='Send to Trash']",
+        "selector": "//button[normalize-space(.)='Send to Trash']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767635651465,
+      "type": "submit"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767635704004_wait_ososrhnlp",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/photographers/7/delete\"]",
+          "href": "https://stage2.mptvimages.com/admin/photographers/7/delete",
+          "playwright": "getByRole('link', { name: 'Delete' })",
+          "text": "Delete",
+          "xpath": "//a[contains(@class, 'btn') and contains(@class, 'btn-sm') and contains(@class, 'btn-danger')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/photographers/7/delete"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-danger"
+          ],
+          "text": "Delete"
+        },
+        "primary": "table.table-striped.table-hover tbody tr:last-child td .btn-group > a.btn.btn-sm.btn-danger[href$=\"/delete\"][data-target=\"#esensiModal\"]",
+        "selector": "table.table-striped.table-hover tbody tr:last-child td .btn-group > a.btn.btn-sm.btn-danger[href$=\"/delete\"][data-target=\"#esensiModal\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767635704003,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767635703995_y6tpmz4gx",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/photographers/7/delete\"]",
+          "href": "https://stage2.mptvimages.com/admin/photographers/7/delete",
+          "playwright": "getByRole('link', { name: 'Delete' })",
+          "text": "Delete",
+          "xpath": "//a[contains(@class, 'btn') and contains(@class, 'btn-sm') and contains(@class, 'btn-danger')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/photographers/7/delete"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-danger"
+          ],
+          "text": "Delete"
+        },
+        "primary": "table.table-striped.table-hover tbody tr:last-child td .btn-group > a.btn.btn-sm.btn-danger[href$=\"/delete\"][data-target=\"#esensiModal\"]",
+        "selector": "table.table-striped.table-hover tbody tr:last-child td .btn-group > a.btn.btn-sm.btn-danger[href$=\"/delete\"][data-target=\"#esensiModal\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767635703995,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767635735270_wait_i83vzmyw1",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/photographers/7/delete\"]",
+          "href": "https://stage2.mptvimages.com/admin/photographers/7/delete",
+          "playwright": "getByRole('link', { name: 'Delete' })",
+          "text": "Delete",
+          "xpath": "//a[contains(@class, 'btn') and contains(@class, 'btn-sm') and contains(@class, 'btn-danger')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/photographers/7/delete"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-danger"
+          ],
+          "text": "Delete"
+        },
+        "primary": "#esensiModal .modal-footer form[action$=\"/delete\"] > button.btn.btn-danger",
+        "selector": "#esensiModal .modal-footer form[action$=\"/delete\"] > button.btn.btn-danger",
+        "strategy": "css"
+      },
+      "timestamp": 1767635735269,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767635735263_aawmxqkj5",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/photographers/7/delete\"]",
+          "href": "https://stage2.mptvimages.com/admin/photographers/7/delete",
+          "playwright": "getByRole('link', { name: 'Delete' })",
+          "text": "Delete",
+          "xpath": "//a[contains(@class, 'btn') and contains(@class, 'btn-sm') and contains(@class, 'btn-danger')]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/photographers/7/delete"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-danger"
+          ],
+          "text": "Delete"
+        },
+        "primary": "#esensiModal .modal-footer form[action$=\"/delete\"] > button.btn.btn-danger",
+        "selector": "#esensiModal .modal-footer form[action$=\"/delete\"] > button.btn.btn-danger",
+        "strategy": "css"
+      },
+      "timestamp": 1767635735263,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-05T17:51:57.016Z",
+    "updatedAt": "2026-01-05T17:55:35.459Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

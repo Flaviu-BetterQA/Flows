@@ -1,0 +1,60 @@
+{
+  "id": "flow_1767635807946_0cd98e",
+  "name": "MPTV - Admin - Logout Flow",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767635807946_2lzv004",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767635807949,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/photographers"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767635838980_wait_u4pr79a3o",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "primary": ".header-menu .dropdown-menu a[href$=\"/logout\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767635838979,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767635838977_m1d51akz4",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com"
+          },
+          "classes": [],
+          "text": ""
+        },
+        "primary": ".header-menu li > a[href=\"https://stage2.mptvimages.com\"] i.fa-sign-out.fa-fw",
+        "selector": ".header-menu li > a[href=\"https://stage2.mptvimages.com\"] i.fa-sign-out.fa-fw",
+        "strategy": "css"
+      },
+      "timestamp": 1767635923414,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-05T17:56:47.946Z",
+    "updatedAt": "2026-01-05T17:58:43.596Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

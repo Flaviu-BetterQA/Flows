@@ -1,0 +1,375 @@
+{
+  "id": "flow_1767634464244_ao2wjkwmm",
+  "name": "MPTV - Admin -Edit Photographers",
+  "commands": [
+    {
+      "id": "cmd_1767634566549_gg5f53gu3",
+      "metadata": {
+        "manual": true
+      },
+      "timestamp": 1767634566549,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/photographers"
+    },
+    {
+      "description": "Wait for page to load after navigate",
+      "id": "cmd_1767634566553_wait_page_tc5688zrl",
+      "metadata": {
+        "manual": true
+      },
+      "timestamp": 1767634566554,
+      "type": "waitForDomIdle",
+      "value": "5000"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767632319679_wait_74h19fbli",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/photographers",
+          "playwright": "getByRole('link', { name: 'Browse Photographers' })",
+          "text": "Browse Photographers",
+          "xpath": "//a[normalize-space(.)='Browse Photographers']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/photographers"
+          },
+          "classes": [],
+          "text": "Browse Photographers"
+        },
+        "primary": "//a[normalize-space(.)='Browse Photographers']",
+        "selector": "//a[normalize-space(.)='Browse Photographers']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767632319679,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767632319670_0idndck5i",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/photographers",
+          "playwright": "getByRole('link', { name: 'Browse Photographers' })",
+          "text": "Browse Photographers",
+          "xpath": "//a[normalize-space(.)='Browse Photographers']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/photographers"
+          },
+          "classes": [],
+          "text": "Browse Photographers"
+        },
+        "primary": "//a[normalize-space(.)='Browse Photographers']",
+        "selector": "//a[normalize-space(.)='Browse Photographers']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767632319671,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1767632554656_wait_jnld2kmms",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "primary": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type .btn-group > button.dropdown-toggle",
+        "selector": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type .btn-group > button.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767635269477,
+      "type": "waitForElement"
+    },
+    {
+      "id": "cmd_1767632665544_bbbpb5fd6",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[3]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "primary": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type .btn-group > button.dropdown-toggle",
+        "selector": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type .btn-group > button.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767635273727,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767632813960_wait_exgqixtjt",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[3]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "primary": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type ul.dropdown-menu.pull-right li:first-of-type a[href$=\"/edit\"]",
+        "selector": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type ul.dropdown-menu.pull-right li:first-of-type a[href$=\"/edit\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767635321986,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767632813956_qgk2g6g4z",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[3]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "primary": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type ul.dropdown-menu.pull-right li:first-of-type a[href$=\"/edit\"]",
+        "selector": ".table-responsive table.table-striped.table-hover tbody tr:last-of-type ul.dropdown-menu.pull-right li:first-of-type a[href$=\"/edit\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767635326071,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1767633556231_zwf89kdh8",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"first_name\"]",
+          "id": "first_name",
+          "xpath": "//html/body/div[3]/div/div/div/form/div[1]/div[2]/fieldset/div[1]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "first_name",
+            "name": "first_name",
+            "placeholder": "First",
+            "type": "text",
+            "value": "Test"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "First",
+          "text": ""
+        },
+        "primary": "input[name=\"first_name\"]",
+        "selector": "input[name=\"first_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767633556231,
+      "type": "type",
+      "value": "Test-Edited"
+    },
+    {
+      "id": "cmd_1767633567340_mte3skpi2",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"last_name\"]",
+          "id": "last_name",
+          "xpath": "//html/body/div[3]/div/div/div/form/div[1]/div[2]/fieldset/div[1]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "last_name",
+            "name": "last_name",
+            "placeholder": "Last",
+            "type": "text",
+            "value": "Photographer"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Last",
+          "text": ""
+        },
+        "primary": "input[name=\"last_name\"]",
+        "selector": "input[name=\"last_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767633567340,
+      "type": "type",
+      "value": "Photographer-Edited"
+    },
+    {
+      "id": "cmd_1767633574484_xkdnnv1tw",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"year_birth\"]",
+          "id": "year_birth",
+          "xpath": "//html/body/div[3]/div/div/div/form/div[1]/div[2]/fieldset/div[2]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "data-mask": "9999",
+            "id": "year_birth",
+            "name": "year_birth",
+            "placeholder": "Year of Birth",
+            "type": "text",
+            "value": "2025"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Year of Birth",
+          "text": ""
+        },
+        "primary": "input[name=\"year_birth\"]",
+        "selector": "input[name=\"year_birth\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767633574484,
+      "type": "type",
+      "value": "2024"
+    },
+    {
+      "id": "cmd_1767633580916_c71ozkk6c",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"year_death\"]",
+          "id": "year_death",
+          "xpath": "//html/body/div[3]/div/div/div/form/div[1]/div[2]/fieldset/div[2]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "data-mask": "9999",
+            "id": "year_death",
+            "name": "year_death",
+            "placeholder": "Year of Death",
+            "type": "text",
+            "value": "2026"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Year of Death",
+          "text": ""
+        },
+        "primary": "input[name=\"year_death\"]",
+        "selector": "input[name=\"year_death\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767633580916,
+      "type": "type",
+      "value": "2027"
+    },
+    {
+      "id": "cmd_1767633594035_alhfezh2a",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "div.wysiwyg-editor",
+          "xpath": "//div[contains(@class, 'wysiwyg-editor')]"
+        },
+        "metadata": {
+          "attrs": {},
+          "classes": [
+            "wysiwyg-editor"
+          ],
+          "text": "This is a test photographer created by an automated test"
+        },
+        "primary": "div.wysiwyg-editor",
+        "selector": "div.wysiwyg-editor",
+        "strategy": "css"
+      },
+      "timestamp": 1767633594035,
+      "type": "type",
+      "value": "This text has been edited automatically."
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767633693192_wait_fq2schnx3",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-new-gr-c-s-check-loaded=\"14.1267.0\"]",
+          "xpath": "//input[contains(@class, 'btn')]"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit",
+            "value": "Save"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": ""
+        },
+        "primary": "input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "selector": "input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767633693191,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767633693188_dbvdw7lmn",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-new-gr-c-s-check-loaded=\"14.1267.0\"]",
+          "xpath": "//input[contains(@class, 'btn')]"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit",
+            "value": "Save"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": ""
+        },
+        "primary": "input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "selector": "input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767633693188,
+      "type": "submit"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-05T17:34:24.244Z",
+    "updatedAt": "2026-01-05T17:48:46.199Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

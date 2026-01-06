@@ -1,0 +1,340 @@
+{
+  "id": "flow_1767711570791_j3tfgl",
+  "name": "MPTV - Admin - Delete User",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767711570791_x5iwx35",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767711570793,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/users"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767711625955_wait_vc0jhn6te",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .btn-group > button.dropdown-toggle",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .btn-group > button.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767711625954,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767711625948_taut3ky2q",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .btn-group > button.dropdown-toggle",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .btn-group > button.dropdown-toggle",
+        "strategy": "css"
+      },
+      "timestamp": 1767711625948,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767711651559_wait_4rtcvpjg6",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .dropdown-menu.pull-right li a[href$=\"/trash\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .dropdown-menu.pull-right li a[href$=\"/trash\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767711651558,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767711651553_tdxkvkz7c",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Toggle Dropdown'])[19]",
+          "playwright": "getByRole('button', { name: 'Toggle Dropdown' })",
+          "text": "Toggle Dropdown",
+          "xpath": "//button[normalize-space(.)='Toggle Dropdown']"
+        },
+        "metadata": {
+          "attrs": {
+            "data-toggle": "dropdown",
+            "type": "button"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default",
+            "dropdown-toggle"
+          ],
+          "text": "Toggle Dropdown"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .dropdown-menu.pull-right li a[href$=\"/trash\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child .dropdown-menu.pull-right li a[href$=\"/trash\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767711651553,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767711662098_wait_z431sqabi",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Send to Trash' })",
+          "text": "Send to Trash",
+          "xpath": "//button[normalize-space(.)='Send to Trash']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-danger"
+          ],
+          "text": "Send to Trash"
+        },
+        "primary": "//button[normalize-space(.)='Send to Trash']",
+        "selector": "//button[normalize-space(.)='Send to Trash']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767711662097,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767711662086_5tmc8luyr",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Send to Trash' })",
+          "text": "Send to Trash",
+          "xpath": "//button[normalize-space(.)='Send to Trash']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-danger"
+          ],
+          "text": "Send to Trash"
+        },
+        "primary": "//button[normalize-space(.)='Send to Trash']",
+        "selector": "//button[normalize-space(.)='Send to Trash']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767711662086,
+      "type": "submit"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767711719923_wait_xratv0mwy",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/users/45/delete\"]",
+          "href": "https://stage2.mptvimages.com/admin/users/45/delete",
+          "playwright": "getByRole('link', { name: 'Delete' })",
+          "text": "Delete",
+          "xpath": "//html/body/div[3]/div[3]/table/tbody/tr[13]/td[8]/ul/a[2]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/users/45/delete"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-danger"
+          ],
+          "text": "Delete"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child ul.btn-group a.btn.btn-sm.btn-danger[href$=\"/delete\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child ul.btn-group a.btn.btn-sm.btn-danger[href$=\"/delete\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767711719922,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767711719916_x6gfu08zt",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "a[href=\"https://stage2.mptvimages.com/admin/users/45/delete\"]",
+          "href": "https://stage2.mptvimages.com/admin/users/45/delete",
+          "playwright": "getByRole('link', { name: 'Delete' })",
+          "text": "Delete",
+          "xpath": "//html/body/div[3]/div[3]/table/tbody/tr[13]/td[8]/ul/a[2]"
+        },
+        "metadata": {
+          "attrs": {
+            "data-target": "#esensiModal",
+            "data-toggle": "modal",
+            "href": "https://stage2.mptvimages.com/admin/users/45/delete"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-danger"
+          ],
+          "text": "Delete"
+        },
+        "primary": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child ul.btn-group a.btn.btn-sm.btn-danger[href$=\"/delete\"]",
+        "selector": "tbody.rowcheckbox[data-checkbox=\"row\"] tr:last-child ul.btn-group a.btn.btn-sm.btn-danger[href$=\"/delete\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767711719916,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767711729035_wait_jwlbbj7n2",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Delete' })",
+          "text": "Delete",
+          "xpath": "//button[normalize-space(.)='Delete']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-danger"
+          ],
+          "text": "Delete"
+        },
+        "primary": "//button[normalize-space(.)='Delete']",
+        "selector": "//button[normalize-space(.)='Delete']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767711729034,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767711729024_pezhjyve4",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "playwright": "getByRole('button', { name: 'Delete' })",
+          "text": "Delete",
+          "xpath": "//button[normalize-space(.)='Delete']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-danger"
+          ],
+          "text": "Delete"
+        },
+        "primary": "//button[normalize-space(.)='Delete']",
+        "selector": "//button[normalize-space(.)='Delete']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767711729024,
+      "type": "submit"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-06T14:59:30.791Z",
+    "updatedAt": "2026-01-06T15:02:09.883Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

@@ -1,0 +1,288 @@
+{
+  "id": "flow_1767718228632_o33q55",
+  "name": "MPTV - Admin - Check Lightbox Contains Images",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767718228632_2d3tx7c",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767718228638,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/users"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767718240544_wait_ht3f9t9uf",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-target=\"#collapseLightbox\"]",
+          "href": "#",
+          "playwright": "getByRole('link', { name: 'Lightboxes' })",
+          "text": "Lightboxes",
+          "xpath": "//html/body/div[1]/ul/li[4]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-parent": "#sidebarMenu",
+            "data-target": "#collapseLightbox",
+            "data-toggle": "collapse",
+            "href": "#"
+          },
+          "classes": [
+            "dropdown-toggle"
+          ],
+          "text": "Lightboxes"
+        },
+        "primary": "[data-target=\"#collapseLightbox\"]",
+        "selector": "[data-target=\"#collapseLightbox\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767718240543,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767718240532_r7sqprr0t",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-target=\"#collapseLightbox\"]",
+          "href": "#",
+          "playwright": "getByRole('link', { name: 'Lightboxes' })",
+          "text": "Lightboxes",
+          "xpath": "//html/body/div[1]/ul/li[4]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-parent": "#sidebarMenu",
+            "data-target": "#collapseLightbox",
+            "data-toggle": "collapse",
+            "href": "#"
+          },
+          "classes": [
+            "dropdown-toggle"
+          ],
+          "text": "Lightboxes"
+        },
+        "primary": "[data-target=\"#collapseLightbox\"]",
+        "selector": "[data-target=\"#collapseLightbox\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767718240532,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767718248633_wait_8wodsyjqe",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes",
+          "playwright": "getByRole('link', { name: 'Browse Lightboxes' })",
+          "text": "Browse Lightboxes",
+          "xpath": "//a[normalize-space(.)='Browse Lightboxes']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes"
+          },
+          "classes": [],
+          "text": "Browse Lightboxes"
+        },
+        "primary": "//a[normalize-space(.)='Browse Lightboxes']",
+        "selector": "//a[normalize-space(.)='Browse Lightboxes']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767718248632,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767718248620_1afvtyk7v",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes",
+          "playwright": "getByRole('link', { name: 'Browse Lightboxes' })",
+          "text": "Browse Lightboxes",
+          "xpath": "//a[normalize-space(.)='Browse Lightboxes']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes"
+          },
+          "classes": [],
+          "text": "Browse Lightboxes"
+        },
+        "primary": "//a[normalize-space(.)='Browse Lightboxes']",
+        "selector": "//a[normalize-space(.)='Browse Lightboxes']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767718248620,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767718457825_wait_r2tsdl65x",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes?order=id&sort=asc&max=25&trashed=0&page=3",
+          "playwright": "getByRole('link', { name: '3' })",
+          "text": "3",
+          "xpath": "//a[normalize-space(.)='3']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes?order=id&sort=asc&max=25&trashed=0&page=3"
+          },
+          "classes": [],
+          "text": "3"
+        },
+        "primary": "//div[@class='content']//ul[contains(@class,'pagination')]/li[a[not(@rel='next')]][last()]/a",
+        "selector": "//div[@class='content']//ul[contains(@class,'pagination')]/li[a[not(@rel='next')]][last()]/a",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767718457824,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767718457820_lk85mpf67",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes?order=id&sort=asc&max=25&trashed=0&page=3",
+          "playwright": "getByRole('link', { name: '3' })",
+          "text": "3",
+          "xpath": "//a[normalize-space(.)='3']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes?order=id&sort=asc&max=25&trashed=0&page=3"
+          },
+          "classes": [],
+          "text": "3"
+        },
+        "primary": "//div[@class='content']//ul[contains(@class,'pagination')]/li[a[not(@rel='next')]][last()]/a",
+        "selector": "//div[@class='content']//ul[contains(@class,'pagination')]/li[a[not(@rel='next')]][last()]/a",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767718457820,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767718629442_wait_1e6uaug4v",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "div.btn-group a[href=\"https://stage2.mptvimages.com/admin/lightboxes/87\"]",
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/87",
+          "playwright": "getByRole('link', { name: 'View' })",
+          "text": "View",
+          "xpath": "//html/body/div[3]/div[3]/table/tbody/tr[10]/td[4]/div/a"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/87"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default"
+          ],
+          "text": "View"
+        },
+        "primary": "//table[contains(@class,'table-striped') and contains(@class,'table-hover')]   //tbody/tr[last()]//div[contains(@class,'btn-group')]   /a[contains(@class,'btn') and contains(@class,'btn-default') and contains(normalize-space(),'View')]",
+        "selector": "//table[contains(@class,'table-striped') and contains(@class,'table-hover')]   //tbody/tr[last()]//div[contains(@class,'btn-group')]   /a[contains(@class,'btn') and contains(@class,'btn-default') and contains(normalize-space(),'View')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767718629441,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767718629436_7yi5lnxwl",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "div.btn-group a[href=\"https://stage2.mptvimages.com/admin/lightboxes/87\"]",
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/87",
+          "playwright": "getByRole('link', { name: 'View' })",
+          "text": "View",
+          "xpath": "//html/body/div[3]/div[3]/table/tbody/tr[10]/td[4]/div/a"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/87"
+          },
+          "classes": [
+            "btn",
+            "btn-sm",
+            "btn-default"
+          ],
+          "text": "View"
+        },
+        "primary": "//table[contains(@class,'table-striped') and contains(@class,'table-hover')]   //tbody/tr[last()]//div[contains(@class,'btn-group')]   /a[contains(@class,'btn') and contains(@class,'btn-default') and contains(normalize-space(),'View')]",
+        "selector": "//table[contains(@class,'table-striped') and contains(@class,'table-hover')]   //tbody/tr[last()]//div[contains(@class,'btn-group')]   /a[contains(@class,'btn') and contains(@class,'btn-default') and contains(normalize-space(),'View')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767718629436,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1767718710025_6700e2kfs",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "primary": "//tbody[@class='rowcheckbox' and @data-checkbox='row']/tr[1]//img",
+        "strategy": "css"
+      },
+      "timestamp": 1767718710025,
+      "type": "assertElementPresent"
+    },
+    {
+      "id": "cmd_1767718728745_b05by9oh4",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "primary": "//tbody[@class='rowcheckbox' and @data-checkbox='row']/tr[2]//img",
+        "strategy": "css"
+      },
+      "timestamp": 1767718728745,
+      "type": "assertElementPresent"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-06T16:50:28.632Z",
+    "updatedAt": "2026-01-06T16:58:49.834Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

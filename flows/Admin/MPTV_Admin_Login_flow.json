@@ -1,0 +1,202 @@
+{
+  "id": "flow_1767630497381_5g96ds",
+  "name": "MPTV - Admin Login",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767630497381_jywylok",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767630497382,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767630577776_wait_gfbn0gawx",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//a[normalize-space(.)='Login'])[2]",
+          "href": "https://stage2.mptvimages.com/login",
+          "playwright": "getByRole('link', { name: 'Login' })",
+          "text": "Login",
+          "xpath": "//a[normalize-space(.)='Login']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/login"
+          },
+          "classes": [],
+          "text": "LOGIN"
+        },
+        "primary": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/login\"]",
+        "selector": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/login\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767630577775,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767630577768_rj2ccxi2b",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//a[normalize-space(.)='Login'])[2]",
+          "href": "https://stage2.mptvimages.com/login",
+          "playwright": "getByRole('link', { name: 'Login' })",
+          "text": "Login",
+          "xpath": "//a[normalize-space(.)='Login']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/login"
+          },
+          "classes": [],
+          "text": "LOGIN"
+        },
+        "primary": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/login\"]",
+        "selector": ".navbar-collapse.hidden-xs.hidden-sm li.login-link a[href$=\"/login\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767630577769,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1767630600599_flcn9jxpo",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"email\"]",
+          "id": "email",
+          "xpath": "//html/body/div[1]/main/section/div[2]/div/div/form/fieldset/div/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "email",
+            "name": "email",
+            "type": "email"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"email\"]",
+        "selector": "input[name=\"email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767630600599,
+      "type": "type",
+      "value": "admin@app.dev"
+    },
+    {
+      "id": "cmd_1767630611682_td6xsh2fc",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"password\"]",
+          "id": "password",
+          "xpath": "//html/body/div[1]/main/section/div[2]/div/div/form/fieldset/div/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "password",
+            "name": "password",
+            "type": "password"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"password\"]",
+        "selector": "input[name=\"password\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767630611682,
+      "type": "type",
+      "value": "Password!1"
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767630624486_wait_wtbz8ks00",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-gtm-form-interact-id=\"0\"]",
+          "id": "login-button",
+          "xpath": "//input[contains(@class, 'btn')]"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "login-button",
+            "type": "submit",
+            "value": "Login"
+          },
+          "classes": [
+            "btn",
+            "btn-primary",
+            "btn-lg",
+            "btn-block"
+          ],
+          "text": ""
+        },
+        "primary": "//input[contains(., 'Login')]",
+        "selector": "//input[contains(., 'Login')]",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767630624485,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767630624479_nec839cpp",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {},
+        "metadata": {
+          "attrs": {
+            "id": "login-button",
+            "type": "submit",
+            "value": "Login"
+          },
+          "classes": [
+            "btn",
+            "btn-primary",
+            "btn-lg",
+            "btn-block"
+          ],
+          "text": ""
+        },
+        "primary": "input#login-button.btn.btn-primary.btn-lg.btn-block[type=\"submit\"]",
+        "selector": "input#login-button.btn.btn-primary.btn-lg.btn-block[type=\"submit\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767630697623,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-05T16:28:17.381Z",
+    "updatedAt": "2026-01-05T16:31:37.641Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

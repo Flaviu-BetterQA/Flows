@@ -1,0 +1,266 @@
+{
+  "id": "flow_1767716535446_06pby1",
+  "name": "MPTV - Admin - Create Lightbox",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767716535446_uk9ntlj",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767716535455,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/users"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767716547919_wait_ocwif18mg",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-target=\"#collapseLightbox\"]",
+          "href": "#",
+          "playwright": "getByRole('link', { name: 'Lightboxes' })",
+          "text": "Lightboxes",
+          "xpath": "//html/body/div[1]/ul/li[4]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-parent": "#sidebarMenu",
+            "data-target": "#collapseLightbox",
+            "data-toggle": "collapse",
+            "href": "#"
+          },
+          "classes": [
+            "dropdown-toggle"
+          ],
+          "text": "Lightboxes"
+        },
+        "primary": "[data-target=\"#collapseLightbox\"]",
+        "selector": "[data-target=\"#collapseLightbox\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767716547918,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767716547907_igi5q9a4a",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "[data-target=\"#collapseLightbox\"]",
+          "href": "#",
+          "playwright": "getByRole('link', { name: 'Lightboxes' })",
+          "text": "Lightboxes",
+          "xpath": "//html/body/div[1]/ul/li[4]/a"
+        },
+        "metadata": {
+          "attrs": {
+            "data-parent": "#sidebarMenu",
+            "data-target": "#collapseLightbox",
+            "data-toggle": "collapse",
+            "href": "#"
+          },
+          "classes": [
+            "dropdown-toggle"
+          ],
+          "text": "Lightboxes"
+        },
+        "primary": "[data-target=\"#collapseLightbox\"]",
+        "selector": "[data-target=\"#collapseLightbox\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767716547907,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767716556219_wait_x6p7myqx6",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/create",
+          "playwright": "getByRole('link', { name: 'Create Lightbox' })",
+          "text": "Create Lightbox",
+          "xpath": "//a[normalize-space(.)='Create Lightbox']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/create"
+          },
+          "classes": [],
+          "text": "Create Lightbox"
+        },
+        "primary": "//a[normalize-space(.)='Create Lightbox']",
+        "selector": "//a[normalize-space(.)='Create Lightbox']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767716556218,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767716556180_i0dqtv9bk",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/lightboxes/create",
+          "playwright": "getByRole('link', { name: 'Create Lightbox' })",
+          "text": "Create Lightbox",
+          "xpath": "//a[normalize-space(.)='Create Lightbox']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/lightboxes/create"
+          },
+          "classes": [],
+          "text": "Create Lightbox"
+        },
+        "primary": "//a[normalize-space(.)='Create Lightbox']",
+        "selector": "//a[normalize-space(.)='Create Lightbox']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767716556180,
+      "type": "click"
+    },
+    {
+      "id": "cmd_1767716694538_jdhfj6ssz",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"name\"]",
+          "id": "name",
+          "xpath": "//html/body/div[3]/div/div/div/form/div/div[2]/fieldset/div[1]/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "name",
+            "name": "name",
+            "placeholder": "Lightbox name",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Lightbox name",
+          "text": ""
+        },
+        "primary": "input[name=\"name\"]",
+        "selector": "input[name=\"name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767716694538,
+      "type": "type",
+      "value": "New Lightbox - Automated Test"
+    },
+    {
+      "id": "cmd_1767716703118_9h4r40c3i",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"user_id\"]",
+          "id": "user_id",
+          "xpath": "//html/body/div[3]/div/div/div/form/div/div[2]/fieldset/div[2]/div[1]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "id": "user_id",
+            "name": "user_id",
+            "placeholder": "User ID",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "User ID",
+          "text": ""
+        },
+        "primary": "input[name=\"user_id\"]",
+        "selector": "input[name=\"user_id\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767716703118,
+      "type": "type",
+      "value": "1"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767716934214_wait_zuboudg87",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[type=\"submit\"]",
+          "xpath": "//input[contains(@class, 'btn')]"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit",
+            "value": "Save"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": ""
+        },
+        "primary": "form[action$=\"/admin/lightboxes/create\"] input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "selector": "form[action$=\"/admin/lightboxes/create\"] input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767716934213,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767716934199_12hxhi366",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[type=\"submit\"]",
+          "xpath": "//input[contains(@class, 'btn')]"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit",
+            "value": "Save"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": ""
+        },
+        "primary": "form[action$=\"/admin/lightboxes/create\"] input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "selector": "form[action$=\"/admin/lightboxes/create\"] input.btn.btn-primary[type=\"submit\"][value=\"Save\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767716934199,
+      "type": "click"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-06T16:22:15.446Z",
+    "updatedAt": "2026-01-06T16:28:55.258Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}

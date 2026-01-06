@@ -1,0 +1,376 @@
+{
+  "id": "flow_1767709556443_9e3olp",
+  "name": "MPTV - Admin - Create User",
+  "commands": [
+    {
+      "description": "Navigate to starting page",
+      "id": "cmd_1767709556443_ujzjvz7",
+      "target": {
+        "alternatives": {},
+        "primary": "",
+        "xpathSelector": ""
+      },
+      "timestamp": 1767709556446,
+      "type": "navigate",
+      "value": "https://stage2.mptvimages.com/admin/users"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767709576634_wait_fb1m1xite",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/users/create",
+          "playwright": "getByRole('link', { name: 'Create User' })",
+          "text": "Create User",
+          "xpath": "//a[normalize-space(.)='Create User']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/users/create"
+          },
+          "classes": [],
+          "text": "Create User"
+        },
+        "primary": "//a[normalize-space(.)='Create User']",
+        "selector": "//a[normalize-space(.)='Create User']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767709576633,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "id": "cmd_1767709576623_554gb299j",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "href": "https://stage2.mptvimages.com/admin/users/create",
+          "playwright": "getByRole('link', { name: 'Create User' })",
+          "text": "Create User",
+          "xpath": "//a[normalize-space(.)='Create User']"
+        },
+        "metadata": {
+          "attrs": {
+            "href": "https://stage2.mptvimages.com/admin/users/create"
+          },
+          "classes": [],
+          "text": "Create User"
+        },
+        "primary": "//a[normalize-space(.)='Create User']",
+        "selector": "//a[normalize-space(.)='Create User']",
+        "strategy": "xpath"
+      },
+      "timestamp": 1767709576624,
+      "type": "click"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767709704404_wait_ca5xb0pr1",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "select[name=\"title\"]",
+          "playwright": "getByRole('combobox', { name: 'Mr.Mrs.Ms.Dr.Rev.Hon.' })",
+          "text": "Mr.Mrs.Ms.Dr.Rev.Hon.",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[1]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "title"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "Mr.\nMrs.\nMs.\nDr.\nRev.\nHon."
+        },
+        "primary": "select[name=\"title\"]",
+        "selector": "select[name=\"title\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767709704403,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "description": "Select ",
+      "id": "cmd_1767709704397_rw6xt9h3u",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "select[name=\"title\"]",
+          "playwright": "getByRole('combobox', { name: 'Mr.Mrs.Ms.Dr.Rev.Hon.' })",
+          "text": "Mr.Mrs.Ms.Dr.Rev.Hon.",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[1]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "title"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "Mr.\nMrs.\nMs.\nDr.\nRev.\nHon."
+        },
+        "primary": "select[name=\"title\"]",
+        "selector": "select[name=\"title\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767710583044,
+      "type": "select",
+      "value": "Mr."
+    },
+    {
+      "id": "cmd_1767709716001_qf6qklzc3",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"first_name\"]",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[2]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "first_name",
+            "placeholder": "First",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "First",
+          "text": ""
+        },
+        "primary": "input[name=\"first_name\"]",
+        "selector": "input[name=\"first_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767709716001,
+      "type": "type",
+      "value": "Test"
+    },
+    {
+      "id": "cmd_1767709745269_754sdm1zw",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"middle_name\"]",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[3]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "middle_name",
+            "placeholder": "Middle",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Middle",
+          "text": ""
+        },
+        "primary": "input[name=\"middle_name\"]",
+        "selector": "input[name=\"middle_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767709745269,
+      "type": "type",
+      "value": "Test"
+    },
+    {
+      "id": "cmd_1767709754136_erpmszi0y",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"last_name\"]",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[4]/input"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "last_name",
+            "placeholder": "Last",
+            "type": "text"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "placeholder": "Last",
+          "text": ""
+        },
+        "primary": "input[name=\"last_name\"]",
+        "selector": "input[name=\"last_name\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767709754136,
+      "type": "type",
+      "value": "Testington"
+    },
+    {
+      "description": "Wait for element before click",
+      "id": "cmd_1767709769137_wait_f0oztqu06",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "select[name=\"suffix\"]",
+          "playwright": "getByRole('combobox', { name: 'Jr.Sr.IIIIIIVVVIVIIVIIIPhD' })",
+          "text": "Jr.Sr.IIIIIIVVVIVIIVIIIPhD",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[5]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "suffix"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "Jr.\nSr.\nII\nIII\nIV\nV\nVI\nVII\nVIII\nPhD"
+        },
+        "primary": "select[name=\"suffix\"]",
+        "selector": "select[name=\"suffix\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767709769136,
+      "type": "waitForElement",
+      "value": "500"
+    },
+    {
+      "description": "Select \"Sr.\"",
+      "id": "cmd_1767709769134_k44coy4z2",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "select[name=\"suffix\"]",
+          "playwright": "getByRole('combobox', { name: 'Jr.Sr.IIIIIIVVVIVIIVIIIPhD' })",
+          "text": "Jr.Sr.IIIIIIVVVIVIIVIIIPhD",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[1]/div[5]/select"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "suffix"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": "Jr.\nSr.\nII\nIII\nIV\nV\nVI\nVII\nVIII\nPhD"
+        },
+        "primary": "select[name=\"suffix\"]",
+        "selector": "select[name=\"suffix\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767709769134,
+      "type": "click",
+      "value": "Sr."
+    },
+    {
+      "id": "cmd_1767709788423_rw5m7i0le",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "input[name=\"email\"]",
+          "xpath": "//html/body/div[3]/div/form/div[1]/div/div/div[2]/fieldset/div[2]/div/div/input"
+        },
+        "metadata": {
+          "attrs": {
+            "name": "email",
+            "type": "email"
+          },
+          "classes": [
+            "form-control"
+          ],
+          "text": ""
+        },
+        "primary": "input[name=\"email\"]",
+        "selector": "input[name=\"email\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767709788423,
+      "type": "type",
+      "value": "flaviu+admincreateuser@betterqa.co"
+    },
+    {
+      "description": "Wait for element before submit",
+      "id": "cmd_1767709841627_wait_fy87bjzsq",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Save Profile'])[1]",
+          "playwright": "getByRole('button', { name: 'Save Profile' })",
+          "text": "Save Profile",
+          "xpath": "//button[normalize-space(.)='Save Profile']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Save Profile"
+        },
+        "primary": "button.btn.btn-primary[type=\"submit\"]",
+        "selector": "button.btn.btn-primary[type=\"submit\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767709841626,
+      "type": "waitForElement",
+      "value": "5000"
+    },
+    {
+      "id": "cmd_1767709841616_fssup1n5o",
+      "metadata": {
+        "manual": true
+      },
+      "target": {
+        "alternatives": {
+          "css": "(//button[normalize-space(.)='Save Profile'])[1]",
+          "playwright": "getByRole('button', { name: 'Save Profile' })",
+          "text": "Save Profile",
+          "xpath": "//button[normalize-space(.)='Save Profile']"
+        },
+        "metadata": {
+          "attrs": {
+            "type": "submit"
+          },
+          "classes": [
+            "btn",
+            "btn-primary"
+          ],
+          "text": "Save Profile"
+        },
+        "primary": "button.btn.btn-primary[type=\"submit\"]",
+        "selector": "button.btn.btn-primary[type=\"submit\"]",
+        "strategy": "css"
+      },
+      "timestamp": 1767709841616,
+      "type": "submit"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-06T14:25:56.443Z",
+    "updatedAt": "2026-01-06T14:43:03.903Z"
+  },
+  "deviceType": "desktop",
+  "description": "Created with Step Builder"
+}
